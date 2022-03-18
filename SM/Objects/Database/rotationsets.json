@@ -1,0 +1,1336 @@
+{
+	"rotationSet": [
+		{
+			"name": "PropY",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropZ",
+			"prop": true,
+			"rotation": [
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropX",
+			"prop": true,
+			"rotation": [
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropYZ",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropZY",
+			"prop": true,
+			"rotation": [
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropYX",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropZX",
+			"prop": true,
+			"rotation": [
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropYZX",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropFull",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*NegZ*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				{ "south": "-Z", "east": "-X" },
+				{ "south": "-Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" },
+				/*NegX*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" },
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropNegZ",
+			"prop": true,
+			"rotation": [
+				/*NegZ*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				{ "south": "-Z", "east": "-X" },
+				{ "south": "-Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropZNegY",
+			"prop": true,
+			"rotation": [
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropZNegZ",
+			"prop": true,
+			"rotation": [
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*NegZ*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				{ "south": "-Z", "east": "-X" },
+				{ "south": "-Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropYmZmXm",
+			"prop": true,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				/*Xm*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropYmZX",
+			"prop": true,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropYmZ",
+			"prop": true,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropYmZm",
+			"prop": true,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" }
+			]
+		},
+		{
+			"name": "PropZmYm",
+			"prop": true,
+			"rotation": [
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" }
+			]
+		},
+		{
+			"name": "PropZmmYm",
+			"prop": true,
+			"rotation": [
+				/*Zmm*/
+				{ "south": "Z", "east": "X" },
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" }
+			]
+		},
+		{
+			"name": "PropYmZmm",
+			"prop": true,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*Zmm*/
+				{ "south": "Z", "east": "X" }
+			]
+		},
+		{
+			"name": "PropYmmZ",
+			"prop": true,
+			"rotation": [
+				/*Ymm*/
+				{ "south": "-Y", "east": "X" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropYmmZm",
+			"prop": true,
+			"rotation": [
+				/*Ymm*/
+				{ "south": "-Y", "east": "X" },
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" }
+			]
+		},
+		{
+			"name": "PropZXNegX",
+			"prop": true,
+			"rotation": [
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" },
+				/*NegX*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" },
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropYNegYZ",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropYZmX",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropYZNegXm",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*NegXm*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropZmY",
+			"prop": true,
+			"rotation": [
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropYZm",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" }
+			]
+		},
+		{
+			"name": "PropNegY",
+			"prop": true,
+			"rotation": [
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropNegYNegZ",
+			"prop": true,
+			"rotation": [
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" },
+				/*NegZ*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				{ "south": "-Z", "east": "-X" },
+				{ "south": "-Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropYNegY",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropYmXm",
+			"prop": true,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*Xm*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropYXmNegXm",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Xm*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				/*NegXm*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropYZXmNegXm",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*Xm*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				/*NegXm*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropZmX",
+			"prop": true,
+			"rotation": [
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropYZNegX",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*NegX*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" },
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropZYNegX",
+			"prop": true,
+			"rotation": [
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*NegX*/
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" },
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropYNegZ",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*NegZ*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				{ "south": "-Z", "east": "-X" },
+				{ "south": "-Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropYNegZXNegX",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*NegZ*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				{ "south": "-Z", "east": "-X" },
+				{ "south": "-Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" },
+				/*NegX*/
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" },
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropYZmNegZm",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				/*NegZm*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" }
+			]
+		},
+		{
+			"name": "PropYmNegYm",
+			"prop": true,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*NegYm*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" }
+			]
+		},
+		{
+			"name": "PropYmNegYmX",
+			"prop": true,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*NegYm*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropYmNegYmZX",
+			"prop": true,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*NegYm*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropYmNegYmZ",
+			"prop": true,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*NegYm*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropYZmNegZmX",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				/*NegZm*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{//
+			"name": "PropFullMinusNegY",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*NegZ*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				{ "south": "-Z", "east": "-X" },
+				{ "south": "-Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" },
+				/*NegX*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" },
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropFullYmmNegYmm",
+			"prop": true,
+			"rotation": [
+				/*Ymm*/
+				{ "south": "-Y", "east": "X" },
+				/*NegYmm*/
+				{ "south": "Y", "east": "X" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*NegZ*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				{ "south": "-Z", "east": "-X" },
+				{ "south": "-Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" },
+				/*NegX*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" },
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropYNegYZX",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropFullMinusZ",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" },
+				/*NegZ*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				{ "south": "-Z", "east": "-X" },
+				{ "south": "-Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" },
+				/*NegX*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" },
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropFullMinusNegZ",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" },
+				/*NegX*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" },
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropYZNegZX",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*NegZ*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				{ "south": "-Z", "east": "-X" },
+				{ "south": "-Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropYNegYZNegZ",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*NegZ*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				{ "south": "-Z", "east": "-X" },
+				{ "south": "-Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropYZNegZNegX",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*NegZ*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				{ "south": "-Z", "east": "-X" },
+				{ "south": "-Z", "east": "Y" },
+				/*NegX*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" },
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropYNegYZNegX",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*NegX*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" },
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropYZXNegX",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" },
+				/*NegX*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" },
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropYmmNegYmm",
+			"prop": true,
+			"rotation": [
+				/*Ymm*/
+				{ "south": "-Y", "east": "X" },
+				/*NegYmm*/
+				{ "south": "Y", "east": "X" }
+			]
+		},
+		{
+			"name": "PropYmmNegYmmZ",
+			"prop": true,
+			"rotation": [
+				/*Ymm*/
+				{ "south": "-Y", "east": "X" },
+				/*NegYmm*/
+				{ "south": "Y", "east": "X" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropZmmNegZmm",
+			"prop": true,
+			"rotation": [
+				/*Zmm*/
+				{ "south": "Z", "east": "X" },
+				/*NegZmm*/
+				{ "south": "-Z", "east": "X" }
+			]
+		},
+		{
+			"name": "PropYmZmXm",
+			"prop": true,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropYmm",
+			"prop": true,
+			"rotation": [
+				/*Ymm*/
+				{ "south": "-Y", "east": "X" }
+			]
+		},
+		{
+			"name": "PropXmm",
+			"prop": true,
+			"rotation": [
+				/*Xmm*/
+				{ "south": "-Y", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropXNegZm",
+			"prop": true,
+			"rotation": [
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" },
+				/*NegZm*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" }
+			]
+		},
+		{
+			"name": "PropNegYX",
+			"prop": true,
+			"rotation": [
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropNegYXNegX",
+			"prop": true,
+			"rotation": [
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" },
+				/*NegX*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" },
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "PropNegYmZX",
+			"prop": true,
+			"rotation": [
+				/*NegYm*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "PropNegYmmX",
+			"prop": true,
+			"rotation": [
+				/*NegYmm*/
+				{ "south": "Y", "east": "X" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "StaticY",
+			"prop": false,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" }
+			]
+		},
+		{
+			"name": "StaticYZX",
+			"prop": false,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "StaticYmZX",
+			"prop": false,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "StaticYZmNegZmX",
+			"prop": false,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				/*NegZm*/
+				{ "south": "-Z", "east": "X" },
+				{ "south": "-Z", "east": "-Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+			]
+		},
+		{
+			"name": "StaticYmZmXm",
+			"prop": false,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				/*Xm*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" }
+			]
+		},
+		{
+			"name": "StaticYmZmNegXm",
+			"prop": false,
+			"rotation": [
+				/*Ym*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				/*Zm*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				/*NegXm*/
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" }
+			]
+		},
+		{
+			"name": "StaticYmmZmmXmm",
+			"prop": false,
+			"rotation": [
+				/*Ymm*/
+				{ "south": "-Y", "east": "X" },
+				/*Zmm*/
+				{ "south": "Z", "east": "X" },
+				/*Xmm*/
+				{ "south": "-Y", "east": "Z" }
+			]
+		},
+		//-------------------- Game Engine Constants --------------------//
+		{
+			"name": "SquareBlock",
+			"prop": false,
+			"rotation": [
+				{ "south": "-Y", "east": "X" },
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "Lift",
+			"prop": true,
+			"rotation": [
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "-Y" }
+			]
+		},
+		{
+			"name": "Default",
+			"prop": false,
+			"rotation": [
+				{ "south": "-Y", "east": "X" },
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "Y" }
+			]
+		},
+		{
+			"name": "PropFalseYNegY",
+			"prop": false,
+			"rotation": [
+				/*Y*/
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" }
+			]
+		},
+		{
+			"name": "PackingLamp",
+			"prop": true,
+			"rotation": [
+				/*NegY*/
+				{ "south": "Y", "east": "X" },
+				{ "south": "X", "east": "-Y" },
+				{ "south": "-Y", "east": "-X" },
+				{ "south": "-X", "east": "Y" },
+				/*Z*/
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" },
+				/*X*/
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "Z" },
+				{ "south": "Y", "east": "Z" },
+				{ "south": "X", "east": "Z" }
+
+			]
+		}
+	]
+}

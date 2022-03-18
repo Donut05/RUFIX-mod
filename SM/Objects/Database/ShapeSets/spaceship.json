@@ -1,0 +1,87 @@
+{
+	"partList": [
+		{
+			"uuid": "1a82f776-5989-4471-b09d-0c3f65012fb3",
+			"name": "obj_spaceship_exitsign",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/spaceship/obj_spaceship_exitsign_dif.tga",
+									"$GAME_DATA/Objects/Textures/spaceship/obj_spaceship_exitsign_asg.tga",
+									"$GAME_DATA/Objects/Textures/spaceship/obj_spaceship_exitsign_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/spaceship/obj_spaceship_exitsign.mesh"
+					}
+				]
+			},
+			"color": "14d81e",
+			"hull": {
+				"x": 3,
+				"y": 1,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_spaceship_exitsign.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "aec1ff30-9347-4166-9cb7-f414e1563d9d",
+			"name": "obj_spaceship_shipdoor",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/spaceship/obj_spaceship_shipdoor_dif.tga",
+									"$GAME_DATA/Objects/Textures/spaceship/obj_spaceship_shipdoor_asg.tga",
+									"$GAME_DATA/Objects/Textures/spaceship/obj_spaceship_shipdoor_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/spaceship/obj_spaceship_shipdoor_dif.tga",
+									"$GAME_DATA/Objects/Textures/spaceship/obj_spaceship_shipdoor_asg.tga",
+									"$GAME_DATA/Objects/Textures/spaceship/obj_spaceship_shipdoor_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/spaceship/obj_spaceship_shipdoor.fbx"
+					}
+				]
+			},
+			"color": "820a0a",
+			"hull": {
+				"x": 5,
+				"y": 7,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_spaceship_shipdoor.obj"
+			},
+			"rotationSet": "PropYmZmXm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		}
+	]
+}

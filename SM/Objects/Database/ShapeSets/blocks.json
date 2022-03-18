@@ -1,0 +1,200 @@
+{
+	"blockList": [
+		{
+			"uuid": "a6c6ce30-dd47-4587-b475-085d55c6a3b4",
+			"name": "blk_concrete1",
+			"legacyId": 1,
+			"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_dif.tga",
+			"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga",
+			"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_nor.tga",
+			"tiling": 8,
+			"color": "8d8f89",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "df953d9c-234f-4ac2-af5e-f0490b223e71",
+			"name": "blk_wood1",
+			"legacyId": 2,
+			"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_dif.tga",
+			"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_asg.tga",
+			"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_nor.tga",
+			"tiling": 8,
+			"color": "9b683a",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "8aedf6c2-94e1-4506-89d4-a0227c552f1e",
+			"name": "blk_metal1",
+			"legacyId": 3,
+			"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_metal01_dif.tga",
+			"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_metal01_asg.tga",
+			"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_metal01_nor.tga",
+			"tiling": 8,
+			"color": "675f51",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "09ca2713-28ee-4119-9622-e85490034758",
+			"name": "blk_caution",
+			"legacyId": 4,
+			"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_caution01_dif.tga",
+			"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_caution01_asg.tga",
+			"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_caution01_nor.tga",
+			"tiling": 8,
+			"color": "ce9e0c",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "8ca49bff-eeef-4b43-abd0-b527a567f1b7",
+			"name": "blk_tiles",
+			"legacyId": 5,
+			"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_tiles01_dif.tga",
+			"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_tiles01_asg.tga",
+			"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_tiles01_nor.tga",
+			"tiling": 4,
+			"color": "bfdfed",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 7,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "0603b36e-0bdb-4828-b90c-ff19abcdfe34",
+			"name": "blk_bricks",
+			"legacyId": 6,
+			"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_bricks01_dif.tga",
+			"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_bricks01_asg.tga",
+			"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_bricks01_nor.tga",
+			"tiling": 8,
+			"color": "af967b",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 7,
+				"durability": 4,
+				"friction": 6,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "5f41af56-df4c-4837-9b3c-10781335757f",
+			"name": "blk_glass",
+			"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+			"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+			"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga",
+			"tiling": 8,
+			"color": "e4f8ff",
+			"glass": true,
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 3,
+				"durability": 1,
+				"friction": 3,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "749f69e0-56c9-488c-adf6-66c58531818f",
+			"name": "blk_glasstile",
+			"legacyId": 7,
+			"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_glasstiles_dif.tga",
+			"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_glasstiles_asg.tga",
+			"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_glasstiles_nor.tga",
+			"tiling": 8,
+			"color": "c2f9ff",
+			"glass": true,
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 3,
+				"durability": 1,
+				"friction": 3,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "073f92af-f37e-4aff-96b3-d66284d5081c",
+			"name": "blk_lights",
+			"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_lights01_dif.tga",
+			"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_lights01_asg.tga",
+			"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_lights01_nor.tga",
+			"tiling": 2,
+			"color": "727272",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "027bd4ec-b16d-47d2-8756-e18dc2af3eb6",
+			"name": "blk_spaceshipmetal",
+			"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_dif.tga",
+			"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_asg.tga",
+			"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_spaceship01_nor.tga",
+			"tiling": 4,
+			"color": "820a0a",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 7,
+				"friction": 4,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa",
+			"name": "blk_cardboard",
+			"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_cardboard_dif.tga",
+			"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_cardboard_asg.tga",
+			"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_cardboard_nor.tga",
+			"tiling": 16,
+			"color": "a48052",
+			"physicsMaterial": "Cardboard",
+			"ratings": {
+				"density": 1,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": true
+		}
+	]
+}

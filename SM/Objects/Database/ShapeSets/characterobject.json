@@ -1,0 +1,547 @@
+{
+	"partList": [
+		{
+			"uuid": "34d22fc5-0a45-4d71-9aaf-64df1355c272",
+			"name": "obj_characterobject_totebotpackage",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"plastic_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							},
+							"packaging_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+									
+								],
+								"material": "DifAsgNor"
+							},
+							"stickers_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+									
+								],
+								"material": "DifAsgNorAlpha"
+							},
+							"totebot_mat": {
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_nor.tga"
+									
+								],
+								"material": "DifAsgNor"
+							},
+							"totebothead_mat": {
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_head_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_head_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_head_nor.tga"
+									
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/characterobject/obj_characterobject_totebotpackage.fbx"
+					}
+				]
+			},
+			"scripted": {
+				"filename": "$GAME_DATA/Scripts/game/interactable/Package.lua",
+				"classname": "Package",
+				"data": {
+					"unitUuid": "8984bdbf-521e-4eed-b3c4-2b5e287eb879",
+					"unboxEffect01": "Unbox - Totebot01"
+				}
+			},
+			"color": "49642d",
+			"cylinder": {
+				"diameter": 7,
+				"depth": 6,
+				"margin": 1,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 10,
+				"friction": 3,
+				"buoyancy": 8
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "da993c70-ba90-4748-8a22-6246bad32930",
+			"name": "obj_characterobject_haybotpackage",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"plastic_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							},
+							"packaging_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+									
+								],
+								"material": "DifAsgNor"
+							},
+							"stickers_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+									
+								],
+								"material": "DifAsgNorAlpha"
+							},
+							"haybot_mat": {
+	                			"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_nor.tga"
+	                			],
+
+	                			"material": "DifAsgNor"
+	      	  				},
+	            			"hay_mat": {
+	                			"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_nor.tga"
+	                			],
+	                			"material": "DifAsgNorAlpha"
+	            			}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/characterobject/obj_characterobject_haybotpackage.fbx"
+					}
+				]
+			},
+			"scripted": {
+				"filename": "$GAME_DATA/Scripts/game/interactable/Package.lua",
+				"classname": "Package",
+				"data": {
+					"unitUuid": "c8bfb8f3-7efc-49ac-875a-eb85ac0614db",
+					"unboxEffect01": "Unbox - Haybot01"
+
+				}
+			},
+			"color": "e75b0f",
+			"cylinder": {
+				"diameter": 9,
+				"depth": 9,
+				"margin": 1,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 10,
+				"friction": 3,
+				"buoyancy": 8
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "4c5c3ffd-9aaf-4ded-a7c5-452d239cac32",
+			"name": "obj_characterobject_tapebotpackage",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"plastic_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							},
+							"packaging_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+									
+								],
+								"material": "DifAsgNor"
+							},
+							"stickers_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+									
+								],
+								"material": "DifAsgNorAlpha"
+							},
+							"tapebot_body": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+								]
+							},
+							"tapebot_head": {
+								"material": "DifAsgNor",
+								"textureList": [
+								"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head01_dif.tga",
+								"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_asg.tga",
+								"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_nor.tga"
+								]
+							}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/characterobject/obj_characterobject_tapebotpackage.fbx"
+					}
+				]
+			},
+			"scripted": {
+				"filename": "$GAME_DATA/Scripts/game/interactable/Package.lua",
+				"classname": "Package",
+				"data": {
+					"unitUuid": "04761b4a-a83e-4736-b565-120bc776edb2",
+					"unboxEffect01": "Unbox - Tapebot01"
+				}
+			},
+			"color": "035cff",
+			"cylinder": {
+				"diameter": 6,
+				"depth": 9,
+				"margin": 1,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 10,
+				"friction": 3,
+				"buoyancy": 8
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "50f624e6-7e33-4118-8252-2219e73e9af1",
+			"name": "obj_characterobject_redtapebotpackage",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"plastic_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							},
+							"packaging_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+
+								],
+								"material": "DifAsgNor"
+							},
+							"stickers_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+
+								],
+								"material": "DifAsgNorAlpha"
+							},
+							"tapebot_body": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+								]
+							},
+							"tapebot_head": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head03_red_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head03_red_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head03_red_nor.tga"
+								]
+							}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/characterobject/obj_characterobject_tapebotpackagered.fbx"
+					}
+				]
+			},
+			"scripted": {
+				"filename": "$GAME_DATA/Scripts/game/interactable/Package.lua",
+				"classname": "Package",
+				"data": {
+					"unitUuid": "c3d31c47-0c9b-4b07-9bd4-8f022dc4333e",
+					"unboxEffect01": "Unbox - Tapebot01"
+				}
+			},
+			"color": "ec1919",
+			"cylinder": {
+				"diameter": 6,
+				"depth": 9,
+				"margin": 1,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 3,
+				"durability": 10,
+				"friction": 3,
+				"buoyancy": 8
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "9c1f1f76-7391-4661-ae32-e96250030229",
+			"name": "obj_characterobject_farmbotpackage",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"plastic_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							},
+							"packaging_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+									
+								],
+								"material": "DifAsgNor"
+							},
+							"farmbot_mat": {
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_nor.tga"
+									
+								],
+								"material": "DifAsgNor"
+							},
+							"stickers_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+									
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/characterobject/obj_characterobject_farmbotpackage.fbx"
+					}
+				]
+			},
+			"scripted": {
+				"filename": "$GAME_DATA/Scripts/game/interactable/Package.lua",
+				"classname": "Package",
+				"data": {
+					"unitUuid": "9f4fde94-312f-4417-b13b-84029c5d6b52",
+					"unboxEffect01": "Unbox - Farmbot01"
+				}
+			},
+			"color": "c52c18",
+			"cylinder": {
+				"diameter": 19,
+				"depth": 14,
+				"margin": 1,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 5,
+				"durability": 10,
+				"friction": 3,
+				"buoyancy": 8
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "7735cab3-56d7-4d52-b615-090d021e8fdc",
+			"name": "obj_characterobject_glowgorp",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"plastic_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							},
+							"packaging_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+									
+								],
+								"material": "DifAsgNor"
+							},
+							"stickers_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+									
+								],
+								"material": "DifAsgNorAlpha"
+							},
+							"glowgorp_mat": {
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_nor.tga"
+									
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/characterobject/obj_characterobject_glowgorppackage.fbx"
+					}
+				]
+			},
+			"scripted": {
+				"filename": "$GAME_DATA/Scripts/game/interactable/Package.lua",
+				"classname": "Package",
+				"data": {
+					"unitUuid": "48c03f69-3ec8-454c-8d1a-fa09083363b1",
+					"unboxEffect01": "Unbox - glowworm01"
+				}
+			},
+			"color": "92f00f",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 3,
+				"margin": 1,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 10,
+				"friction": 3,
+				"buoyancy": 8
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "12cc6e9a-6d66-4a9a-bb59-b13a50373fd8",
+			"name": "obj_characterobject_woc",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"plastic_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							},
+							"packaging_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+									
+								],
+								"material": "DifAsgNor"
+							},
+							"stickers_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+									"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+									
+								],
+								"material": "DifAsgNorAlpha"
+							},
+							"woc_mat": {
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Cow/char_cow_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Cow/char_cow_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Cow/char_cow_nor.tga"
+									
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/characterobject/obj_characterobject_wocpackage.fbx"
+					}
+				]
+			},
+			"scripted": {
+				"filename": "$GAME_DATA/Scripts/game/interactable/Package.lua",
+				"classname": "Package",
+				"data": {
+					"unitUuid": "264a563a-e304-430f-a462-9963c77624e9",
+					"unboxEffect01": "Unbox - woc01"
+				}
+			},
+			"color": "f088b3",
+			"cylinder": {
+				"diameter": 11,
+				"depth": 9,
+				"margin": 1,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 10,
+				"friction": 3,
+				"buoyancy": 8
+			},
+			"flammable": true
+		}
+	]
+}

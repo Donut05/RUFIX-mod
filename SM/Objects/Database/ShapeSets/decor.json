@@ -1,0 +1,629 @@
+{
+	"partList": [
+		{
+			"uuid": "e2a0770b-9bb9-4b3b-b9f2-994b534b79f3",
+			"name": "obj_decor_toiletroll",
+			"legacyId": 804,
+			"renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_toiletroll.rend",
+			"color": "e44949",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 1,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"ratings": {
+				"density": 1,
+				"durability": 1,
+				"friction": 3,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "3fa0afca-7715-459e-86fa-2a81cf3027b8",
+			"name": "obj_decor_sink",
+			"legacyId": 805,
+			"renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_sink.rend",
+			"color": "3e9ffe",
+			"hull": {
+				"x": 2,
+				"y": 3,
+				"z": 2,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_sink.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "a6ec1dcc-07e9-418a-819e-904e28a32f63",
+			"name": "obj_decor_mug",
+			"renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_mug.rend",
+			"color": "3e9ffe",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 1,
+				"margin": 0.1,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 3,
+				"buoyancy": 3
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "c89f7bc8-5720-474d-989d-761916a411b2",
+			"name": "obj_decor_boot",
+			"legacyId": 806,
+			"renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_boot.rend",
+			"color": "8d4104",
+			"hull": {
+				"x": 1,
+				"y": 2,
+				"z": 2,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_boot.obj"
+			},
+			"rotationSet": "PropYNegY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 7,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "b1dd7967-da2a-4ff5-a90f-bbd7e9bae4d7",
+			"name": "obj_decor_mannequinhand",
+			"renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_mannequinhand.rend",
+			"color": "e48c71",
+			"hull": {
+				"x": 1,
+				"y": 2,
+				"z": 1,
+				"margin": 0.25,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_mannequinhand.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 7,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "80bc2b9f-98a9-44e4-9cb8-d4ec7e95b40f",
+			"name": "obj_decor_babyduck",
+			"legacyId": 807,
+			"renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_babyduck.rend",
+			"color": "ffd504",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 1,
+				"margin": 0.1,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 8
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "c5e56da5-bc3f-4519-91c2-b307d36e15aa",
+			"name": "obj_decor_screw01",
+			"legacyId": 808,
+			"renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_screw01.rend",
+			"color": "59615c",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_screw01.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "edd445cc-c298-4ce3-9a58-745c1bee1bc7",
+			"name": "obj_decor_screw02",
+			"legacyId": 809,
+			"renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_screw02.rend",
+			"color": "59615c",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_screw02.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "2ccaa006-008e-4069-8de1-15668050f92e",
+			"name": "obj_decor_sign01",
+			"legacyId": 810,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_dif.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_asg.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_sign01.mesh"
+					}
+				]
+			},
+			"color": "ffd504",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_sign01.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "70bf77d0-c9dd-4232-9e05-fbf7f49bd62c",
+			"name": "obj_decor_sign02",
+			"legacyId": 811,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_dif.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_asg.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_sign02.mesh"
+					}
+				]
+			},
+			"color": "ffc605",
+			"hull": {
+				"x": 5,
+				"y": 2,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_sign02.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "99b7fd1d-7126-4928-bfc2-f82befcbd905",
+			"name": "obj_decor_sign03",
+			"legacyId": 812,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_dif.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_asg.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_sign03.mesh"
+					}
+				]
+			},
+			"color": "ffd504",
+			"hull": {
+				"x": 3,
+				"y": 2,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_sign03.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "a5198434-2639-4cb0-8e01-865bc4d9b791",
+			"name": "obj_decor_sign04",
+			"legacyId": 813,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_dif.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_asg.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_sign04.mesh"
+					}
+				]
+			},
+			"color": "ed541b",
+			"hull": {
+				"x": 5,
+				"y": 2,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_sign04.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "068a89ca-504e-4782-9ede-48f710aeea73",
+			"name": "obj_decor_sign05",
+			"legacyId": 814,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_dif.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_asg.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_sign05.mesh"
+					}
+				]
+			},
+			"color": "c60000",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_sign05.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "14e8f5d0-7d6a-41ab-96a1-fc34588de868",
+			"name": "obj_decor_sign06",
+			"legacyId": 815,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_dif.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_asg.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_sign06.mesh"
+					}
+				]
+			},
+			"color": "c60000",
+			"hull": {
+				"x": 3,
+				"y": 2,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_sign06.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "d509a432-85f9-419f-8b02-8d58b1082f97",
+			"name": "obj_decor_sign07",
+			"legacyId": 816,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_dif.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_asg.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_sign07.mesh"
+					}
+				]
+			},
+			"color": "ffc605",
+			"hull": {
+				"x": 5,
+				"y": 3,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_sign07.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "b4498227-6650-4e52-b5a6-6db7a7b34d14",
+			"name": "obj_decor_sign08",
+			"legacyId": 817,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_dif.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_asg.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_sign08.mesh"
+					}
+				]
+			},
+			"color": "c60000",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_sign08.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c79a1857-a5c7-4616-b507-f1b151c31fe8",
+			"name": "obj_decor_sign09",
+			"legacyId": 818,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_dif.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_asg.tga",
+									"$GAME_DATA/Objects/Textures/decor/obj_decor_sign01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_sign09.mesh"
+					}
+				]
+			},
+			"color": "ffc605",
+			"hull": {
+				"x": 5,
+				"y": 4,
+				"z": 1,
+				"margin": 0.12,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_sign09.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "3878d965-de4a-4e7b-a15a-73cc032158b6",
+			"name": "obj_decor_arrowsign",
+			"legacyId": 820,
+			"renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_arrowsign.rend",
+			"color": "f26c23",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_arrowsign.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "1f334b62-8955-4406-8848-91e03228c330",
+			"name": "obj_decor_cone",
+			"legacyId": 819,
+			"renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_cone.rend",
+			"color": "f15814",
+			"hull": {
+				"x": 2,
+				"y": 3,
+				"z": 2,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_cone.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 3,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "9eead4cf-4743-486e-99be-a553c4c10740",
+			"name": "obj_decor_bed",
+			"legacyId": 821,
+			"renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_bed.rend",
+			"color": "b58d59",
+			"box": {
+				"x": 5,
+				"y": 2,
+				"z": 7
+			},
+			"rotationSet": "PropYmZX",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "ff2207c1-e40b-416f-8bdd-66a9efd6d1a9",
+			"name": "obj_decor_pillow",
+			"renderable": "$GAME_DATA/Objects/Renderable/decor/obj_decor_pillow.rend",
+			"color": "5aa0d2",
+			"hull": {
+				"x": 3,
+				"y": 1,
+				"z": 2,
+				"col": "$GAME_DATA/Objects/Collision/obj_decor_pillow.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": true
+		}
+	]
+}

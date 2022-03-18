@@ -1,0 +1,39 @@
+{
+	"partList": [
+		{
+			"uuid": "681b75ce-2489-4a7b-8cb2-2903e7243e83",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sensor_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sensor_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sensor_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_sensor_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_sensor_on.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"preview": {
+				"effect": "preview"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "+Y-Y+Z-Z+X-X",
+			"physicsMaterial": "Plastic",
+			"density": 250.0,
+			"showInInventory": false
+		}
+	]
+}

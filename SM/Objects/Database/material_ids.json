@@ -1,0 +1,29 @@
+{
+	"idList":
+	[
+		{
+			"Default": 1,
+			"Grass": 2,
+			"Dirt": 3,
+			"Sand": 4,
+			"Gravel": 5,
+			"Rock": 6,
+			"Wood": 7,
+			"Plastic": 8,
+			"Metal": 9,
+			"Glass": 10,
+			"Fence": 11,
+			"Fabric": 12,
+			"Cardboard": 13,
+			"Foilage": 14,
+			"Tape": 15,
+			"Water": 16,
+			"Mechanical": 19,
+			"Fruit": 20
+		},
+		{
+			"Sledgehammer": 1,
+			"Potato": 2
+		}
+	]
+}

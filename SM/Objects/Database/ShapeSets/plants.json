@@ -1,0 +1,354 @@
+{
+	"partList": [
+		{
+			"uuid": "13ffabca-91ec-48ce-9dd6-4f6660714701",
+			"name": "obj_plants_growbox",
+			"legacyId": 700,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_growbox_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_growbox_asg.tga",
+									""
+								],
+								"material": "DifAsgAlphaFlip"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/plants/obj_plants_growbox.mesh"
+					}
+				]
+			},
+			"color": "dadac9",
+			"box": {
+				"x": 6,
+				"y": 1,
+				"z": 4
+			},
+			"rotationSet": "PropY",
+			"sticky": "+X-X-Y-Z+Z",
+			"physicsMaterial": "Grass",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "df3734e2-f04b-443f-b568-fe5b076646c7",
+			"name": "obj_plants_leafplant",
+			"legacyId": 701,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_leafplant_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_leafplant_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_leafplant_nor.tga"
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/plants/obj_plants_leafplant.fbx"
+					}
+				]
+			},
+			"color": "be6740",
+			"cylinder": {
+				"diameter": 2,
+				"depth": 4,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "89f6c762-c0ed-44ad-b3f1-a60dbdd889c5",
+			"name": "obj_plants_succulent",
+			"legacyId": 702,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_succulent_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_succulent_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_succulent_nor.tga"
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/plants/obj_plants_succulent.fbx"
+					}
+				]
+			},
+			"color": "be6740",
+			"cylinder": {
+				"diameter": 2,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "cec1d36c-b48a-43d2-9667-5e53b62dd4c5",
+			"name": "obj_plants_poleplant",
+			"legacyId": 703,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_poleplant_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_poleplant_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_poleplant_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/plants/obj_plants_poleplant.fbx"
+					}
+				]
+			},
+			"color": "be6740",
+			"cylinder": {
+				"diameter": 2,
+				"depth": 6,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "7826f497-426b-42cb-a857-0d784f3ab2f3",
+			"name": "obj_plants_bigpot",
+			"legacyId": 704,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_emptypot_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_emptypot_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_emptypot_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/plants/obj_plants_emptypot.fbx"
+					}
+				]
+			},
+			"color": "af4200",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 3,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "+Y-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "c4609540-bc32-4c3f-83b8-3b6926878012",
+			"name": "obj_plants_seedplant",
+			"legacyId": 705,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_seedplant_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_seedplant_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_seedplant_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/plants/obj_plants_seedplant.fbx"
+					}
+				]
+			},
+			"color": "af4200",
+			"cylinder": {
+				"diameter": 2,
+				"depth": 1,
+				"margin": 0.04,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "d1421af8-6f80-4413-8099-2c6b217fb929",
+			"name": "obj_plants_ballcactus",
+			"legacyId": 706,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_ballcactus_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_ballcactus_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_ballcactus_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/plants/obj_plants_ballcactus.fbx"
+					}
+				]
+			},
+			"color": "9c251c",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_plants_ballcactus.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "bc575e0c-d1aa-438e-9f3d-0a80f4ea915f",
+			"name": "obj_plants_barbarycactus",
+			"legacyId": 707,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_barbarycactus_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_barbarycactus_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_barbarycactus_nor.tga"
+								],
+								"material": "DifAsgNorAlpha"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/plants/obj_plants_barbarycactus.fbx"
+					}
+				]
+			},
+			"color": "9c251c",
+			"hull": {
+				"x": 1,
+				"y": 3,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_plants_barbarycactus.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "bb443a05-b5b9-4fad-90fc-5e04aa90fd8f",
+			"name": "obj_plants_blueflower",
+			"legacyId": 708,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_blueflower_dif.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_blueflower_asg.tga",
+									"$GAME_DATA/Objects/Textures/plants/obj_plants_blueflower_nor.tga"
+								],
+								"material": "DifAsgNorAlphaFlip"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/plants/obj_plants_blueflower.fbx"
+					}
+				]
+			},
+			"color": "9c251c",
+			"hull": {
+				"x": 1,
+				"y": 2,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_plants_blueflower.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": true
+		}
+	]
+}

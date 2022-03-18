@@ -1,0 +1,133 @@
+{
+	"partList": [
+		{
+			"uuid": "ed27f5e2-cac5-4a32-a5d9-49f116acc6af",
+			"name": "obj_light_headlight",
+			"legacyId": 200,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"lightmesh_mat": {
+								"material": "PoseAnimDifAsgNor",
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/lights/obj_light_headlight_dif.tga",
+									"$GAME_DATA/Objects/Textures/lights/obj_light_headlight_asg.tga",
+									"$GAME_DATA/Objects/Textures/lights/obj_light_headlight_nor.tga"
+								]
+							},
+							"lightcone_mat": {
+								"material": "PoseAnimLightCone",
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/lights/obj_light_headlightbeam_dif.tga",
+									"",
+									""
+								]
+							},
+							"lightflare_mat": {
+								"material": "PoseAnimLightFlare",
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/lights/obj_light_headlightflare_dif.tga",
+									"",
+									""
+								]
+							}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/lights/obj_light_headlight_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/lights/obj_light_headlight_on.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"spotlight": {
+				"defaultLuminance": 50,
+				"effect": "HeadLight"
+			},
+			"rotationSet": "PropZY",
+			"sticky": "-X+X-Y+Y-Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "695d66c8-b937-472d-8bc2-f3d72dd92879",
+			"name": "obj_light_beamframelight",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_beamslarge_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_beamslarge_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_beamslarge_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/lights/obj_light_horizontalflare_dif.tga",
+									"",
+									""
+								],
+								"material": "PoseAnimLightCone"
+							},
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/lights/obj_light_spotlightbeam_dif.tga",
+									"",
+									""
+								],
+								"material": "PoseAnimLightCone"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/lights/obj_light_beamframelight_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/lights/obj_light_beamframelight_on.fbx"
+					}
+				]
+			},
+			"previewRotation": [
+				1,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				1
+			],
+			"color": "c36512",
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_light_beamframelight.obj"
+			},
+			"spotlight": {
+				"effect": "FloodLight",
+				"defaultLuminance": 40
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-X+X+Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true
+		}
+	]
+}

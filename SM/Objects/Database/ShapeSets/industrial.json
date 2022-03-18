@@ -1,0 +1,1983 @@
+{
+	"partList": [
+		{
+			"uuid": "87878e83-8170-4796-9401-6baba45ccef2",
+			"name": "obj_industrial_beam",
+			"legacyId": 400,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_beams_ao.tga"
+								],
+								"material": "DifAsgAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_beam.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "f3871c",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "4c7b8096-b8ca-4341-bfe9-d31d2d5443b8",
+			"name": "obj_industrial_beamlong",
+			"legacyId": 401,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_beams_ao.tga"
+								],
+								"material": "DifAsgAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_beamlong.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "f3871c",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 4
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "31768765-5a08-499a-a7e6-7e7613363f75",
+			"name": "obj_industrial_beambend",
+			"legacyId": 402,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_beams_ao.tga"
+								],
+								"material": "DifAsgAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_beambend.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "f3871c",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_industrial_beambend.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "+X-Z+Y-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "1ed1d5a8-466a-4b5e-867b-0d93cd9d2dcb",
+			"name": "obj_industrial_beamelevation",
+			"legacyId": 403,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_beams_ao.tga"
+								],
+								"material": "DifAsgAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_beamelevation.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "f3871c",
+			"box": {
+				"x": 1,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "+Y-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "b9775316-7272-4a66-a8a9-179108d76f18",
+			"name": "obj_industrial_beamend",
+			"legacyId": 404,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_beams_ao.tga"
+								],
+								"material": "DifAsgAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_beamend.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "f3871c",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "StaticYZmNegZmX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c8c07259-bc23-45a1-8a4c-585962274f19",
+			"name": "obj_industrial_beamshelf",
+			"legacyId": 405,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_beamshelf_ao.tga"
+								],
+								"material": "DifAsgAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_beamshelf.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "408fc7",
+			"box": {
+				"x": 4,
+				"y": 1,
+				"z": 4
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "d5da6d42-69e2-49ca-8def-3339bf9f0d35",
+			"name": "obj_industrial_platform",
+			"legacyId": 406,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_platform_ao.tga"
+								],
+								"material": "DifAsgNorAlphaFlipAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_platform.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 8,
+				"y": 1,
+				"z": 8
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "85379fe5-da83-4aa2-b9c2-d67476ad6079",
+			"name": "obj_industrial_platformfencelong",
+			"legacyId": 407,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_platformfencelong_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_platformfencelong.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 6
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "8336bf8b-cde0-46a0-b995-5000cba4f27f",
+			"name": "obj_industrial_platformfenceshort",
+			"legacyId": 408,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_platformfencelong_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_platformfenceshort.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 3
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "1ef1f0e8-389c-4eb9-b4a8-784499353f14",
+			"name": "obj_industrial_platformfencepole",
+			"legacyId": 409,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_platformfencelong_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_platformfencepole.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 1,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "295451dd-f5b2-421d-9113-b3f704d799d4",
+			"name": "obj_industrial_platformfenceconnector",
+			"legacyId": 410,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_platformfenceconnector_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_platformfenceconnector.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "StaticYmmZmmXmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "f5786e5d-8366-4ebf-be00-f3a4b036a77b",
+			"name": "obj_industrial_stairplatform",
+			"legacyId": 411,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_stairplatform_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_stairplatform.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "c36512",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 6
+			},
+			"rotationSet": "StaticYmZX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "b50a014c-0785-4b1b-b63e-51cfdb7e49ad",
+			"name": "obj_industrial_stairfence",
+			"legacyId": 412,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_stairwedge_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_stairfence.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "c36512",
+			"hull": {
+				"x": 1,
+				"y": 4,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_industrial_stairfence.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y+Z-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "e02620a5-371b-4d63-be35-fd8a0552eba9",
+			"name": "obj_industrial_stairwedge",
+			"legacyId": 413,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_stairwedge_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_stairwedge.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "c36512",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$GAME_DATA/Objects/Collision/obj_industrial_stairwedge.obj"
+			},
+			"rotationSet": "PropYX",
+			"sticky": "-X+X-Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "635eee58-9a36-437f-9e30-78dab0cbcc59",
+			"name": "obj_industrial_platformstairsramp",
+			"legacyId": 430,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_platformstairsramp_ao.tga"
+								],
+								"material": "DifAsgNorAlphaFlipAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_platformstairsramp.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "c36512",
+			"hull": {
+				"x": 6,
+				"y": 5,
+				"z": 7,
+				"col": "$GAME_DATA/Objects/Collision/obj_industrial_platformstairsramp.obj"
+			},
+			"rotationSet": "PropYZXNegX",
+			"sticky": "-X+X-Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "0a597f6d-eb45-4f93-91e5-130e19e0f1f5",
+			"name": "obj_industrial_metalgrid",
+			"legacyId": 414,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_metalgrid_ao.tga"
+								],
+								"material": "DifAsgAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_metalgrid.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "79859c",
+			"box": {
+				"x": 5,
+				"y": 3,
+				"z": 1
+			},
+			"rotationSet": "StaticYZmNegZmX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "2228cef0-f22a-4901-93c5-48e4df52caf6",
+			"name": "obj_industrial_railing",
+			"legacyId": 415,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_railing_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_railing_asg.tga",
+									""
+								],
+								"material": "DifAsgAlphaFlip"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_railing.mesh"
+					}
+				]
+			},
+			"color": "ffd504",
+			"box": {
+				"x": 7,
+				"y": 4,
+				"z": 1
+			},
+			"rotationSet": "StaticYmZX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 6,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c40683f3-d9ce-4067-af24-3514c1867a1a",
+			"name": "obj_industrial_metalsupport",
+			"legacyId": 416,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_metalsupport_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_metalsupport.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "79859c",
+			"box": {
+				"x": 2,
+				"y": 4,
+				"z": 2
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "15a8f24b-016a-4db6-adcc-967ee1b6c7b1",
+			"name": "obj_industrial_supportxframe",
+			"legacyId": 417,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportframe_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_supportxframe.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "79859c",
+			"box": {
+				"x": 8,
+				"y": 8,
+				"z": 1
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 6,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "33d5f0c1-f80c-478a-b69d-9edafe376474",
+			"name": "obj_industrial_supportvframe",
+			"legacyId": 418,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportframe_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_supportvframe.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "79859c",
+			"box": {
+				"x": 8,
+				"y": 4,
+				"z": 1
+			},
+			"rotationSet": "StaticYZX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 6,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "29ededf7-6436-41bf-84f4-8fb5361d29ea",
+			"name": "obj_industrial_support_quater_frame",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportframe_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_support_quater_frame.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "79859c",
+			"box": {
+				"x": 4,
+				"y": 4,
+				"z": 1
+			},
+			"rotationSet": "StaticYZX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 3,
+				"friction": 6,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "56545d5c-556d-4cd5-9125-6e34acf37c3d",
+			"name": "obj_industrial_supportbeam",
+			"legacyId": 419,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportbeam_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_supportbeam.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "79859c",
+			"box": {
+				"x": 2,
+				"y": 6,
+				"z": 1
+			},
+			"rotationSet": "StaticYZmNegZmX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 6,
+				"friction": 5,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "6b78fb4b-2af9-4a01-a7c5-7e333d245adb",
+			"name": "obj_industrial_supportpillar",
+			"legacyId": 420,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportpillar_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_supportpillar.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "79859c",
+			"box": {
+				"x": 1,
+				"y": 5,
+				"z": 1
+			},
+			"rotationSet": "StaticYmmZmmXmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "aa5325da-03f9-46cc-9655-983ee7ac2ab2",
+			"name": "obj_industrial_supportxbeam",
+			"legacyId": 453,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportxbeam_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportxbeam_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportxbeam_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_supportxbeam.mesh"
+					}
+				]
+			},
+			"color": "597c8d",
+			"box": {
+				"x": 5,
+				"y": 5,
+				"z": 5
+			},
+			"rotationSet": "StaticYmmZmmXmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 6,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "45e5c193-8896-4687-a4b0-cf4b2da047d1",
+			"name": "obj_industrial_supportbeambase",
+			"legacyId": 454,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportbeambase_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportbeambase_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_supportbeambase_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_supportbeambase.mesh"
+					}
+				]
+			},
+			"color": "597c8d",
+			"box": {
+				"x": 7,
+				"y": 1,
+				"z": 7
+			},
+			"rotationSet": "PropYmmNegYmm",
+			"sticky": "+Y-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 6,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "dbd509b5-b7cc-43cf-9a89-b3befecfe991",
+			"name": "obj_industrial_rack",
+			"legacyId": 421,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_rack_ao.tga"
+								],
+								"material": "DifAsgAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_rack.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "408fc7",
+			"box": {
+				"x": 1,
+				"y": 3,
+				"z": 1
+			},
+			"rotationSet": "StaticYmmZmmXmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "8d7be7bf-37c9-44d6-8adf-fc87b141cadf",
+			"name": "obj_industrial_rackcube",
+			"legacyId": 422,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_rack_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_rackcube.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "408fc7",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "StaticYmmZmmXmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "f80026c5-2019-4f87-8abd-345bd23aa156",
+			"name": "obj_industrial_racklong",
+			"legacyId": 423,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_rack_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_racklong.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "408fc7",
+			"box": {
+				"x": 1,
+				"y": 4,
+				"z": 1
+			},
+			"rotationSet": "StaticYmmZmmXmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "f37b101c-508b-4630-9f9d-47ef1c834183",
+			"name": "obj_industrial_cylindersmall",
+			"legacyId": 424,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_cylinder_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_cylindersmall.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "cc7f3b",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 4,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "d71d8897-5af6-4adc-b626-50e45f931157",
+			"name": "obj_industrial_cylindermedium",
+			"legacyId": 425,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_cylinder_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_cylindermedium.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "73adb7",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 4,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "68c2baa5-1274-4bfd-8b12-6e522123f4de",
+			"name": "obj_industrial_cylinderlarge",
+			"legacyId": 426,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_cylinder_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_cylinderlarge.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "73adb7",
+			"cylinder": {
+				"diameter": 7,
+				"depth": 5,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "8c4b9721-3de4-4ae3-a7d1-6f66a16d1368",
+			"name": "obj_industrial_window",
+			"legacyId": 427,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_window_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_window.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "79859c",
+			"box": {
+				"x": 5,
+				"y": 6,
+				"z": 1
+			},
+			"rotationSet": "PropYXmNegXm",
+			"sticky": "-X+X-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 7,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "007d6afc-59ef-4fb4-9bb7-52ab9bcfec22",
+			"name": "obj_industrial_pallet",
+			"legacyId": 428,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_pallet_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_pallet_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_pallet_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_pallet.mesh"
+					}
+				]
+			},
+			"color": "902513",
+			"box": {
+				"x": 5,
+				"y": 1,
+				"z": 8
+			},
+			"rotationSet": "StaticYmZX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "6a720005-ba27-4cfc-8fb3-b1af8b9c8bd3",
+			"name": "obj_industrial_rail",
+			"legacyId": 429,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+									"",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_rail_ao.tga"
+								],
+								"material": "DifAsgAo"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_rail.fbx",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						]
+					}
+				]
+			},
+			"color": "909090",
+			"cylinder": {
+				"diameter": 1,
+				"depth": 2,
+				"axis": "Y"
+			},
+			"rotationSet": "PropYmm",
+			"sticky": "+Y-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 3
+			},
+			"flammable": false,
+			"stackSize": 10
+		},
+		{
+			"uuid": "f9e8707a-62f8-4051-84e9-c2e17b686d9e",
+			"name": "obj_industrial_antennatower",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_antennatower_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_antennatower_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_antennatower_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_antennatower.fbx"
+					}
+				]
+			},
+			"color": "930000",
+			"box": {
+				"x": 3,
+				"y": 8,
+				"z": 3
+			},
+			"rotationSet": "StaticYmmZmmXmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "e3e58881-69e6-4593-8211-017bcd72c907",
+			"name": "obj_industrial_antennatowertop",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_antennatower_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_antennatower_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_antennatower_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_antennatowertop.fbx"
+					}
+				]
+			},
+			"color": "930000",
+			"hull": {
+				"x": 3,
+				"y": 8,
+				"z": 3,
+				"col": "$GAME_DATA/Objects/Collision/obj_industrial_antennatowertop.obj"
+			},
+			"rotationSet": "PropYmmNegYmm",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 4,
+				"friction": 3,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "1daf2b8a-fd2f-4266-9942-c04feede4f7b",
+			"name": "obj_industrial_satellite01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_satellite01.fbx"
+					}
+				]
+			},
+			"color": "930000",
+			"hull": {
+				"x": 7,
+				"y": 7,
+				"z": 1,
+				"col": "$GAME_DATA/Objects/Collision/obj_industrial_satellite01.obj"
+			},
+			"rotationSet": "PropZmmNegZmm",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "ce350b5c-cebb-42b0-b8ba-1bf084a0090c",
+			"name": "obj_industrial_satellite03",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_satellite03.fbx"
+					}
+				]
+			},
+			"color": "930000",
+			"hull": {
+				"x": 5,
+				"y": 5,
+				"z": 3,
+				"col": "$GAME_DATA/Objects/Collision/obj_industrial_satellite03.obj"
+			},
+			"rotationSet": "PropZmmNegZmm",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "e585bcd6-5828-4a37-8ec7-dffb561f0956",
+			"name": "obj_industrial_antenna01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_antenna01.fbx"
+					}
+				]
+			},
+			"color": "930000",
+			"box": {
+				"x": 1,
+				"y": 8,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 3,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c938e84c-ff59-4e7e-a87c-5211ac903927",
+			"name": "obj_industrial_antenna02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_antenna02.fbx"
+					}
+				]
+			},
+			"color": "930000",
+			"box": {
+				"x": 1,
+				"y": 7,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 2,
+				"friction": 3,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "57fad8e9-2aff-40c3-9d5c-8f81573b58b9",
+			"name": "obj_industrial_windowglass01",
+			"legacyId": 431,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_windowglass01.fbx"
+					}
+				]
+			},
+			"color": "65caff",
+			"hull": {
+				"x": 5,
+				"y": 2,
+				"z": 2,
+				"col": "$GAME_DATA/Objects/Collision/obj_industrial_windowglass01.obj"
+			},
+			"rotationSet": "PropYZmX",
+			"sticky": "+Y-Y+X-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 2,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "53349c8d-14e8-4055-bd79-a1ab56fe876e",
+			"name": "obj_industrial_windowglass02",
+			"legacyId": 432,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_windowglass02.fbx"
+					}
+				]
+			},
+			"color": "65caff",
+			"hull": {
+				"x": 5,
+				"y": 4,
+				"z": 2,
+				"col": "$GAME_DATA/Objects/Collision/obj_industrial_windowglass02.obj"
+			},
+			"rotationSet": "PropYZmX",
+			"sticky": "+Y-Y+X-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 2,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "763fd838-7ed5-420e-8984-c2ae86da1e5c",
+			"name": "obj_industrial_windowglass03",
+			"legacyId": 433,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windowglass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_windowglass03.fbx"
+					}
+				]
+			},
+			"color": "65caff",
+			"hull": {
+				"x": 8,
+				"y": 4,
+				"z": 2,
+				"col": "$GAME_DATA/Objects/Collision/obj_industrial_windowglass03.obj"
+			},
+			"rotationSet": "PropYZmX",
+			"sticky": "+Y-Y+X-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 2,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "7a0e9041-9dd5-4cb1-b804-69ee16c45efe",
+			"name": "obj_industrial_windshieldlarge",
+			"legacyId": 436,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_nor.tga"
+								],
+								"material": "Glass"
+							},
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_windshieldlarge.mesh"
+					}
+				]
+			},
+			"color": "65caff",
+			"hull": {
+				"x": 6,
+				"y": 3,
+				"z": 6,
+				"col": "$GAME_DATA/Objects/Collision/obj_industrial_windshieldlarge.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 2,
+				"buoyancy": 3
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "50007ac9-e97d-4b32-9fd6-de919c8a34a4",
+			"name": "obj_industrial_windshield",
+			"legacyId": 437,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_nor.tga"
+								],
+								"material": "Glass"
+							},
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_dif.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_asg.tga",
+									"$GAME_DATA/Objects/Textures/industrial/obj_industrial_windshield_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_windshield.mesh"
+					}
+				]
+			},
+			"color": "65caff",
+			"hull": {
+				"x": 4,
+				"y": 2,
+				"z": 5,
+				"col": "$GAME_DATA/Objects/Collision/obj_industrial_windshield.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 2,
+				"buoyancy": 3
+			},
+			"flammable": false
+		}
+	]
+}
