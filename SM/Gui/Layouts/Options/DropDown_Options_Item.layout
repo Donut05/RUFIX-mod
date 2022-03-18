@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Button" skin="DropDownItem" name="Background" position_real="0 0 0.996403 1">
+        <Property key="FontName" value="Default" />
+        <Widget type="TextBox" skin="TextBox" name="Value" position_real="0.0505415 0 0.606498 1">
+            <Property key="Caption" value="123456 x 7890" />
+            <Property key="FontName" value="SM_ListItem" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="Additional" position_real="0.65704 0 0.296029 1">
+            <Property key="Caption" value="720 1080p 1440 4K" />
+            <Property key="FontName" value="SM_TextLabel" />
+            <Property key="TextAlign" value="Right VCenter" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

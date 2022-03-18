@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource">
+	<Resource type="ResourceLayout" name="InventoryItemBox2" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 55 55" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ItemBox"/>
+            <UserString key="DragLayer" value="DragAndDrop"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 55 55" align="Stretch" name="Client"/>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="InventoryVSlider" version="3.2.0">
+        <Widget type="Widget" skin="InventoryScrollBackground" position="0 0 56 125" name="Root">
+            <Property key="MoveToClick" value="true"/>
+            <Property key="VerticalAlignment" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 56 125" align="Stretch">
+                <Widget type="Button" skin="InventoryScrollTrack" position="0 56 56 84" align="HStretch Top" name="Track">
+					<UserString key="MinTrackSize" value="84"/>
+				</Widget>
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 56 25" align="HStretch Top" name="FirstPart"/>
+                <Widget type="Widget" skin="PanelEmpty" position="0 32 56 90" align="HStretch Top" name="SecondPart"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="InventoryHSlider" version="3.2.0">
+        <Widget type="Widget" skin="ScrollBackgroundHorizontal" position="0 0 125 56" name="Root">
+            <Property key="MoveToClick" value="true"/>
+            <Property key="VerticalAlignment" value="false"/>
+            <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 125 56" align="Stretch">
+                <Widget type="Button" skin="ScrollTrackHorizontal" position="56 0 84 56" align="Left VStretch" name="Track"/>
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 25 56" align="Left VStretch" name="FirstPart"/>
+                <Widget type="Widget" skin="PanelEmpty" position="32 0 90 56" align="Left VStretch" name="SecondPart"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="SM_ListBoxItem" version="3.2.0">
+        <Widget type="Widget" skin="DropDownItem" position="0 0 72 80" name="Root">
+            <Property key="FontName" value="InventoryPropertyText"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <UserString key="LE_TargetWidgetType" value="Button"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="SM_ListBox" version="3.2.0">
+        <Widget type="Widget" skin="SearchBarBackground" position="0 0 100 56" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ListBox"/>
+            <UserString key="HeightLine" value="80"/>
+            <UserString key="SkinLine" value="SM_ListBoxItem"/>
+            <Widget type="Widget" skin="PanelEmpty" position="2 20 44 16" align="Stretch" name="Client"/>
+            <Widget type="ScrollBar" skin="InventoryVSlider" position="44 0 56 56" align="Right VStretch" name="VScroll"/>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="CraftbotVSlider" version="3.2.0">
+        <Widget type="Widget" skin="InventoryScrollBackground" position="0 0 56 125" name="Root">
+            <Property key="MoveToClick" value="true"/>
+            <Property key="VerticalAlignment" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 56 125" align="Stretch">
+                <Widget type="Button" skin="CraftbotVerticalScrollTrack" position="0 56 56 84" align="HStretch Top" name="Track">
+					<UserString key="MinTrackSize" value="84"/>
+				</Widget>
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 56 25" align="HStretch Top" name="FirstPart"/>
+                <Widget type="Widget" skin="PanelEmpty" position="0 32 56 90" align="HStretch Top" name="SecondPart"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="InventoryVSliderSmall" version="3.2.0">
+        <Widget type="Widget" skin="InventoryScrollBackground" position="0 0 56 125" name="Root">
+            <Property key="MoveToClick" value="true"/>
+            <Property key="VerticalAlignment" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 56 125" align="Stretch">
+                <Widget type="Button" skin="InventoryScrollTrack" position="11 56 34 52" align="HStretch Top" name="Track">
+					<UserString key="MinTrackSize" value="52"/>
+				</Widget>
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 56 25" align="HStretch Top" name="FirstPart"/>
+                <Widget type="Widget" skin="PanelEmpty" position="0 32 56 90" align="HStretch Top" name="SecondPart"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="CraftbotProgressBar" version="3.2.0">
+        <Widget type="Widget" skin="CraftbotProgressBackground" position="0 0 28 20" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+            <UserString key="TrackFill" value="true"/>
+            <UserString key="TrackSkin" value="CraftbotProgressFill"/>
+            <UserString key="TrackWidth" value="24"/>
+            <Widget type="Widget" skin="PanelEmpty" position="2 2 24 16" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="HUDProgressBarGreen" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 30 60" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+            <UserString key="TrackFill" value="true"/>
+            <UserString key="TrackSkin" value="HudProgressBarHealth"/>
+            <UserString key="TrackWidth" value="30"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 30 60" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="HUDProgressBarYellow" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 22 20" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+            <UserString key="TrackFill" value="true"/>
+            <UserString key="TrackSkin" value="HudProgressBarFood"/>
+            <UserString key="TrackWidth" value="22"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 22 20" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="HUDProgressBarBlue" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 22 20" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+            <UserString key="TrackFill" value="true"/>
+            <UserString key="TrackSkin" value="HudProgressBarWater"/>
+            <UserString key="TrackWidth" value="22"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 22 20" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="HUDProgressBarRedLarge" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 30 60" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+            <UserString key="TrackFill" value="true"/>
+            <UserString key="TrackSkin" value="HudProgressBarDamageLarge"/>
+            <UserString key="TrackWidth" value="30"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 30 60" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="HUDProgressBarRedSmall" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 22 20" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+            <UserString key="TrackFill" value="true"/>
+            <UserString key="TrackSkin" value="HudProgressBarDamageSmall"/>
+            <UserString key="TrackWidth" value="22"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 22 20" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="HUDProgressBarLightBlue" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 30 38" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+            <UserString key="TrackFill" value="true"/>
+            <UserString key="TrackSkin" value="HudProgressBarBreath"/>
+            <UserString key="TrackWidth" value="30"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 30 38" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="DressbotProgressBar" version="3.2.0">
+        <Widget type="Widget" skin="DressbotProgressBackground" position="0 0 48 40" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+            <UserString key="TrackFill" value="true"/>
+            <UserString key="TrackSkin" value="DressbotProgress"/>
+            <UserString key="TrackWidth" value="32"/>
+            <Widget type="Widget" skin="PanelEmpty" position="4 4 40 32" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="LargeProgressBar" version="3.2.0">
+        <Widget type="Widget" skin="LoadingbarShadow" position="0 0 24 48" name="Root">
+        <Widget type="Widget" skin="LoadingbarBackground" align="Stretch" position="0 0 24 48">
+                <Property key="NeedKey" value="false"/>
+                <Property key="NeedMouse" value="false"/>
+        </Widget>
+            <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+            <UserString key="TrackFill" value="true"/>
+            <UserString key="TrackSkin" value="LoadingbarProgress"/>
+            <UserString key="TrackWidth" value="20"/>
+            <Widget type="Widget" skin="PanelEmpty" position="2 2 20 44" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    </MyGUI>

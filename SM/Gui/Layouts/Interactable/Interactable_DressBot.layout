@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundDressbot" align="Default" name="BackPanel" position_real="0 0 0.28125 0.722222">
+        <Property key="NeedKey" value="false" />
+        <Widget type="Button" skin="StyledButtonDressbot" name="MakeButton" position_real="0.344444 0.569231 0.311111 0.107692">
+            <Property key="Caption" value="#{DRESSBOT_MAKE}" />
+            <Property key="FontName" value="SM_Button" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.0673077 1 0.05">
+            <Property key="Caption" value="#{DRESSBOT_TITLE}" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextAlign" value="HCenter Top" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="SlotBackground" position_real="0.313889 0.2 0.369444 0.332692">
+            <Property key="ImageTexture" value="gui_background_dressbot_craftslot.png" />
+        </Widget>
+        <Widget type="Button" skin="DressbotArrowLeft" name="Left" position_real="0.0305556 0.842308 0.0555556 0.0461538" />
+        <Widget type="Button" skin="DressbotArrowRight" name="Right" position_real="0.919444 0.842308 0.0555556 0.0461538" />
+        <Widget type="ItemBox" skin="InventoryItemBox2" name="ProcessGrid" position_real="0.313889 0.2 0.369444 0.332692">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="true" />
+        </Widget>
+        <Widget type="ItemBox" skin="InventoryItemBox2" name="BoxGrid" position_real="0.105556 0.775 0.783333 0.203846">
+            <Property key="NeedKey" value="false" />
+            <Property key="VerticalAlignment" value="false" />
+        </Widget>
+        <Widget type="Button" skin="StyledButtonDressbotMake" name="CraftButton" position_real="0.344444 0.569231 0.311111 0.107692">
+            <Widget type="TextBox" skin="TextBox" position_real="0.0625 0.214286 0.866071 0.25">
+                <Property key="Caption" value="#{DRESSBOT_MAKE}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="MaterialCost" position_real="0.464286 0.553571 0.357143 0.214286">
+                <Property key="FontName" value="SM_NumberTiny" />
+                <Property key="TextAlign" value="Left VCenter" />
+                <Property key="Caption" value="00 / 00" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.258929 0.5 0.205357 0.285714">
+                <Property key="ImageTexture" value="gui_icon_cotton.png" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" name="Progress" position_real="0.313889 0.575 0.369444 0.0615385">
+            <Widget type="TextBox" skin="TextBox" name="ProgressTime" position_real="0 0 1 0.5625">
+                <Property key="Caption" value="#{DRESSBOT_TIME} 01234567:89" />
+                <Property key="FontName" value="SM_NumberSmall" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="ProgressBar" skin="DressbotProgressBar" name="ProgressBar" position_real="0 0.59375 1 0.40625">
+                <Property key="Range" value="101" />
+                <Property key="RangePosition" value="1" />
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="StyledButtonDressbotUnbox" name="UnboxButton" position_real="0.344444 0.569231 0.311111 0.107692">
+            <Property key="Caption" value="#{DRESSBOT_UNBOX}" />
+            <Property key="FontName" value="SM_Button" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="Button" skin="StyledButtonDressbotUnbox" name="CollectButton" position_real="0.344444 0.569231 0.311111 0.107692">
+            <Property key="Caption" value="#{DRESSBOT_PICK_UP}" />
+            <Property key="FontName" value="SM_Button" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="TimePreview" position_real="0.313889 0.676923 0.369444 0.0307692">
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="Caption" value="#{TIME}: 00:00" />
+            <Property key="TextAlign" value="Center" />
+            <Property key="TextColour" value="0.5 0.5 0.5" />
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" name="BoxCountPanel" position_real="0.0111111 0.732692 0.947222 0.0307692">
+            <Widget type="TextBox" skin="TextBox" name="PartOne" position_real="0 0 0.134897 1">
+                <Property key="Caption" value="#{DRESSBOT_BOX_COUNT_PART_1} " />
+                <Property key="FontName" value="SM_LabelSmall" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="BoxCount" position_real="0.319648 0 0.0469208 1">
+                <Property key="Caption" value="0" />
+                <Property key="TextAlign" value="Left VCenter" />
+                <Property key="FontName" value="SM_NumberSmall" />
+                <Property key="TextColour" value="1 0.815686 0.282353" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="PartTwo" position_real="0.44868 0 0.390029 1">
+                <Property key="Caption" value=" #{DRESSBOT_BOX_COUNT_PART_2}" />
+                <Property key="TextAlign" value="Left VCenter" />
+                <Property key="FontName" value="SM_LabelSmall" />
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="InstructionText" position_real="0 0.148077 1 0.0326923">
+            <Property key="Caption" value="#{DRESSBOT_INSTRUCTION}" />
+            <Property key="FontName" value="SM_TextSmall" />
+            <Property key="TextAlign" value="HCenter Top" />
+            <Property key="TextColour" value="0.5 0.5 0.5" />
+        </Widget>
+        <Widget type="EffectWidget" skin="DressbotEffectBackground" name="EffectBackground" position_real="0.258333 0.230769 0.480556 0.332692">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="EffectWidget" skin="DressbotRewardItem" name="NewItem" position_real="0.313889 0.269231 0.369444 0.255769" />
+        <Widget type="Widget" skin="PanelEmpty" name="RewardText" position_real="0 0.146154 1 0.0884615">
+            <Widget type="TextBox" skin="TextBox" position_real="0 0 1 0.347826">
+                <Property key="Caption" value="#{DRESSBOT_RECEIVE}" />
+                <Property key="TextAlign" value="HCenter Top" />
+                <Property key="TextColour" value="1 0.815686 0.27451" />
+                <Property key="FontName" value="SM_HeaderSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="ItemName" position_real="0 0.347826 1 0.652174">
+                <Property key="TextAlign" value="HCenter Top" />
+                <Property key="FontName" value="SM_ItemTitle" />
+                <Property key="Caption" value="An Item" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

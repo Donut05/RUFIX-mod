@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="BackPanel" position_real="0 0 0.615625 0.827778">
+        <Property key="NeedKey" value="false" />
+        <Property key="InheritsPick" value="true" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="Widget" skin="BackgroundContainerWater" position_real="0 0.161074 0.507614 0.323826">
+            <Widget type="TextBox" skin="TextBox" name="UpperName" position_real="0 0.0829016 1 0.419689">
+                <Property key="FontName" value="SM_HeaderLarge_Wide" />
+                <Property key="Caption" value="#{CONTAINER_TITLE_WATER}" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="UpperGrid" position_real="0.04 0.528497 0.925 0.38342">
+                <Property key="NeedKey" value="false" />
+            </Widget>
+            <Widget type="ScrollBar" skin="InventoryVSlider" name="UpperScroll" position_real="1.8975 0.259067 0.045 1.14508">
+                <Property key="Range" value="101" />
+                <Property key="RangePosition" value="0" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundLightRoundedLowerLeft" position_real="0 0.505034 1 0.493289">
+            <Widget type="TextBox" skin="TextBox" name="LowerName" position_real="0.0659898 0.0578231 0.422589 0.0680272">
+                <Property key="FontName" value="SM_HeaderLarge_Wide" />
+                <Property key="Caption" value="#{INVENTORY_BACKPACK}" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="LowerGrid" position_real="0.0203046 0.163265 0.939086 0.755102">
+                <Property key="NeedKey" value="false" />
+            </Widget>
+            <Widget type="ScrollBar" skin="InventoryVSlider" name="LowerScroll" position_real="0.963198 0.170068 0.0228426 0.751701">
+                <Property key="Range" value="101" />
+                <Property key="RangePosition" value="0" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.0253807 0.0578231 0.0279188 0.0680272">
+                <Property key="ImageTexture" value="gui_inventory_icon_backpack.png" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="PanelEmpty" name="HotbarPanel" position_real="0 0.880556 0.59375 0.119444" />
+    <CodeGeneratorSettings />
+</MyGUI>

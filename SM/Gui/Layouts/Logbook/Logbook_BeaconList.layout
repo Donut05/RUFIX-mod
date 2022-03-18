@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="BeaconPanel" position_real="0.342187 0.0861111 0.209375 0.727778">
+        <Widget type="ItemBox" skin="BeaconItemBox" name="BeaconItemBox" position_real="0.0895522 0.0458015 0.820896 0.908397">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedDragDrop" value="false" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

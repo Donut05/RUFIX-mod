@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" align="Default" layer="Back" name="MainPanel" position_real="0 0 1 1">
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1">
+            <Property key="ImageTexture" value="5_tutorial_1_2.jpg" />
+            <Widget type="Widget" skin="PanelEmpty" name="PageToggle" position_real="0.886207 0.932927 0.103448 0.0609756">
+                <Widget type="Button" skin="LeftArrow" name="Prev" position_real="0 0 0.233333 1" />
+                <Widget type="Button" skin="RightArrow" name="Next" position_real="0.766667 0 0.233333 1" />
+                <Widget type="TextBox" skin="TextBox" name="Tracker" position_real="0.233333 0 0.533333 1">
+                    <Property key="Caption" value="5/5" />
+                    <Property key="FontName" value="HandbookPageCount" />
+                    <Property key="TextAlign" value="Center" />
+                </Widget>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.210345 0.0426829 0.786207 0.109756">
+                <Property key="FontName" value="HandbookTitle" />
+                <Property key="Caption" value="#{HANDBOOK_HOW_TO_BUILD_A_VEHICLE_TITLE}" />
+                <Property key="TextAlign" value="Default" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.213793 0.158537 0.782759 0.0365854">
+                <Property key="Caption" value="#{HANDBOOK_HOW_TO_BUILD_A_VEHICLE_PAGE1_SUBTITLE1}" />
+                <Property key="FontName" value="HandbookSubTitle" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.213793 0.195122 0.782759 0.0365854">
+                <Property key="Caption" value="#{HANDBOOK_HOW_TO_BUILD_A_VEHICLE_PAGE1_SUBTITLE2}" />
+                <Property key="FontName" value="HandbookSubTitle" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.213793 0.231707 0.782759 0.0365854">
+                <Property key="FontName" value="HandbookSubTitle" />
+                <Property key="Caption" value="#{HANDBOOK_HOW_TO_BUILD_A_VEHICLE_PAGE1_SUBTITLE3}" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" position_real="0.534483 0.532927 0.148276 0.0609756">
+                <Property key="Caption" value="#{HANDBOOK_ARROW_KEYS}" />
+                <Property key="FontName" value="HandbookInstructionSmall" />
+                <Property key="TextAlign" value="Left Top" />
+                <Property key="Static" value="true" />
+                <Property key="WordWrap" value="true" />
+                <UserString key="FontName" value="HandbookInstructionSmall" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" position_real="0.348276 0.623171 0.144828 0.0609756">
+                <Property key="Caption" value="#{HANDBOOK_HOLD_AND_DRAG}" />
+                <Property key="FontName" value="HandbookInstructionSmall" />
+                <Property key="TextAlign" value="Left Top" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <UserString key="FontName" value="HandbookInstructionSmall" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" position_real="0.517241 0.623171 0.144828 0.0609756">
+                <Property key="FontName" value="HandbookInstructionSmall" />
+                <Property key="Caption" value="#{HANDBOOK_HOLD_AND_DRAG}" />
+                <Property key="TextAlign" value="Left Top" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <UserString key="FontName" value="HandbookInstructionSmall" />
+            </Widget>
+        </Widget>
+    </Widget>
+</MyGUI>

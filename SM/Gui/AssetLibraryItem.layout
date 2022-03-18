@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="MainPanel" position="0 0 98 98">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+		<Property key="NeedToolTip" value="true" />
+		<UserString key="Dragable" value="Yes" />
+		<Widget type="ImageBox" skin="ImageBox" name="ItemIcon" position="2 2 94 94">
+			<Property key="NeedKey" value="false" />
+			<Property key="NeedToolTip" value="true" />
+        </Widget>
+    </Widget>
+</MyGUI>

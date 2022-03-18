@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceTrueTypeFont" name="Debug_ButtonCaption">
+		<Property key="Source" value="Futura.otf"/>
+		<Property key="Size" value="20"/> <!-- 34 px -->
+	</Resource>
+	<Resource type="ResourceTrueTypeFont" name="Debug_ButtonCaptionSmall">
+		<Property key="Source" value="Futura.otf"/>
+		<Property key="Size" value="12"/> <!-- 20 px -->
+	</Resource>
+	<Resource type="ResourceTrueTypeFont" name="Debug_SliderText">
+		<Property key="Source" value="Futura.otf"/>
+		<Property key="Size" value="13"/> <!-- 21 px -->
+	</Resource>
+	<Resource type="ResourceTrueTypeFont" name="Chat">
+		<Property key="Source" value="DejaVuSans.ttf"/>
+		<Property key="Size" value="11"/> <!-- 18 px -->
+	</Resource>
+</MyGUI>

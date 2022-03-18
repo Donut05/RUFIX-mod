@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="SMWindowC" position="205 20 955 520" layer="Overlapped" name="LoadWindow">
+        <Property key="Caption" value="Load Tile"/>
+        <Property key="NeedKey" value="true"/>
+        <Property key="NeedMouse" value="true"/>
+        <Widget type="ListBox" skin="SMListBox" position="5 5 690 475" name="LoadList"/>
+        <Widget type="Button" skin="SMSmallButton" position="710 240 225 30" name="FilterShowExport">
+            <Property key="Caption" value="Show Exports"/>
+        </Widget>
+        <Widget type="Button" skin="SMSmallButton" position="710 275 225 30" name="FilterChallengeTilesButton">
+            <Property key="Caption" value="Challenge Tiles"/>
+        </Widget>
+        <Widget type="Button" skin="SMSmallButton" position="710 310 225 30" name="FilterSurvivalTilesButton">
+            <Property key="Caption" value="Survival Tiles"/>
+        </Widget>
+        <Widget type="Button" skin="SMSmallButton" position="710 345 225 30" name="FilterCreativeTilesButton">
+            <Property key="Caption" value="Creative Tiles"/>
+        </Widget>
+        <Widget type="Button" skin="SMSmallButton" position="710 380 225 30" name="FilterUserTilesButton">
+            <Property key="Caption" value="User Tiles"/>
+        </Widget>
+        <Widget type="Button" skin="SMSmallButton" position="710 435 65 40" name="LoadButton">
+            <Property key="Caption" value="Load"/>
+        </Widget>
+        <Widget type="Button" skin="SMSmallButton" position="790 435 65 40" name="LoadDeleteButton">
+            <Property key="Caption" value="Delete"/>
+        </Widget>
+        <Widget type="Button" skin="SMSmallButton" position="870 435 65 40" name="LoadCancelButton">
+            <Property key="Caption" value="Cancel"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position="710 15 220 150" name="LoadImage"/>
+        <Widget type="TextBox" skin="TextBox" position="710 175 220 65" name="UserField"/>
+    </Widget>
+    <Widget type="Window" skin="SMWindowC" position="405 20 555 520" layer="Overlapped" name="ShareWindow">
+        <Property key="Caption" value="Share Tile"/>
+        <Widget type="ListBox" skin="SMListBox" position="5 5 290 475" name="ShareList"/>
+        <Widget type="Button" skin="SMSmallButton" position="370 375 110 40" name="ShareButton">
+            <Property key="Caption" value="Share"/>
+        </Widget>
+        <Widget type="Button" skin="SMSmallButton" position="370 430 110 40" name="ShareCancelButton">
+            <Property key="Caption" value="Cancel"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position="310 15 220 150" name="ShareImage"/>
+        <Widget type="TextBox" skin="TextBox" position="310 175 220 65" name="UserField"/>
+    </Widget>
+    <Widget type="Window" skin="SMWindowC" position="405 20 280 260" layer="Overlapped" name="NewWindow">
+        <Property key="Caption" value="New Tile"/>
+        <Widget type="ListBox" skin="SMListBox" position="5 25 135 195" name="SizeList">
+            <Property key="AddItem" value="Small"/>
+            <Property key="AddItem" value="Medium"/>
+            <Property key="AddItem" value="Large"/>
+            <Property key="AddItem" value="Extra Large"/>
+        </Widget>
+        <Widget type="Button" skin="SMSmallButton" position="155 180 110 40" name="CreateCancelButton">
+            <Property key="Caption" value="Cancel"/>
+        </Widget>
+        <Widget type="Button" skin="SMSmallButton" position="155 125 110 40" name="CreateButton">
+            <Property key="Caption" value="Create"/>
+        </Widget>
+        <Widget type="TextBox" skin="SMTextBox_NoBackground" position="150 5 45 20">
+            <Property key="Caption" value="Type:"/>
+            <Property key="Visible" value="false"/>
+        </Widget>
+        <Widget type="ListBox" skin="SMListBox" position="150 25 105 70" name="TypeList">
+            <Property key="AddItem" value="Terrain"/>
+            <Property key="AddItem" value="Dungeon"/>
+            <Property key="Visible" value="false"/>
+        </Widget>
+        <Widget type="TextBox" skin="SMTextBox_NoBackground" position="5 5 45 20">
+            <Property key="Caption" value="Size:"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowC" position="405 20 362 186" layer="Overlapped" name="SaveWindow">
+        <Property key="Caption" value="Save Tile"/>
+        <Widget type="TextBox" skin="SMTextBox_NoBackground" position="20 20 316 23" name="SaveText">
+            <Property key="Caption" value="Save As:"/>
+        </Widget>
+        <Widget type="Button" skin="SMSmallButton" position="20 95 110 40" name="SaveOkButton">
+            <Property key="Caption" value="Ok"/>
+        </Widget>
+        <Widget type="Button" skin="SMSmallButton" position="225 95 110 40" name="SaveCancelButton">
+            <Property key="Caption" value="Cancel"/>
+        </Widget>
+        <Widget type="EditBox" skin="SMEditBox" position="20 45 315 30" name="SaveAsText">
+            <Property key="Colour" value="1 1 1"/>
+            <Property key="TextColour" value="0 0 0"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowCSX" position="405 20 555 685" layer="Overlapped" name="ImportCreationWindow">
+        <Property key="Caption" value="Import Creation"/>
+        <Property key="NeedKey" value="true"/>
+        <Property key="NeedMouse" value="true"/>
+        <Widget type="ListBox" skin="SMListBox" position="5 5 540 640" name="CreationList"/>
+    </Widget>
+
+    <Widget type="Window" skin="SMWindowCSX" position="165 175 740 795" layer="Overlapped" name="HelpWindow">
+      <Property key="Visible" value="true"/>
+      <Property key="Caption" value="Help" />
+      <Property key="MinSize" value="735 790"/>
+      <Widget type="TabControl" skin="SMTabControl" position="0 5 735 790">
+	<Widget type="TabItem" skin="PanelEmpty" position="2 24 733 766">
+          <Property key="Caption" value="Camera"/>
+          <Widget type="HyperTextBox" skin="TileEditorHyperTextBox" name="CameraHelpText" position="5 5 733 766" />
+	</Widget>
+	<Widget type="TabItem" skin="PanelEmpty" position="2 24 733 766">
+          <Property key="Caption" value="Brushes"/>
+          <Widget type="HyperTextBox" skin="TileEditorHyperTextBox" name="BrushesHelpText" position="5 5 733 766" />
+	</Widget>
+	<Widget type="TabItem" skin="PanelEmpty" position="2 24 733 766">
+          <Property key="Caption" value="Tools"/>
+          <Widget type="HyperTextBox" skin="TileEditorHyperTextBox" name="ToolHelpText" position="5 5 733 766" />
+	</Widget>
+	<Widget type="TabItem" skin="PanelEmpty" position="2 24 733 766">
+          <Property key="Caption" value="Assets"/>
+          <Widget type="HyperTextBox" skin="TileEditorHyperTextBox" name="AssetsHelpText" position="5 5 733 766" />
+	</Widget>
+	<Widget type="TabItem" skin="PanelEmpty" position="2 24 733 766">
+          <Property key="Caption" value="Terrain Height"/>
+          <Widget type="HyperTextBox" skin="TileEditorHyperTextBox" name="TerrainHeightHelpText" position="5 5 733 766" />
+	</Widget>
+	<Widget type="TabItem" skin="PanelEmpty" position="2 24 733 766">
+          <Property key="Caption" value="Ground Texture"/>
+	  <Widget type="HyperTextBox" skin="TileEditorHyperTextBox" name="GroundTextureHelpText" position="5 5 733 766" />
+	</Widget>
+	<Widget type="TabItem" skin="PanelEmpty" position="2 24 733 766">
+          <Property key="Caption" value="Ground Color"/>
+	  <Widget type="HyperTextBox" skin="TileEditorHyperTextBox" name="GroundColorHelpText" position="5 5 733 766" />
+	</Widget>
+	<Widget type="TabItem" skin="PanelEmpty" position="2 24 733 766">
+          <Property key="Caption" value="Grass and Clutter"/>
+	  <Widget type="HyperTextBox" skin="TileEditorHyperTextBox" name="GrassClutterHelpText" position="5 5 733 766" />
+	</Widget>
+      </Widget>
+    </Widget>
+    
+</MyGUI>

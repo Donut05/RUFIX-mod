@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundPromptWide" name="BackPanel" position_real="0 0 0.375 0.469444">
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="EditBox" skin="EditBoxEmpty" name="Message" position_real="0.125 0.508876 0.75 0.0532544">
+            <Property key="FontName" value="SM_TextTiny" />
+            <Property key="Caption" value="TEXT FIELD" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="MultiLine" value="true" />
+            <Property key="WordWrap" value="true" />
+            <Property key="Static" value="true" />
+            <Property key="TextColour" value="0.564706 0.572549 0.572549" />
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" name="Button" position_real="0.395833 0.656805 0.208333 0.100592">
+            <Property key="Caption" value="#{MENU_YN_OK}" />
+            <Property key="FontName" value="SM_Button" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="Title" position_real="0.0833333 0.366864 0.833333 0.0887574">
+            <Property key="FontName" value="SM_HeaderLarge_Medium" />
+            <Property key="Caption" value="TITLE" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.466667 0.195266 0.0708333 0.100592">
+            <Property key="ImageTexture" value="gui_icon_popup_alert.png" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

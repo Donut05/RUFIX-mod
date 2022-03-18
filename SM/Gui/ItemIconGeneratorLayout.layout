@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="InventoryBackground" align="Left Top" name="MainPanel" position_real="0.000390625 0.000694444 1.00039 1.00069">
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="ProgressBar" skin="SMLoadingBar" name="LoadingBar" position_real="0.0785156 0.417361 0.844141 0.167361" />
+    </Widget>
+</MyGUI>

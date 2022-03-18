@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" align="Center" layer="Back" name="MainPanel" position_real="0 0 1 1">
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1">
+            <Property key="ImageTexture" value="17_common_questions.jpg" />
+            <Widget type="Widget" skin="PanelEmpty" name="PageToggle" position_real="0.886207 0.932927 0.103448 0.0609756">
+                <Widget type="Button" skin="LeftArrow" name="Prev" position_real="0 0 0.233333 1" />
+                <Widget type="Button" skin="RightArrow" name="Next" position_real="0.766667 0 0.233333 1" />
+                <Widget type="TextBox" skin="TextBox" name="Tracker" position_real="0.233333 0 0.533333 1">
+                    <Property key="Caption" value="5/5" />
+                    <Property key="FontName" value="HandbookPageCount" />
+                    <Property key="TextAlign" value="Center" />
+                </Widget>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.210345 0.0426829 0.786207 0.109756">
+                <Property key="FontName" value="HandbookTitle" />
+                <Property key="Caption" value="#{HANDBOOK_FAQ_TITLE}" />
+                <Property key="TextAlign" value="Default" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.213793 0.158537 0.782759 0.0365854">
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_SUBTITLE1}" />
+                <Property key="FontName" value="HandbookSubTitle" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.213793 0.195122 0.782759 0.0365854">
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_SUBTITLE2}" />
+                <Property key="FontName" value="HandbookSubTitle" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" position_real="0.0234483 0.295122 0.456552 0.0670732">
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_CREATION_FELL_OVER}" />
+                <Property key="FontName" value="HandbookFAQQuestion" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <UserString key="FontName" value="HandbookFAQQuestion" />
+            </Widget>
+            <Widget type="EditBox" skin="WordWrapEmpty" position_real="0.0234483 0.371951 0.456552 0.187805">
+                <Property key="Static" value="true" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_CREATION_FELL_OVER_ANSWER}" />
+                <Property key="FontName" value="HandbookFAQAnswer" />
+                <UserString key="FontName" value="HandbookFAQAnswer" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" position_real="0.0234483 0.590244 0.456552 0.0670732">
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_FINDING_THE_INVENTORY}" />
+                <Property key="FontName" value="HandbookFAQQuestion" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <UserString key="FontName" value="HandbookFAQQuestion" />
+            </Widget>
+            <Widget type="EditBox" skin="WordWrapEmpty" position_real="0.0234483 0.668293 0.446897 0.130488">
+                <Property key="Static" value="true" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_FINDING_THE_INVENTORY_ANSWER}" />
+                <Property key="FontName" value="HandbookFAQAnswer" />
+                <UserString key="FontName" value="HandbookFAQAnswer" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.0234483 0.813415 0.456552 0.0670732">
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_ROTATE_PARTS}" />
+                <Property key="FontName" value="HandbookFAQQuestion" />
+            </Widget>
+            <Widget type="EditBox" skin="WordWrapEmpty" position_real="0.0234483 0.890244 0.448966 0.0731707">
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_ROTATE_PARTS_ANSWER}" />
+                <Property key="FontName" value="HandbookFAQAnswer" />
+                <UserString key="FontName" value="HandbookFAQAnswer" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" position_real="0.522759 0.295122 0.456552 0.0670732">
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_PARTS_PLACE_OR_REMOVE}" />
+                <Property key="FontName" value="HandbookFAQQuestion" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <UserString key="FontName" value="HandbookFAQQuestion" />
+            </Widget>
+            <Widget type="EditBox" skin="WordWrapEmpty" position_real="0.522759 0.371951 0.456552 0.0695122">
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_PARTS_PLACE_ANSWER}" />
+                <Property key="Static" value="true" />
+                <Property key="WordWrap" value="true" />
+                <Property key="FontName" value="HandbookFAQAnswer" />
+                <UserString key="FontName" value="HandbookFAQAnswer" />
+            </Widget>
+            <Widget type="EditBox" skin="WordWrapEmpty" position_real="0.522759 0.443902 0.456552 0.0695122">
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_PARTS_REMOVE_ANSWER}" />
+                <Property key="FontName" value="HandbookFAQAnswer" />
+                <UserString key="FontName" value="HandbookFAQAnswer" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" position_real="0.522759 0.55 0.456552 0.0670732">
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_REMOVE_CONNECTIONS}" />
+                <Property key="FontName" value="HandbookFAQQuestion" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <UserString key="FontName" value="HandbookFAQQuestion" />
+            </Widget>
+            <Widget type="EditBox" skin="WordWrapEmpty" position_real="0.522759 0.626829 0.456552 0.0804878">
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_REMOVE_CONNECTIONS_ANSWER}" />
+                <Property key="FontName" value="HandbookFAQAnswer" />
+                <Property key="Static" value="true" />
+                <Property key="WordWrap" value="true" />
+                <UserString key="FontName" value="HandbookFAQAnswer" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" position_real="0.522759 0.735366 0.456552 0.0670732">
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_CAMERA_ANGLE}" />
+                <Property key="FontName" value="HandbookFAQQuestion" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <UserString key="FontName" value="HandbookFAQQuestion" />
+            </Widget>
+            <Widget type="EditBox" skin="WordWrapEmpty" position_real="0.522069 0.812195 0.456552 0.0731707">
+                <Property key="Caption" value="#{HANDBOOK_FAQ_PAGE1_CAMERA_ANGLE_ANSWER}" />
+                <Property key="FontName" value="HandbookFAQAnswer" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <UserString key="FontName" value="HandbookFAQAnswer" />
+            </Widget>
+        </Widget>
+    </Widget>
+</MyGUI>

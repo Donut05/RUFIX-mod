@@ -1,0 +1,109 @@
+<MyGUI type="Resource" version="1.1">
+    <Resource type="ResourceImageSet" name="InventoryIcons">
+		<Group name="Frame" texture="Hotbar_98x98.png" size="98 98">
+			<Index name="Normal">
+                <Frame point="0 0"/>
+            </Index>
+            <Index name="Selected">
+                <Frame point="98 0"/>
+            </Index>
+		</Group>
+		<Group name="Type" texture="Small_type_indicator.png" size="80 3">
+			<Index name="Normal">
+				<Frame point="0 0"/>
+			</Index>
+			<Index name="Mechanic">
+				<Frame point="0 3"/>
+			</Index>
+			<Index name="Controller">
+				<Frame point="0 6"/>
+			</Index>
+		</Group>
+		<Group name="LargeType" texture="Large_type_indicator.png" size="241 8">
+			<Index name="Normal">
+				<Frame point="0 0"/>
+			</Index>
+			<Index name="Mechanic">
+				<Frame point="0 8"/>
+			</Index>
+			<Index name="Controller">
+				<Frame point="0 16"/>
+			</Index>
+			<Index name="None">
+				<Frame point="0 24"/>
+			</Index>
+		</Group>
+		<Group name="Captions" texture="Caption_Backpack.png" size="220 33">
+			<Index name="Backpack">
+				<Frame point="0 0"/>
+			</Index>
+		</Group>
+		<Group name="InteractionIcons" texture="InteractionIcons.png" size="40 40">
+			<Index name="None">
+				<Frame point="0 0"/>
+			</Index>
+			<Index name="Hit">
+				<Frame point="40 0"/>
+			</Index>
+			<Index name="PlaceLift">
+				<Frame point="80 0"/>
+			</Index>
+			<Index name="Open">
+				<Frame point="120 0"/>
+			</Index>
+			<Index name="PlaceOnLift">
+				<Frame point="160 0"/>
+			</Index>
+			<Index name="Sit">
+				<Frame point="200 0"/>
+			</Index>
+			<Index name="Steer">
+				<Frame point="240 0"/>
+			</Index>
+			<Index name="Use">
+				<Frame point="280 0"/>
+			</Index>
+		</Group>
+		<Group name="TruthTable" texture="TruthTable.png" size="92 87">
+			<Index name="FFF">
+				<Frame point="0 0"/>
+			</Index>
+			<Index name="FFT">
+				<Frame point="92 0"/>
+			</Index>
+			<Index name="TFF">
+				<Frame point="184 0"/>
+			</Index>
+			<Index name="TFT">
+				<Frame point="276 0"/>
+			</Index>
+			<Index name="TTF">
+				<Frame point="368 0"/>
+			</Index>
+			<Index name="TTT">
+				<Frame point="460 0"/>
+			</Index>
+		</Group>
+    </Resource>
+	<Resource type="ResourceImageSet" name="HandCursorImage">
+		<Group name="Pointer" texture="BlackCursors.png" size="32 32">
+			<Index name="Pointer">
+				<Frame point="0 0"/>
+			</Index>
+		</Group>
+	</Resource>
+	<Resource type="ResourceImageSet" name="GrabCursorImage">
+		<Group name="Pointer" texture="BlackCursors.png" size="32 32">
+			<Index name="Pointer">
+				<Frame point="32 0"/>
+			</Index>
+		</Group>
+	</Resource>
+	<Resource type="ResourceImageSet" name="PointCursorImage">
+		<Group name="Pointer" texture="BlackCursors.png" size="32 32">
+			<Index name="Pointer">
+				<Frame point="64 0"/>
+			</Index>
+		</Group>
+	</Resource>
+</MyGUI>

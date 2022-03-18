@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundEngine" name="MainPanelUpgrade" position_real="0 0 0.260156 0.583333">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="true" />
+        <Property key="InheritsAlpha" value="false" />
+        <Property key="Visible" value="false" />
+        <Widget type="Button" skin="UpgradeButton" name="Upgrade" position_real="0.663664 0.838095 0.27027 0.109524">
+            <Property key="FontName" value="Default" />
+            <Widget type="TextBox" skin="TextBox" position_real="0.111111 0.195652 0.777778 0.26087">
+                <Property key="Caption" value="#{CONTROLLER_UPGRADE}" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_ButtonTiny" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="UpgradeCost" position_real="0.444444 0.456522 0.444444 0.26087">
+                <Property key="FontName" value="SM_NumberMini" />
+                <Property key="TextAlign" value="Left VCenter" />
+                <Property key="Caption" value="00 / 00" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.277778 0.456522 0.144444 0.282609">
+                <Property key="ImageTexture" value="gui_icon_components.png" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="Name" position_real="0.0990991 0.0809524 0.798799 0.0619048">
+            <Property key="Caption" value="#{CONTROLLER_DRIVER_SEAT_TITLE}" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.378378 0.219048 0.24024 0.190476" />
+        <Widget type="ImageBox" skin="ImageBox" name="UpgradeIcon" position_real="0.0690691 0.82381 0.159159 0.12619">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.622642 0.490566 0.377358 0.509434">
+                <Property key="ImageTexture" value="gui_icon_upgrade.png" />
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="SubTitle" position_real="0.0990991 0.145238 0.798799 0.047619">
+            <Property key="TextAlign" value="Center" />
+            <Property key="TextColour" value="1 0.803922 0.247059" />
+            <Property key="FontName" value="SM_SubHeader" />
+            <Property key="Caption" value="#{LEVEL} 12345" />
+        </Widget>
+        <Widget type="EditBox" skin="EditBoxEmpty" name="UpgradeInfo" position_real="0.297297 0.797619 0.36036 0.190476">
+            <Property key="Caption" value="Level 5/5" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="WordWrap" value="true" />
+            <Property key="Static" value="true" />
+            <Property key="ReadOnly" value="true" />
+            <Property key="MultiLine" value="true" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Level" position_real="0.288288 0.409524 0.42042 0.333333">
+            <Widget type="TextBox" skin="TextBox" name="Lvl1" position_real="0.214286 0.0714286 0.185714 0.185714">
+                <Property key="Caption" value="1" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_NumberSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="Lvl2" position_real="0.592857 0.0714286 0.185714 0.185714">
+                <Property key="Caption" value="2" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_NumberSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="Lvl3" position_real="0.757143 0.442857 0.185714 0.185714">
+                <Property key="Caption" value="3" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_NumberSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="Lvl4" position_real="0.4 0.735714 0.185714 0.185714">
+                <Property key="Caption" value="4" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_NumberSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="Lvl5" position_real="0.05 0.442857 0.185714 0.185714">
+                <Property key="Caption" value="5" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_NumberSmall" />
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="SettingsText" position_real="0.0900901 0.557143 0.198198 0.0619048">
+            <Property key="Caption" value="#{CONTROLLER_DRIVER_SEAT_SETTINGS}" />
+            <Property key="TextAlign" value="Right VCenter" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextColour" value="0.592157 0.592157 0.592157" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="BackgroundEngineNoUpgrade" name="MainPanelNoUpgrade" position_real="0.265625 0 0.260156 0.461111">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="true" />
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="TextBox" skin="TextBox" name="Name" position_real="0.0990991 0.10241 0.798799 0.0783133">
+            <Property key="Caption" value="#{CONTROLLER_DRIVER_SEAT_TITLE}" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.378378 0.277108 0.24024 0.240964" />
+        <Widget type="TextBox" skin="TextBox" name="SubTitle" position_real="0.0990991 0.183735 0.798799 0.060241">
+            <Property key="TextAlign" value="Center" />
+            <Property key="TextColour" value="1 0.803922 0.247059" />
+            <Property key="FontName" value="SM_SubHeader" />
+            <Property key="Caption" value="#{LEVEL} 12345" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Level" position_real="0.288288 0.518072 0.42042 0.421687">
+            <Widget type="TextBox" skin="TextBox" name="Lvl1" position_real="0.214286 0.0714286 0.185714 0.185714">
+                <Property key="Caption" value="1" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_NumberSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="Lvl2" position_real="0.592857 0.0714286 0.185714 0.185714">
+                <Property key="Caption" value="2" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_NumberSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="Lvl3" position_real="0.757143 0.442857 0.185714 0.185714">
+                <Property key="Caption" value="3" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_NumberSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="Lvl4" position_real="0.4 0.735714 0.185714 0.185714">
+                <Property key="Caption" value="4" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_NumberSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="Lvl5" position_real="0.05 0.442857 0.185714 0.185714">
+                <Property key="Caption" value="5" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_NumberSmall" />
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="SettingsText" position_real="0.0900901 0.704819 0.198198 0.0783133">
+            <Property key="Caption" value="#{CONTROLLER_DRIVER_SEAT_SETTINGS}" />
+            <Property key="TextAlign" value="Right VCenter" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextColour" value="1 1 1" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

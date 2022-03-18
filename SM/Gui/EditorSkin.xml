@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+    <Resource type="ResourceSkin" name="SMResizeLeft" size="14 15" texture="EditorSkin.png">
+        <BasisSkin type="SubSkin" offset="0 0 14 15" align="Stretch">
+            <State name="disabled" offset="0 0 14 15"/>
+            <State name="normal" offset="0 0 14 15"/>
+            <State name="highlighted" offset="0 15 14 15"/>
+            <State name="pushed" offset="0 15 14 15"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="SMResizeRight" size="14 15" texture="EditorSkin.png">
+        <BasisSkin type="SubSkin" offset="0 0 14 15" align="Stretch">
+            <State name="disabled" offset="14 0 14 15"/>
+            <State name="normal" offset="14 0 14 15"/>
+            <State name="highlighted" offset="14 15 14 15"/>
+            <State name="pushed" offset="14 15 14 15"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="SMDownArrow" size="20 14" texture="EditorSkin.png">
+        <BasisSkin type="SubSkin" offset="0 0 20 14" align="Stretch">
+            <State name="disabled" offset="28 0 20 14"/>
+            <State name="normal" offset="28 0 20 14"/>
+            <State name="highlighted" offset="28 15 20 14"/>
+            <State name="pushed" offset="28 15 20 14"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="SMMenuItemSkin" size="24 18" texture="EditorSkin.png">
+        <BasisSkin type="SubSkin" offset="0 0 24 18" align="Stretch">
+            <State name="disabled" offset="49 18 24 18"/>
+            <State name="normal" offset="49 18 24 18"/>
+            <State name="highlighted" offset="30 42 24 18"/>
+            <State name="pushed" offset="1 41 24 18"/>
+            <State name="disabled_checked" offset="49 18 24 18"/>
+            <State name="normal_checked" offset="1 41 24 18"/>
+            <State name="highlighted_checked" offset="30 42 24 18"/>
+            <State name="pushed_checked" offset="1 41 24 18"/>
+        </BasisSkin>
+        <BasisSkin type="SimpleText" offset="8 1 7 16" align="Stretch">
+            <State name="disabled" colour="0.5 0.5 0.5" shift="0"/>
+            <State name="normal" colour="1 1 1" shift="0"/>
+            <State name="highlighted" colour="1 0.66 0.15" shift="0"/>
+            <State name="pushed" colour="0 0 0" shift="0"/>
+            <State name="disabled_checked" colour="0.5 0.5 0.5" shift="0"/>
+            <State name="normal_checked" colour="0 0 0" shift="0"/>
+            <State name="highlighted_checked" colour="0 0 0" shift="0"/>
+            <State name="pushed_checked" colour="0 0 0" shift="0"/>
+        </BasisSkin>
+    </Resource>
+
+    <Resource type="ResourceSkin" name="TextureBox" size="64 64" texture="EditorSkin.png">
+		<BasisSkin type="TextureSubSkin" offset="0 0 64 64" align="Stretch">
+            <State name="normal" offset="0 0 64 64"/>
+        </BasisSkin>
+    </Resource>
+    
+</MyGUI>

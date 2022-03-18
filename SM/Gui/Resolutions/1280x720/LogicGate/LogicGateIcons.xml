@@ -1,0 +1,24 @@
+<MyGUI type="Resource" version="1.1">
+    <Resource type="ResourceImageSet" name="LogicGateIcons">
+        <Group name="LogicGateIcons" texture="LogicGateIcons@720.png" size="46 36">
+            <Index name="and">
+                <Frame point="2 0"/>
+            </Index>
+            <Index name="or">
+                <Frame point="46 0"/>
+            </Index>
+            <Index name="xor">
+                <Frame point="92 0"/>
+            </Index>
+            <Index name="nand">
+                <Frame point="138 0"/>
+            </Index>
+            <Index name="nor">
+                <Frame point="184 0"/>
+            </Index>
+            <Index name="xnor">
+                <Frame point="230 0"/>
+            </Index>
+        </Group>
+    </Resource>
+</MyGUI>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="MainPanel" position_real="0.000766871 0.000998004 1.00077 1.00699">
+        <Property key="NeedMouse" value="true" />
+        <Property key="NeedKey" value="false" />
+        <Widget type="EditBox" skin="EditBoxEmpty" name="Text" position_real="0.00383436 0.000992063 0.997699 0.99504">
+            <Property key="FontName" value="Debug_ButtonCaptionSmall" />
+            <Property key="NeedKey" value="false" />
+            <Property key="TextAlign" value="Left Top" />
+            <Property key="MultiLine" value="true" />
+            <Property key="Static" value="true" />
+            <Property key="ReadOnly" value="true" />
+            <UserString key="FontName" value="Debug_ButtonCaptionSmall" />
+            <Widget type="Button" skin="GenericButton" name="Lock" position_real="0.93 0.00299401 0.07 0.0608782">
+                <Property key="Caption" value="Lock" />
+                <Property key="FontName" value="Debug_ButtonCaptionSmall" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="NeedKey" value="false" />
+            </Widget>
+        </Widget>
+    </Widget>
+</MyGUI>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" align="Default" name="BackPanel" position_real="0 0 0.4375 0.809722">
+        <Property key="NeedKey" value="false" />
+        <Widget type="Widget" skin="BackgroundCookbot" position_real="0 0 0.617857 0.794168">
+            <Property key="NeedKey" value="false" />
+            <Widget type="ScrollBar" skin="CraftbotVSlider" name="Slider" position_real="2.30058 0.440605 0.0520231 0.563715">
+                <Property key="Range" value="100" />
+                <Property key="RangePosition" value="5" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0 0.306695 1 0.0453564">
+                <Property key="Caption" value="#{COOKBOT_TITLE}" />
+                <Property key="FontName" value="SM_HeaderLarge_Wide" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="ButtonRevivalBaguette" name="Revival" position_real="0.0491329 0.678186 0.901734 0.285097">
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="Caption" value="#{COOKBOT_REVIVAL}" />
+            </Widget>
+            <Widget type="Button" skin="ButtonPizzaBurger" name="Pizza" position_real="0.0491329 0.401728 0.447977 0.269978">
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="Caption" value="#{COOKBOT_PIZZA}" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="ButtonVeggieBurger" name="Veggie" position_real="0.50289 0.401728 0.447977 0.269978">
+                <Property key="Caption" value="#{COOKBOT_VEGGIE}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundCraftbotTooltip" name="SideMainPanel" position_real="0.642857 0.0445969 0.357143 0.953688">
+            <Widget type="Canvas" skin="Canvas" name="Preview" position_real="0 0 1 0.251799" />
+            <Widget type="EditBox" skin="EditBoxEmpty" name="ItemName" position_real="0.065 0.228417 0.865 0.0683453">
+                <Property key="Caption" value="This is a very long title on two rows" />
+                <Property key="FontName" value="SM_ItemTitle" />
+                <Property key="WordWrap" value="true" />
+                <Property key="ReadOnly" value="true" />
+                <Property key="Static" value="true" />
+                <Property key="TextAlign" value="Left Bottom" />
+            </Widget>
+            <Widget type="EditBox" skin="EditBoxEmpty" name="ItemDescription" position_real="0.065 0.370504 0.815 0.352518">
+                <Property key="Static" value="true" />
+                <Property key="ReadOnly" value="true" />
+                <Property key="WordWrap" value="true" />
+                <Property key="TextShadowColour" value="0 0 0" />
+                <Property key="FontName" value="SM_TextTiny" />
+                <Property key="TextColour" value="0.564706 0.572549 0.572549" />
+                <Property key="NeedKey" value="false" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.06 0.330935 0.835 0.0251799">
+                <Property key="FontName" value="SM_LabelTiny" />
+                <Property key="Caption" value="#{DESCRIPTION_CAPS}" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line" position_real="0.065 0.359712 0.865 0.00179856">
+                <Property key="Colour" value="1 1 1" />
+                <Property key="Alpha" value="0.2" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line" position_real="0.065 0.769784 0.865 0.00179856">
+                <Property key="Colour" value="1 1 1" />
+                <Property key="Alpha" value="0.2" />
+            </Widget>
+            <Widget type="Button" skin="StyledButtonLarge" name="Craft" position_real="0.06 0.888489 0.88 0.0827338">
+                <Property key="Caption" value="#{CRAFT}" />
+                <Property key="FontName" value="SM_Button" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.06 0.733813 0.54 0.028777">
+                <Property key="Caption" value="#{INGREDIENTS}" />
+                <Property key="FontName" value="SM_HeaderTiny" />
+            </Widget>
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="MaterialGrid" position_real="0.06 0.769784 0.88 0.107914">
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedToolTip" value="true" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="Time" position_real="0.605 0.733813 0.33 0.028777">
+                <Property key="Caption" value="04:20" />
+                <Property key="FontName" value="SM_NumberTiny" />
+                <Property key="TextAlign" value="Right Top" />
+                <Property key="TextColour" value="1 0.831373 0.290196" />
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="ProcessBackground" name="ProcessBackground" position_real="0 0.794168 0.617857 0.205832">
+            <Property key="NeedKey" value="false" />
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="ProcessGrid" position_real="0.358382 0.025 0.283237 0.966667">
+                <Property key="NeedKey" value="false" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

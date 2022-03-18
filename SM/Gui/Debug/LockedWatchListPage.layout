@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="InventoryBackground" name="MainPanel" position_real="0.000260417 0.000462963 0.235677 0.469907">
+        <Property key="NeedMouse" value="false" />
+        <Property key="Alpha" value="0.75" />
+        <Property key="NeedKey" value="false" />
+        <Widget type="EditBox" skin="EditBoxEmpty" name="Text" position_real="0.00774336 0.00690335 0.987832 0.989152">
+            <Property key="Static" value="true" />
+            <Property key="WordWrap" value="true" />
+            <Property key="FontName" value="Debug_ButtonCaptionSmall" />
+            <Property key="InheritsAlpha" value="false" />
+            <Property key="TextShadow" value="true" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <UserString key="FontName" value="Debug_ButtonCaptionSmall" />
+        </Widget>
+    </Widget>
+</MyGUI>

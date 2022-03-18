@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundPromptWide" name="BackPanel" position_real="0 0 0.375 0.37037">
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.0833333 0.08 0.833333 0.3">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Widget type="TextBox" skin="TextBox" name="Title" position_real="0 0.366667 1 0.3">
+                <Property key="Caption" value="#{CONTAINER_AMOUNT}" />
+                <Property key="FontName" value="SM_HeaderLarge_Medium" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.0833333 0.39 0.833333 0.465">
+            <Widget type="Widget" skin="SearchBarBackground" position_real="0.0683333 0 0.845 0.268817">
+                <Widget type="EditBox" skin="EditBoxEmpty" name="Input" position_real="0.0236686 0.1 0.952663 0.8">
+                    <Property key="Caption" value="" />
+                    <Property key="TextAlign" value="Center" />
+                    <Property key="TextColour" value="0.99 0.99 0.99" />
+                    <Property key="MultiLine" value="false" />
+                    <Property key="FontName" value="SM_Text" />
+                    <UserString key="FontName" value="SM_Text" />
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="PrimaryButton" name="Ok" position_real="0.226667 0.435484 0.266667 0.333333">
+                <Property key="Caption" value="#{MENU_YN_OK}" />
+                <Property key="FontName" value="SM_Button" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="SecondaryButton" name="Cancel" position_real="0.515 0.467742 0.246667 0.268817">
+                <Property key="Caption" value="#{MENU_YN_CANCEL}" />
+                <Property key="FontName" value="SM_Button" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

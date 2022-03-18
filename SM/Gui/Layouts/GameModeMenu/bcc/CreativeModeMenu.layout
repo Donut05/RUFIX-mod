@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="LoadPanel" position_real="0.0416667 0.158333 0.416667 0.722222">
+        <Widget type="Widget" skin="NonBlurryBackgroundDarkRoundedUpperRight" position_real="0 0 1 0.128205">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Widget type="Widget" skin="PanelEmpty" name="GameTitleContainer" position_real="0 0 1 1">
+                <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.05 0.36 0.0375 0.29">
+                    <Property key="ImageTexture" value="IconCreativeMode.png" />
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.11 0.37 0.33125 0.3">
+                    <Property key="Caption" value="#{MENU_CREATIVE_TITLE}" />
+                    <Property key="FontName" value="SM_HeaderLarge_Medium" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" name="WorldTitleContainer" position_real="0 0 1 1">
+                <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.05 0.36 0.0375 0.29">
+                    <Property key="ImageTexture" value="IconCreativeMode.png" />
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.11 0.37 0.33125 0.3">
+                    <Property key="Caption" value="#{MENU_CREATIVE_SELECT_WORLD}" />
+                    <Property key="FontName" value="SM_HeaderLarge_Medium" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="NonBlurryBackgroundLightSquared" position_real="0 0.128205 1 0.744872">
+            <Widget type="Widget" skin="PanelEmpty" name="GameListContainer" position_real="0 0 1 0.998279">
+                <Widget type="ItemBox" skin="InventoryItemBox2" name="GameList" position_real="0.05 0.0689655 0.85 0.862069" />
+                <Widget type="ScrollBar" skin="InventoryVSlider" name="GameScroll" position_real="0.93125 0.0706897 0.0375 0.862069" />
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" name="WorldListContainer" position_real="0 0 1 0.998279">
+                <Widget type="ItemBox" skin="InventoryItemBox2" name="WorldList" position_real="0.05 0.0689655 0.875 0.862069" />
+                <Widget type="ScrollBar" skin="InventoryVSlider" name="WorldScroll" position_real="0.93125 0.0706897 0.0375 0.862069" />
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" name="NoGameContainer" position_real="0 0 1 0.998279">
+                <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.4725 0.32931 0.06125 0.0844828">
+                    <Property key="ImageTexture" value="gui_icon_popup_alert.png" />
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.24625 0.453448 0.5075 0.124138">
+                    <Property key="Caption" value="#{MENU_CREATIVE_NO_SAVES} “#{NEW_GAME}”" />
+                    <Property key="FontName" value="SM_Text" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="NonBlurryBackgroundDarkRoundedLowerLeft" position_real="0 0.871795 1 0.128205">
+            <Widget type="Widget" skin="PanelEmpty" name="CreateNewGameContainer" position_real="0 0 1 1">
+                <Widget type="Widget" skin="SearchBarBackground" name="NewGameName" position_real="0.05 0.3 0.5725 0.4">
+                    <Widget type="EditBox" skin="EditBoxEmpty" name="DefaultText" position_real="0.0262009 0.125 0.978166 0.75">
+                        <Property key="Caption" value="#{MENU_CREATIVE_GAME_NAME}" />
+                        <Property key="TextAlign" value="Left VCenter" />
+                        <Property key="TextColour" value="0.29803921568 0.29803921568 0.29803921568" />
+                        <Property key="FontName" value="SM_TextLabel" />
+                        <UserString key="FontName" value="SM_TextLabel" />
+                    </Widget>
+                    <Widget type="EditBox" skin="EditBoxEmpty" name="EditText" position_real="0.0262009 0.125 0.978166 0.75">
+                        <Property key="Caption" value="" />
+                        <Property key="TextAlign" value="Left VCenter" />
+                        <Property key="TextColour" value="0.99 0.99 0.99" />
+                        <Property key="FontName" value="SM_TextLabel" />
+                        <UserString key="FontName" value="SM_TextLabel" />
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="StyledButtonLarge" name="CreateNewGame" position_real="0.6625 0.2 0.3 0.6">
+                    <Property key="Caption" value="#{PLAY}" />
+                    <Property key="FontName" value="SM_Button" />
+                    <Property key="TextAlign" value="Center" />
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" name="NewGameButtonContainer" position_real="0 0 1 1">
+                <Widget type="Button" skin="ActiveButton" name="GoToNewGame" position_real="0.655 0.23 0.315 0.52">
+                    <Property key="Caption" value="#{NEW_GAME}" />
+                    <Property key="FontName" value="SM_ButtonSmall" />
+                    <Property key="TextAlign" value="Center" />
+                </Widget>
+            </Widget>
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="BackgroundMenuCreative" name="GameInfoPanel" position_real="0.459896 0.112037 0.177083 0.768519">
+        <Widget type="TextBox" skin="TextBox" name="GameName" position_real="0.135294 0.466265 0.717647 0.0722892">
+            <Property key="Caption" value="Game Name" />
+            <Property key="FontName" value="SM_GameName" />
+            <Property key="TextAlign" value="Left Top" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.135294 0.561446 0.0470588 0.0216867">
+            <Property key="ImageTexture" value="IconStopwatch.png" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.135294 0.59759 0.0470588 0.0216867">
+            <Property key="ImageTexture" value="IconTime.png" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.135294 0.633735 0.0470588 0.0216867">
+            <Property key="ImageTexture" value="IconDate.png" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="GamePlayTime" position_real="0.135294 0.561446 0.717647 0.0240964">
+            <Property key="Caption" value="0123456789#{TIME_DAY_SHORT}#{TIME_HOUR_SHORT}#{TIME_MINUTE_SHORT}" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextAlign" value="Right VCenter" />
+            <Property key="TextColour" value="1 0.8156863 0.2745098" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="GameTime" position_real="0.135294 0.59759 0.717647 0.0240964">
+            <Property key="Caption" value="23:42 PM" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextAlign" value="Right VCenter" />
+            <Property key="TextColour" value="1 0.8156863 0.2745098" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="GameDate" position_real="0.135294 0.633735 0.717647 0.0240964">
+            <Property key="Caption" value="2019-02-08" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextAlign" value="Right VCenter" />
+            <Property key="TextColour" value="1 0.8156863 0.2745098" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="GamePlayTimeLabel" position_real="0.205882 0.559036 0.717647 0.0240964">
+            <Property key="Caption" value="#{PLAYTIME}" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="TextColour" value="0.57 0.57 0.57" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="GameTimeLabel" position_real="0.205882 0.595181 0.717647 0.0240964">
+            <Property key="Caption" value="#{TIME}" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="TextColour" value="0.57 0.57 0.57" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="GameDateLabel" position_real="0.205882 0.631325 0.717647 0.0240964">
+            <Property key="Caption" value="#{DATE}" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="TextColour" value="0.57 0.57 0.57" />
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" name="Delete" position_real="0.141176 0.744578 0.705882 0.0481928">
+            <Property key="Caption" value="#{DELETE}" />
+            <Property key="FontName" value="SM_ButtonSmall" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" name="Mods" position_real="0.141176 0.816867 0.705882 0.0481928">
+            <Property key="Caption" value="#{MODS} [1234567890]" />
+            <Property key="FontName" value="SM_ButtonSmall" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="Button" skin="StyledButtonLarge" name="Play" position_real="0.126471 0.886747 0.729412 0.0831325">
+            <Property key="Caption" value="#{PLAY}" />
+            <Property key="FontName" value="SM_Button" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="BackgroundMenuCreative_tilebuilder" name="TileBuilderPanel" position_real="0.635417 0.158333 0.155729 0.351852">
+        <Widget type="TextBox" skin="TextBox" name="Title" position_real="0 0.413158 1.00334 0.157895">
+            <Property key="Caption" value="#{MENU_CREATIVE_TILE_BUILDER_TITLE_LINE_1}" />
+            <Property key="FontName" value="SM_HeaderMedium" />
+            <Property key="TextAlign" value="VCenter HCenter" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="Title" position_real="0 0.486842 1.00334 0.157895">
+            <Property key="Caption" value="#{MENU_CREATIVE_TILE_BUILDER_TITLE_LINE_2}" />
+            <Property key="FontName" value="SM_HeaderMedium" />
+            <Property key="TextAlign" value="VCenter HCenter" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="DescriptionRow1" position_real="0 0.578947 1.00334 0.157895">
+            <Property key="Caption" value="#{MENU_CREATIVE_TILE_BUILDER_DESCRIPTION_LINE_1}" />
+            <Property key="FontName" value="SM_TextSmall" />
+            <Property key="TextAlign" value="VCenter HCenter" />
+            <Property key="TextColour" value="0.65 0.65 0.65" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="DescriptionRow2" position_real="0 0.642105 1.00334 0.157895">
+            <Property key="Caption" value="#{MENU_CREATIVE_TILE_BUILDER_DESCRIPTION_LINE_2}" />
+            <Property key="FontName" value="SM_TextSmall" />
+            <Property key="TextAlign" value="VCenter HCenter" />
+            <Property key="TextColour" value="0.65 0.65 0.65" />
+        </Widget>
+        <Widget type="Button" skin="ActiveButton" name="TileBuilder" position_real="0.0802676 0.797368 0.842809 0.136842">
+            <Property key="Caption" value="#{MENU_CREATIVE_TILE_BUILDER}" />
+            <Property key="FontName" value="SM_ButtonSmallBold" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="BackgroundMenuCreative_worldbuilder" name="WorldBuilderPanel" position_real="0.635417 0.528704 0.15625 0.351852">
+        <Widget type="TextBox" skin="TextBox" name="Title" position_real="0 0.413158 1 0.157895">
+            <Property key="Caption" value="#{MENU_CREATIVE_WORLD_BUILDER_TITLE_LINE_1}" />
+            <Property key="FontName" value="SM_HeaderMedium" />
+            <Property key="TextAlign" value="VCenter HCenter" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="Title" position_real="0 0.486842 1 0.157895">
+            <Property key="Caption" value="#{MENU_CREATIVE_WORLD_BUILDER_TITLE_LINE_2}" />
+            <Property key="FontName" value="SM_HeaderMedium" />
+            <Property key="TextAlign" value="VCenter HCenter" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="DescriptionRow1" position_real="0 0.578947 1 0.157895">
+            <Property key="Caption" value="#{MENU_CREATIVE_WORLD_BUILDER_DESCRIPTION_LINE_1}" />
+            <Property key="FontName" value="SM_TextSmall" />
+            <Property key="TextAlign" value="VCenter HCenter" />
+            <Property key="TextColour" value="0.65 0.65 0.65" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="DescriptionRow2" position_real="0 0.642105 1 0.157895">
+            <Property key="Caption" value="#{MENU_CREATIVE_WORLD_BUILDER_DESCRIPTION_LINE_2}" />
+            <Property key="FontName" value="SM_TextSmall" />
+            <Property key="TextAlign" value="VCenter HCenter" />
+            <Property key="TextColour" value="0.65 0.65 0.65" />
+        </Widget>
+        <Widget type="Button" skin="ActiveButton" name="WorldBuilder" position_real="0.08 0.797368 0.84 0.136842">
+            <Property key="Caption" value="#{MENU_CREATIVE_WORLD_BUILDER}" />
+            <Property key="FontName" value="SM_ButtonSmallBold" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="BackgroundMenuDownload" name="ModBrowserPanel" position_real="0.802083 0.158333 0.15625 0.722222">
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.2 0.382051 0.6 0.128205">
+            <Property key="ImageTexture" value="IconComingSoon.png" />
+        </Widget>
+        <Widget type="Button" skin="ActiveButton" name="BrowseMods" position_real="0.08 0.9 0.84 0.0666667">
+            <Property key="Caption" value="#{BROWSE}" />
+            <Property key="FontName" value="SM_ButtonSmall" />
+            <Property key="TextAlign" value="Center" />
+            <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.0674603 0.307692 0.0793651 0.384615">
+                <Property key="ImageTexture" value="IconSteamDefault.png" />
+                <Property key="Colour" value="1 0.8156863 0.2745098" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="PanelEmpty" name="ModBoxPanel" position_real="0.46875 0.158333 0.489583 0.722222">
+        <Widget type="Widget" skin="NonBlurryBackgroundDarkRoundedUpperRight" position_real="0 0 1 0.128205">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.0425532 0.36 0.0319149 0.3">
+                <Property key="ImageTexture" value="IconMods.png" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.093617 0.37 0.281915 0.3">
+                <Property key="Caption" value="#{MENU_MODS_TITLE}" />
+                <Property key="FontName" value="SM_HeaderLarge_Medium" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="NonBlurryBackgroundLightSquared" position_real="0 0.128205 1 0.744872">
+            <Widget type="Widget" skin="PanelEmpty" name="ModBoxContainer" position_real="0 0 1 0.998279">
+                <Widget type="ItemBox" skin="InventoryItemBox2" name="ModList" position_real="0.0446809 0.0689655 0.893617 0.862069" />
+                <Widget type="ScrollBar" skin="InventoryVSlider" name="ModScroll" position_real="0.93617 0.0689655 0.0319149 0.862069" />
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" name="NoModsContainer" position_real="0 0 1 0.998279">
+                <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.473404 0.32931 0.0531915 0.0862069">
+                    <Property key="ImageTexture" value="gui_icon_popup_alert.png" />
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.230851 0.460345 0.538298 0.141379">
+                    <Property key="Caption" value="#808383#{MENU_MODS_NO_MODS_PART_1}\n“#ffd046#{BROWSE}#909292” #{MENU_MODS_NO_MODS_PART_2} \n#{MENU_MODS_NO_MODS_PART_3}" />
+                    <Property key="FontName" value="SM_Text" />
+                    <Property key="TextAlign" value="Center VCenter" />
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="NonBlurryBackgroundDarkRoundedLowerLeft" position_real="0 0.871795 1 0.128205">
+            <Widget type="Button" skin="SecondaryButton" name="EnableAll" position_real="0.0425532 0.3 0.212766 0.4">
+                <Property key="Caption" value="#{MENU_MODS_ENABLE_ALL}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="SecondaryButton" name="DisableAll" position_real="0.276596 0.29 0.212766 0.4">
+                <Property key="Caption" value="#{MENU_MODS_DISABLE_ALL}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="SelectedModsText" position_real="0.703191 0.3 0.255319 0.4">
+                <Property key="Caption" value="0 #{MENU_MODS_SELECTED}" />
+                <Property key="FontName" value="SM_UserName" />
+                <Property key="TextAlign" value="Right VCenter" />
+            </Widget>
+            <Widget type="Button" skin="ActiveButton" name="SelectedModsButton" position_real="0.738298 0.24 0.225532 0.52">
+                <Property key="Caption" value="#{MENU_MODS_SELECT_MODS} [0]" />
+                <Property key="FontName" value="SM_ButtonSmallBold" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="SecondaryButton" name="BrowseMods" position_real="0.703191 0.3 0.255319 0.4">
+                <Property key="Caption" value="#{BROWSE}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

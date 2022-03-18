@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundPopup" name="MainPanel" position_real="0 0 0.720313 0.694444">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="true" />
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="Widget" skin="SearchBarBackground" position_real="0.62256 0.024 0.362256 0.068">
+            <Widget type="EditBox" skin="EditBoxEmpty" name="Search" position_real="0.00598802 0.0588235 0.982036 0.823529">
+                <Property key="Caption" value="Search" />
+                <Property key="FontName" value="SM_SearchText" />
+                <Property key="TextAlign" value="Left VCenter" />
+                <Property key="TextColour" value="0.462745 0.462745 0.462745" />
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.0151844 0 0.32321 0.108">
+            <Property key="Caption" value="PARTICLES" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextAlign" value="Left VCenter" />
+        </Widget>
+        <Widget type="ListBox" skin="SM_ListBox" name="ParticleList" position_real="0.0151844 0.108 0.969631 0.864">
+            <Property key="AddItem" value="Test" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

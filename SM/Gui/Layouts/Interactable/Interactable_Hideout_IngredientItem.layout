@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="ImageBox" skin="ImageBox" name="ItemIcon" position_real="0 0.0454545 1 0.681818">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Property key="ImageResource" value="HideoutTradeItems" />
+            <Property key="ImageGroup" value="ItemIcons" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="Quantity" position_real="0 0.727273 1 0.272727">
+            <Property key="Caption" value="999" />
+            <Property key="FontName" value="SM_NumberMini" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="InventoryBackground" name="MainPanel" position_real="0.000260417 0.000462963 0.377865 0.500463">
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="ItemBox" skin="SMItemBox_OrangeVSlider" name="Worlds" position_real="0.0282759 0.112037 0.945517 0.723148" />
+        <Widget type="Button" skin="SMButton" name="Cancel" position_real="0.0351724 0.871296 0.290345 0.0935185">
+            <Property key="Caption" value="#{MENU_YN_CANCEL}" />
+            <Property key="FontName" value="MessageCaptionMedium" />
+        </Widget>
+        <Widget type="Button" skin="SMButton" name="Load" position_real="0.35931 0.871296 0.290345 0.0935185">
+            <Property key="Caption" value="#{WORLD_BUILDER_LOAD_WORLD}" />
+            <Property key="FontName" value="MessageCaptionMedium" />
+        </Widget>
+        <Widget type="Button" skin="SMButton" name="Delete" position_real="0.683448 0.871296 0.290345 0.0935185">
+            <Property key="Caption" value="#{DELETE}" />
+            <Property key="FontName" value="MessageCaptionMedium" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.0351724 0.0472222 0.938621 0.0657407">
+            <Property key="Caption" value="#{MENU_CREATIVE_SELECT_WORLD}" />
+            <Property key="FontName" value="MessageCaptionMedium" />
+        </Widget>
+    </Widget>
+</MyGUI>

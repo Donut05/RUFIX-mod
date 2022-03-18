@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="CreateGamePanel" position_real="0.040625 0.184722 0.916406 0.740278">
+        <Widget type="Widget" skin="BackgroundDarkRoundedUpperRight" position_real="0 0 1.00085 0.19137">
+            <Widget type="TextBox" skin="TextBox" position_real="0.0579216 0 0.386712 0.666667">
+                <Property key="Caption" value="#{MENU_OPTIONS_TITLE}" />
+                <Property key="FontName" value="SM_HeaderLarge_Wide" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.028109 0.22549 0.0178876 0.205882">
+                <Property key="ImageTexture" value="gui_mainmenu_icon_options.png" />
+                <Property key="Colour" value="1 0.780392 0.227451" />
+            </Widget>
+            <Widget type="Button" skin="InventoryTab" name="Controls" position_real="0.0289608 0.705882 0.0511073 0.294118">
+                <Property key="Caption" value="#{MENU_OPTIONS_CONTROLS}" />
+                <Property key="FontName" value="SM_Tab" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="InventoryTab" name="Audio" position_real="0.0817717 0.705882 0.0511073 0.294118">
+                <Property key="Caption" value="#{MENU_OPTIONS_AUDIO}" />
+                <Property key="FontName" value="SM_Tab" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="InventoryTab" name="Display" position_real="0.134583 0.705882 0.0511073 0.294118">
+                <Property key="Caption" value="#{MENU_OPTIONS_DISPLAY}" />
+                <Property key="FontName" value="SM_Tab" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="InventoryTab" name="Graphics" position_real="0.187394 0.705882 0.0511073 0.294118">
+                <Property key="Caption" value="#{MENU_OPTIONS_GRAPHICS}" />
+                <Property key="FontName" value="SM_Tab" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="SecondaryButton" name="Apply" position_real="0.785349 0.254902 0.0919932 0.254902">
+                <Property key="Caption" value="#{MENU_OPTION_APPLY}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="Enabled" value="false" />
+            </Widget>
+            <Widget type="Button" skin="SecondaryButton" name="Default" position_real="0.884157 0.254902 0.0919932 0.254902">
+                <Property key="Caption" value="#{MENU_OPTION_DEFAULT}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundLightRoundedLowerLeft" name="OptionsHostPanel" position_real="0 0.19137 1.00085 0.810507" />
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

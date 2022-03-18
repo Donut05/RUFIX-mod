@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+    <Resource type="ResourceSkin" name="ButtonPizzaBurger" size="311 251" texture="gui_buttons_large_2560x1440.png">
+        <BasisSkin type="SubSkin" offset="0 0 311 251" align="Stretch">
+            <State name="disabled" offset="1 531 311 251"/>
+            <State name="normal" offset="1 531 311 251"/>
+            <State name="highlighted" offset="313 531 311 251"/>
+            <State name="pushed" offset="313 531 311 251"/>
+            <State name="disabled_checked" offset="313 531 311 251"/>
+            <State name="normal_checked" offset="313 531 311 251"/>
+            <State name="highlighted_checked" offset="313 531 311 251"/>
+            <State name="pushed_checked" offset="313 531 311 251"/>
+        </BasisSkin>
+        <BasisSkin type="SimpleText" offset="19 174 273 58" align="Stretch">
+            <State name="disabled" colour="1 0.552941 0.345098" shift="0"/>
+            <State name="normal" colour="1 0.552941 0.345098" shift="0"/>
+            <State name="highlighted" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed" colour="1 1 0.752941" shift="0"/>
+            <State name="disabled_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="normal_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="highlighted_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed_checked" colour="1 1 0.752941" shift="0"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="ButtonVeggieBurger" size="311 251" texture="gui_buttons_large_2560x1440.png">
+        <BasisSkin type="SubSkin" offset="0 0 311 251" align="Stretch">
+            <State name="disabled" offset="626 1 311 251"/>
+            <State name="normal" offset="626 1 311 251"/>
+            <State name="highlighted" offset="626 253 311 251"/>
+            <State name="pushed" offset="626 253 311 251"/>
+            <State name="disabled_checked" offset="626 253 311 251"/>
+            <State name="normal_checked" offset="626 253 311 251"/>
+            <State name="highlighted_checked" offset="626 253 311 251"/>
+            <State name="pushed_checked" offset="626 253 311 251"/>
+        </BasisSkin>
+        <BasisSkin type="SimpleText" offset="18 180 273 52" align="Stretch">
+            <State name="disabled" colour="0.721569 0.886275 0.952941" shift="0"/>
+            <State name="normal" colour="0.721569 0.886275 0.952941" shift="0"/>
+            <State name="highlighted" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed" colour="1 1 0.752941" shift="0"/>
+            <State name="disabled_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="normal_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="highlighted_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed_checked" colour="1 1 0.752941" shift="0"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="ButtonRevivalBaguette" size="624 264" texture="gui_buttons_large_2560x1440.png">
+        <BasisSkin type="SubSkin" offset="0 0 624 264" align="Stretch">
+            <State name="disabled" offset="1 1 624 264"/>
+            <State name="normal" offset="1 1 624 264"/>
+            <State name="highlighted" offset="1 266 624 264"/>
+            <State name="pushed" offset="1 266 624 264"/>
+            <State name="disabled_checked" offset="1 266 624 264"/>
+            <State name="normal_checked" offset="1 266 624 264"/>
+            <State name="highlighted_checked" offset="1 266 624 264"/>
+            <State name="pushed_checked" offset="1 266 624 264"/>
+        </BasisSkin>
+        <BasisSkin type="SimpleText" offset="18 173 588 73" align="Stretch">
+            <State name="disabled" colour="0.713726 1 0.556863" shift="0"/>
+            <State name="normal" colour="0.713726 1 0.556863" shift="0"/>
+            <State name="highlighted" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed" colour="1 1 0.752941" shift="0"/>
+            <State name="disabled_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="normal_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="highlighted_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed_checked" colour="1 1 0.752941" shift="0"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="ButtonCookBot" size="227 227" texture="gui_buttons_large_2560x1440.png">
+        <BasisSkin type="SubSkin" offset="0 0 227 227" align="Stretch">
+            <State name="disabled" offset="935 1 227 227"/>
+            <State name="normal" offset="935 1 227 227"/>
+            <State name="highlighted" offset="935 229 227 227"/>
+            <State name="pushed" offset="935 229 227 227"/>
+            <State name="disabled_checked" offset="935 229 227 227"/>
+            <State name="normal_checked" offset="935 229 227 227"/>
+            <State name="highlighted_checked" offset="935 229 227 227"/>
+            <State name="pushed_checked" offset="935 229 227 227"/>
+        </BasisSkin>
+        <BasisSkin type="SimpleText" offset="10 172 207 45" align="Stretch">
+            <State name="disabled" colour="1 1 1" shift="0"/>
+            <State name="normal" colour="1 1 1" shift="0"/>
+            <State name="highlighted" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed" colour="1 1 0.752941" shift="0"/>
+            <State name="disabled_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="normal_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="highlighted_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed_checked" colour="1 1 0.752941" shift="0"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="ButtonDressBot" size="227 227" texture="gui_buttons_large_2560x1440.png">
+        <BasisSkin type="SubSkin" offset="0 0 227 227" align="Stretch">
+            <State name="disabled" offset="1163 1 227 227"/>
+            <State name="normal" offset="1163 1 227 227"/>
+            <State name="highlighted" offset="1163 229 227 227"/>
+            <State name="pushed" offset="1163 229 227 227"/>
+            <State name="disabled_checked" offset="1163 229 227 227"/>
+            <State name="normal_checked" offset="1163 229 227 227"/>
+            <State name="highlighted_checked" offset="1163 229 227 227"/>
+            <State name="pushed_checked" offset="1163 229 227 227"/>
+        </BasisSkin>
+        <BasisSkin type="SimpleText" offset="10 172 207 45" align="Stretch">
+            <State name="disabled" colour="1 1 1" shift="0"/>
+            <State name="normal" colour="1 1 1" shift="0"/>
+            <State name="highlighted" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed" colour="1 1 0.752941" shift="0"/>
+            <State name="disabled_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="normal_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="highlighted_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed_checked" colour="1 1 0.752941" shift="0"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="ButtonCraftBot" size="453 293" texture="gui_buttons_large_2560x1440.png">
+        <BasisSkin type="SubSkin" offset="0 0 453 293" align="Stretch">
+            <State name="disabled" offset="935 457 453 293"/>
+            <State name="normal" offset="935 457 453 293"/>
+            <State name="highlighted" offset="1389 457 453 293"/>
+            <State name="pushed" offset="1389 457 453 293"/>
+            <State name="disabled_checked" offset="1389 457 453 293"/>
+            <State name="normal_checked" offset="1389 457 453 293"/>
+            <State name="highlighted_checked" offset="1389 457 453 293"/>
+            <State name="pushed_checked" offset="1389 457 453 293"/>
+        </BasisSkin>
+        <BasisSkin type="SimpleText" offset="10 239 434 45" align="Stretch">
+            <State name="disabled" colour="1 1 1" shift="0"/>
+            <State name="normal" colour="1 1 1" shift="0"/>
+            <State name="highlighted" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed" colour="1 1 0.752941" shift="0"/>
+            <State name="disabled_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="normal_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="highlighted_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed_checked" colour="1 1 0.752941" shift="0"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="ButtonRefineryBot" size="227 227" texture="gui_buttons_large_2560x1440.png">
+        <BasisSkin type="SubSkin" offset="0 0 227 227" align="Stretch">
+            <State name="disabled" offset="1391 1 227 227"/>
+            <State name="normal" offset="1391 1 227 227"/>
+            <State name="highlighted" offset="1391 229 227 227"/>
+            <State name="pushed" offset="1391 229 227 227"/>
+            <State name="disabled_checked" offset="1391 229 227 227"/>
+            <State name="normal_checked" offset="1391 229 227 227"/>
+            <State name="highlighted_checked" offset="1391 229 227 227"/>
+            <State name="pushed_checked" offset="1391 229 227 227"/>
+        </BasisSkin>
+        <BasisSkin type="SimpleText" offset="10 172 207 45" align="Stretch">
+            <State name="disabled" colour="1 1 1" shift="0"/>
+            <State name="normal" colour="1 1 1" shift="0"/>
+            <State name="highlighted" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed" colour="1 1 0.752941" shift="0"/>
+            <State name="disabled_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="normal_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="highlighted_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed_checked" colour="1 1 0.752941" shift="0"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="ButtonResourceBot" size="227 227" texture="gui_buttons_large_2560x1440.png">
+        <BasisSkin type="SubSkin" offset="0 0 227 227" align="Stretch">
+            <State name="disabled" offset="1619 1 227 227"/>
+            <State name="normal" offset="1619 1 227 227"/>
+            <State name="highlighted" offset="1619 229 227 227"/>
+            <State name="pushed" offset="1619 229 227 227"/>
+            <State name="disabled_checked" offset="1619 229 227 227"/>
+            <State name="normal_checked" offset="1619 229 227 227"/>
+            <State name="highlighted_checked" offset="1619 229 227 227"/>
+            <State name="pushed_checked" offset="1619 229 227 227"/>
+        </BasisSkin>
+        <BasisSkin type="SimpleText" offset="10 172 207 45" align="Stretch">
+            <State name="disabled" colour="1 1 1" shift="0"/>
+            <State name="normal" colour="1 1 1" shift="0"/>
+            <State name="highlighted" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed" colour="1 1 0.752941" shift="0"/>
+            <State name="disabled_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="normal_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="highlighted_checked" colour="1 1 0.752941" shift="0"/>
+            <State name="pushed_checked" colour="1 1 0.752941" shift="0"/>
+        </BasisSkin>
+    </Resource>
+</MyGUI>

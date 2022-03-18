@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="MainPanel" position_real="0.0019084 0.00290698 1.00191 1.00291">
+        <Property key="NeedMouse" value="true" />
+        <Widget type="Button" skin="TileButton" name="Background" position_real="0.0400763 0.00290698 0.925573 1.00291">
+            <Property key="Colour" value="1 1 1" />
+            <Property key="NeedMouse" value="true" />
+            <Property key="NeedToolTip" value="true" />
+            <Widget type="Widget" skin="WhiteSkin" position_real="0.0433884 0.0610465 0.919421 0.886628">
+                <Property key="NeedMouse" value="false" />
+                <Property key="NeedKey" value="false" />
+                <Property key="Colour" value="0.25731 0.25731 0.25731" />
+                <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.00675676 0.00986842 0.993243 0.990132">
+                    <Property key="NeedMouse" value="false" />
+                    <Property key="NeedKey" value="false" />
+                    <Property key="ImageTexture" value="tumb_tile.png" />
+                    <Widget type="TextBox" skin="TextBox" name="Name" position_real="0.025 0.0166667 0.956818 0.17">
+                        <Property key="Caption" value="Name goes here" />
+                        <Property key="TextColour" value="1 1 1" />
+                    </Widget>
+                    <Widget type="TextBox" skin="TextBox" name="Size" position_real="0.025 0.836667 0.956818 0.17">
+                        <Property key="TextAlign" value="Right VCenter" />
+                        <Property key="Caption" value="512 x 512 " />
+                        <Property key="TextColour" value="1 1 1" />
+                    </Widget>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Widget>
+</MyGUI>

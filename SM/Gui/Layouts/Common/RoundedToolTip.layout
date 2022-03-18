@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="Background" position_real="0 0 0.015625 0.0333333">
+        <Widget type="Widget" skin="ToolTipLeft" name="Left" position_real="0 0 0.5 1">
+            <Property key="Alpha" value="0.95" />
+        </Widget>
+        <Widget type="Widget" skin="ToolTipRight" name="Right" position_real="0.5 0 0.5 1">
+            <Property key="Alpha" value="0.95" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="Text" position_real="0 0 1 0.833333">
+            <Property key="FontName" value="SM_ToolTipText" />
+            <Property key="TextColour" value="1 1 0.753" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundPopup" position_real="0 0 0.234375 0.323148" name="MainPanel">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Property key="InheritsAlpha" value="false"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.332378 1 0.117479">
+            <Property key="Caption" value="#{MENU_OPTIONS_CONTROLS_BIND_TITLE}"/>
+            <Property key="FontName" value="SM_HeaderLarge_Medium"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0 0.452722 1 0.117479" name="NameContainer">
+            <Widget type="TextBox" skin="TextBox" position_real="0 0 0.0666667 1" name="Left">
+                <Property key="Caption" value="&quot; "/>
+                <Property key="FontName" value="SM_HeaderLarge_Medium"/>
+                <Property key="TextAlign" value="Right VCenter"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.0666667 0 0.551111 1" name="ActionName">
+                <Property key="Caption" value="Move Forward"/>
+                <Property key="FontName" value="SM_HeaderLarge_Medium"/>
+                <Property key="TextColour" value="1 0.807843 0.254902"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.62 0 0.0666667 1" name="Right">
+                <Property key="Caption" value=" &quot;"/>
+                <Property key="FontName" value="SM_HeaderLarge_Medium"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.00222222 0.616046 0.995556 0.30659" name="EscContainer">
+            <Widget type="TextBox" skin="TextBox" position_real="0 0 1 0.271028" name="Press">
+                <Property key="Caption" value="#{MENU_OPTIONS_CONTROLS_BIND_TEXT_PART_1} "/>
+                <Property key="TextAlign" value="Left VCenter"/>
+                <Property key="FontName" value="SM_Text"/>
+                <Property key="TextColour" value="0.564706 0.572549 0.572549"/>
+            </Widget>
+            <Widget type="Widget" skin="EscButton" position_real="0.4375 0.35514 0.109375 0.271028" name="Esc"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0 0.728972 1 0.271028" name="Cancel">
+                <Property key="Caption" value=" #{MENU_OPTIONS_CONTROLS_BIND_TEXT_PART_2}"/>
+                <Property key="FontName" value="SM_Text"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+                <Property key="TextColour" value="0.564706 0.572549 0.572549"/>
+            </Widget>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.442222 0.140401 0.108889 0.140401">
+            <Property key="ImageTexture" value="gui_icon_popup_alert.png"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

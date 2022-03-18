@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="MainPanel" position_real="0.148936 0 0.702128 1">
+        <Widget type="Widget" skin="PanelEmpty" name="bearing" position_real="0 0 1 1">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Widget type="TextBox" skin="TextBox" name="Value" position_real="0 0.348485 1 0.30303">
+                <Property key="Caption" value="-+0123456789" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_NumberTiny" />
+            </Widget>
+            <Widget type="Button" skin="ControllerCircle" name="CircleBackground" position_real="0.0909091 0.0909091 0.818182 0.818182" />
+            <Widget type="ImageBox" skin="ImageBox" name="Zero" position_real="0.469697 0.136364 0.0606061 0.121212">
+                <Property key="ImageTexture" value="gui_icon_controller_zero.png" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" name="Rotation" position_real="0.0909091 0.0909091 0.818182 0.818182" />
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" name="piston" position_real="0.030303 0.030303 0.924242 0.924242">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Widget type="TextBox" skin="TextBox" name="Value" position_real="0 0.278689 1 0.180328">
+                <Property key="Caption" value="0123456789" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_NumberTiny" />
+            </Widget>
+            <Widget type="Widget" skin="SmallBrightSliderBackground" position_real="0.114754 0.42623 0.754098 0.327869" />
+            <Widget type="Widget" skin="SmallBrightSliderProgress" name="Progress" position_real="0.114754 0.42623 0.491803 0.327869" />
+            <Widget type="Button" skin="SmallBrightSliderTrack" name="Handle" position_real="0 0.42623 0.327869 0.327869" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

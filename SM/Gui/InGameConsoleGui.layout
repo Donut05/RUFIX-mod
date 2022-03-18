@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="MainPanel" position_real="0.000260417 0.000462963 1.00026 0.343056">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="Widget" skin="PanelEmpty" name="Background" position_real="0.000260417 0.00135135 1.00026 1.00135">
+            <Property key="Colour" value="0 0 0" />
+            <Property key="Alpha" value="0.5" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Widget type="EditBox" skin="EditBoxEmpty" name="Console" position_real="0.00546875 0.0148649 0.989844 0.974324">
+                <Property key="MultiLine" value="true" />
+                <Property key="TextAlign" value="Left Bottom" />
+                <Property key="FontName" value="Chat" />
+                <Property key="OverflowToTheLeft" value="false" />
+                <Property key="Static" value="true" />
+                <Property key="ReadOnly" value="true" />
+                <Property key="InheritsAlpha" value="false" />
+                <Property key="TextShadow" value="true" />
+                <Property key="TextShadowColour" value="0 0 0" />
+                <Property key="VisibleVScroll" value="true" />
+                <Property key="WordWrap" value="true" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+                <UserString key="FontName" value="Chat" />
+            </Widget>
+        </Widget>
+    </Widget>
+</MyGUI>

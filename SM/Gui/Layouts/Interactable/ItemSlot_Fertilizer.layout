@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ImageBox" skin="ImageBox" name="DraggedItemIcon" position_real="0 0 1 1">
+        <Property key="Visible" value="false" />
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+    </Widget>
+    <Widget type="Button" skin="BackgroundContainerItemFertilizer" name="MainPanel" position_real="0 0 1 1">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="ImageBox" skin="ImageBox" name="ItemIcon" position_real="0.189189 0.189189 0.621622 0.621622">
+            <Property key="NeedMouse" value="false" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="HighlightItemIcon" position_real="0.189189 0.135135 0.621622 0.621622">
+            <Property key="NeedMouse" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="Visible" value="false" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="ItemType" position_real="0.135135 0.72973 0.108108 0.108108">
+            <Property key="ImageResource" value="ItemTypeSet" />
+            <Property key="ImageName" value="interactive" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="ItemCount" position_real="0.513514 0.702703 0.351351 0.135135">
+            <Property key="Caption" value="999" />
+            <Property key="TextAlign" value="Right VCenter" />
+            <Property key="FontName" value="SM_NumberSmall" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

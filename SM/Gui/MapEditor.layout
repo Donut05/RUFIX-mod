@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BorderlessBackround" name="MainPanel" position_real="0.000260417 -0.000462963 1.00026 1.00046">
+        <Widget type="Canvas" skin="Canvas" name="EditorWindow" position_real="0.0184896 0.0606481 0.771094 0.735648">
+            <Widget type="Widget" skin="WBPolygonalSkin" name="Lines" position_real="0.000337838 0.000629723 1.00034 1.00063">
+                <Widget type="Widget" skin="WhiteBorder" name="EditorFrame" position_real="0.000337838 0.000629723 1.00034 1.00063">
+                    <Widget type="Widget" skin="PanelEmpty" name="CursorToolPanel" position_real="0.179392 0.234887 0.105068 0.0673804">
+                        <Widget type="Button" skin="WorldBuilderRotateRight" name="CursorRotateRight" position_real="0.351613 0.0660377 0.306452 0.896226" />
+                        <Widget type="Button" skin="WorldBuilderTrash" name="CursorDelete" position_real="0.680645 0.0660377 0.306452 0.896226" />
+                        <Widget type="Button" skin="WorldBuilderRotateLeft" name="CursorRotateLeft" position_real="0.0225806 0.0660377 0.306452 0.896226" />
+                    </Widget>
+                    <Widget type="Button" skin="SMButton" name="ClearWorld" position_real="0.0138514 0.926322 0.155743 0.0573048">
+                        <Property key="Caption" value="#{WORLD_BUILDER_CLEAR_WORLD}" />
+                        <Property key="NeedMouse" value="true" />
+                    </Widget>
+                    <Widget type="Button" skin="SMButton" name="Cursor" position_real="0.010473 0.0195214 0.0408784 0.0761965">
+                        <Property key="NeedMouse" value="true" />
+                        <Widget type="ImageBox" skin="ImageBox" position_real="0.0583333 0.0583333 0.908333 0.908333">
+                            <Property key="NeedMouse" value="false" />
+                            <Property key="ImageTexture" value="arrow.png" />
+                        </Widget>
+                    </Widget>
+                    <Widget type="Button" skin="SMButton" name="ErasorS" position_real="0.010473 0.11398 0.0408784 0.0761965">
+                        <Widget type="ImageBox" skin="ImageBox" position_real="0.0583333 0.0583333 0.908333 0.908333">
+                            <Property key="ImageTexture" value="eraser_s.png" />
+                            <Property key="NeedMouse" value="false" />
+                        </Widget>
+                    </Widget>
+                    <Widget type="Button" skin="SMButton" name="ErasorM" position_real="0.010473 0.208438 0.0408784 0.0761965">
+                        <Widget type="ImageBox" skin="ImageBox" position_real="0.0583333 0.0583333 0.908333 0.908333">
+                            <Property key="ImageTexture" value="eraser_m.png" />
+                            <Property key="NeedMouse" value="false" />
+                        </Widget>
+                    </Widget>
+                    <Widget type="Button" skin="SMButton" name="ErasorL" position_real="0.010473 0.302897 0.0408784 0.0761965">
+                        <Widget type="ImageBox" skin="ImageBox" position_real="0.0583333 0.0583333 0.908333 0.908333">
+                            <Property key="ImageTexture" value="eraser_l.png" />
+                            <Property key="NeedMouse" value="false" />
+                        </Widget>
+                    </Widget>
+                    <Widget type="Button" skin="SMButton" name="FreePlacement" position_real="0.929392 0.926322 0.0577703 0.0573048">
+                        <Property key="Caption" value="#{OFF}" />
+                    </Widget>
+                    <Widget type="TextBox" skin="TextBox" position_real="0.743581 0.926322 0.180743 0.0573048">
+                        <Property key="FontName" value="ButtonCaptionLarge" />
+                        <Property key="Caption" value="#{WORLD_BUILDER_FREE_PLACEMENT}" />
+                        <Property key="TextAlign" value="Right Top" />
+                        <Property key="NeedMouse" value="false" />
+                        <Property key="TextShadow" value="true" />
+                    </Widget>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="SMButton" name="MenuButton" position_real="0.817969 0.343056 0.15651 0.0421296">
+            <Property key="Caption" value="#{WORLD_BUILDER_MAIN_MENU}" />
+        </Widget>
+        <Widget type="ItemBox" skin="SavedGames" name="TileGrid" position_real="0.0809896 0.815278 0.87526 0.1625">
+            <Property key="VerticalAlignment" value="false" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+        <Widget type="Button" skin="TileLeftButton" name="ScrollLeft" position_real="0.0606771 0.841204 0.0164063 0.106019" />
+        <Widget type="Button" skin="TileRightButton" name="ScrollRight" position_real="0.965885 0.841204 0.0164063 0.106019" />
+        <Widget type="Button" skin="SMButton" name="ALL" position_real="0.0184896 0.815278 0.0315104 0.0282407">
+            <Property key="Caption" value="#{ALL_CAPS}" />
+            <Property key="FontName" value="ButtonCaptionSmall" />
+        </Widget>
+        <Widget type="Button" skin="SMButton" name="64" position_real="0.0184896 0.847685 0.0315104 0.0282407">
+            <Property key="Caption" value="S" />
+            <Property key="FontName" value="ButtonCaptionSmall" />
+        </Widget>
+        <Widget type="Button" skin="SMButton" name="128" position_real="0.0184896 0.880093 0.0315104 0.0282407">
+            <Property key="Caption" value="M" />
+            <Property key="FontName" value="ButtonCaptionSmall" />
+        </Widget>
+        <Widget type="Button" skin="SMButton" name="256" position_real="0.0184896 0.9125 0.0315104 0.0282407">
+            <Property key="Caption" value="L" />
+            <Property key="FontName" value="ButtonCaptionSmall" />
+        </Widget>
+        <Widget type="Button" skin="SMButton" name="512" position_real="0.0184896 0.944907 0.0315104 0.0282407">
+            <Property key="Caption" value="XL" />
+            <Property key="FontName" value="ButtonCaptionSmall" />
+        </Widget>
+        <Widget type="Widget" skin="InventoryBackground" name="SelectedTile" position_real="0.802344 0.5375 0.179948 0.259722">
+            <Property key="Visible" value="false" />
+            <Widget type="TextBox" skin="TextBox" position_real="0.0101449 0.0125 0.984058 0.126786" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.0184896 0.0189815 0.226823 0.0328704">
+            <Property key="Caption" value="#{WORLD_BUILDER_TITLE}" />
+            <Property key="FontName" value="ButtonCaptionLarge" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.817969 0.0606481 0.15651 0.0375">
+            <Property key="Caption" value="#{WORLD_BUILDER_WORLD_NAME}" />
+            <Property key="TextAlign" value="Default" />
+            <Property key="FontName" value="ButtonCaptionLarge" />
+        </Widget>
+        <Widget type="EditBox" skin="SMEditBox" name="WorldName" position_real="0.817969 0.0976852 0.15651 0.0328704">
+            <Property key="Colour" value="0.231373 0.231373 0.231373" />
+            <Property key="FontName" value="SaveGameCaption" />
+            <UserString key="FontName" value="SaveGameCaption" />
+        </Widget>
+        <Widget type="Button" skin="SMButton" name="Save" position_real="0.817969 0.143981 0.15651 0.0421296">
+            <Property key="Caption" value="#{WORLD_BUILDER_SAVE_WORLD}" />
+        </Widget>
+        <Widget type="Button" skin="SMButton" name="Load" position_real="0.817969 0.199537 0.15651 0.0421296">
+            <Property key="Caption" value="#{WORLD_BUILDER_LOAD_WORLD}" />
+        </Widget>
+        <Widget type="Button" skin="SMButton" name="Workshop" position_real="0.817969 0.2875 0.15651 0.0421296">
+            <Property key="Caption" value="#{STEAM_WORKSHOP}" />
+        </Widget>
+    </Widget>
+</MyGUI>

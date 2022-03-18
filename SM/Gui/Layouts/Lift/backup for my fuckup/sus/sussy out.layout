@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundLiftImport" position_real="0 0 0.620313 0.741667" name="BackPanel">
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.0561798 0.996641 0.0474407" name="Title">
+            <Property key="Caption" value="#{LIFT_EXPORT_TITLE}"/>
+            <Property key="FontName" value="SM_HeaderLarge_Wide"/>
+            <Property key="TextAlign" value="HCenter Top"/>
+        </Widget>
+        <Widget type="Widget" skin="LiftGrid" position_real="0.0428212 0.161049 0.539043 0.775281" name="CenterPanel">
+            <Widget type="Canvas" skin="Canvas" position_real="0.0186916 0.0193237 0.962617 0.961353" align="Default" name="Preview">
+                <Widget type="Widget" skin="SearchBarBackground" position_real="0.0906149 0.721943 0.804207 0.0904523" name="NameBackground">
+                    <Widget type="EditBox" skin="EditBoxEmpty" position_real="0.0100604 0 0.969819 1" name="Name">
+                        <Property key="FontName" value="SM_ItemTitle"/>
+                        <Property key="Caption" value="Blueprint Name"/>
+                        <Property key="TextAlign" value="Center"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="SettingsButton" position_real="0 0.892797 0.270227 0.078727" align="Default" name="Delete">
+                    <Property key="Caption" value="#{LIFT_DELETE}"/>
+                    <Property key="FontName" value="SM_ButtonSmall"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="Enabled" value="true"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+                <Widget type="Button" skin="StyledButtonSmall" position_real="0.736246 0.892797 0.257282 0.078727" align="Default" name="Save">
+                    <Property key="FontName" value="SM_ButtonSmall"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="Enabled" value="true"/>
+                    <Property key="Caption" value="#{LIFT_EXPORT_SAVE}"/>
+                </Widget>
+                <Widget type="Widget" skin="PanelEmpty" position_real="0.173139 0.0351759 0.648867 0.673367" name="CameraView">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="LiftTab" position_real="0.612091 0.163546 0.054576 0.0524345" name="PartsTab">
+            <Property key="Caption" value="#{PART_FILTER_PARTS}"/>
+            <Property key="FontName" value="SM_TabSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="LiftTab" position_real="0.669186 0.163546 0.054576 0.0524345" name="DescriptionTab">
+            <Property key="Caption" value="#{DESCRIPTION_CAPS}"/>
+            <Property key="FontName" value="SM_TabSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPanel" position_real="0.593619 0.21598 0.361881 0.717853" name="DescriptionBackground">
+            <Widget type="ItemBox" skin="InventoryItemBox2" position_real="0.0533643 0.04 0.832947 0.916522" name="PartGrid">
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+            <Widget type="ScrollBar" skin="InventoryVSlider" position_real="0.87471 0.0347826 0.0603248 0.926957" align="Right Top" name="Scroll">
+                <Property key="Range" value="101"/>
+                <Property key="RangePosition" value="0"/>
+            </Widget>
+            <Widget type="EditBox" skin="EditBox_LiftInput" position_real="0.0464037 0.0347826 0.902552 0.926957" name="Description">
+                <Property key="FontName" value="SM_TextTiny"/>
+                <Property key="Caption" value="A breif(?) description of your new, fancy creation"/>
+                <Property key="WordWrap" value="true"/>
+                <Property key="MaxTextLength" value="8000"/>
+                <Property key="MultiLine" value="true"/>
+                <Property key="TextAlign" value="Default"/>
+                <Property key="OverflowToTheLeft" value="false"/>
+                <Property key="TextColour" value="0.545098 0.6 0.627451"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

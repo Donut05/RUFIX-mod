@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Button" skin="ColorBackground" name="Background" position_real="0.1 0.1 0.8 0.8">
+        <Property key="FontName" value="Default" />
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="ImageBox" skin="ImageBox" name="Color" position_real="0.1 0.1 0.8 0.8">
+            <Property key="ImageTexture" value="gui_character_icon_color.png" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+    </Widget>
+</MyGUI>

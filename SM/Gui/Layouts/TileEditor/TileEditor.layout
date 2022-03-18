@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="MenuBar" skin="SMMenuBar" position="0 0 1920 26" align="HStretch Top" layer="Main" name="MenuBar">
+        <Property key="NeedKey" value="false"/>
+        <Widget type="MenuItem" skin="SMMenuBarButton" position="0 0 32 15" name="File">
+            <Property key="Caption" value="File"/>
+            <Property key="MenuItemType" value="Popup"/>
+            <Widget type="PopupMenu" skin="SMPopupMenu" position="2 25 139 85" style="Popup" layer="Popup">
+                <Widget type="MenuItem" skin="Button" position="0 0 131 15" name="New">
+                    <Property key="Caption" value="New - (Ctrl+N)"/>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 15 131 15" name="Open">
+                    <Property key="Caption" value="Open - (Ctrl+O)"/>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 30 131 15" name="Save">
+                    <Property key="Caption" value="Save - (Ctrl+S)"/>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 45 131 15" name="SaveAs">
+                    <Property key="Caption" value="Save As.. - (Shift+Ctrl+S)"/>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 60 131 15" name="Exit">
+                    <Property key="Caption" value="Exit"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="MenuItem" skin="SMMenuBarButton" position="38 0 45 15" name="Editor">
+            <Property key="Caption" value="Editor"/>
+            <Property key="MenuItemType" value="Popup"/>
+            <Property key="MenuItemId" value="Project"/>
+            <Widget type="PopupMenu" skin="SMPopupMenu" position="40 26 128 115" style="Popup" layer="Popup">
+                <Widget type="MenuItem" skin="Button" position="0 0 120 15" name="GridMode">
+                    <Property key="Caption" value="Grid Snap        "/>
+                    <Widget type="Button" skin="SMSmallButton" position="149 1 20 20" name="GridModeCheckbox">
+                        <Property key="FontName" value="ToolTip"/>
+                    </Widget>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 15 120 15" name="GridShow">
+                    <Property key="Caption" value="Show Grid        "/>
+                    <Widget type="Button" skin="SMSmallButton" position="149 1 20 20" name="GridShowCheckbox">
+                        <Property key="FontName" value="ToolTip"/>
+                    </Widget>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 30 120 15" name="RandomRotation">
+                    <Property key="Caption" value="Random Rotation     "/>
+                    <Widget type="Button" skin="SMSmallButton" position="149 1 20 20" name="RandomRotationCheckbox">
+                        <Property key="FontName" value="ToolTip"/>
+                    </Widget>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 45 120 15" name="VisualizationShow">
+                    <Property key="Caption" value="Show Visualization     "/>
+                    <Widget type="Button" skin="SMSmallButton" position="149 1 20 20" name="VisualizationShowCheckbox">
+                        <Property key="FontName" value="ToolTip"/>
+                    </Widget>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 60 120 15" name="ResetLayout">
+                    <Property key="Caption" value="Reset Layout"/>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 75 120 15" name="ReloadEffects">
+                    <Property key="Caption" value="Reload Effects"/>
+                </Widget>
+                <Widget type="MenuItem" skin="SMMenuBarButton" position="0 90 120 15" name="GenerateIcons">
+                    <Property key="Caption" value="Generate Icons"/>
+                    <Property key="MenuItemType" value="Popup"/>
+                    <Property key="Visible" value="false"/>
+                    <Widget type="PopupMenu" skin="SMPopupMenu" position="2 25 82 55" style="Popup" layer="Popup">
+                        <Widget type="MenuItem" skin="Button" position="0 0 74 15" name="Assets">
+                            <Property key="Caption" value="Assets"/>
+                        </Widget>
+                        <Widget type="MenuItem" skin="Button" position="0 15 74 15" name="Harvestables">
+                            <Property key="Caption" value="Harvestables"/>
+                        </Widget>
+                        <Widget type="MenuItem" skin="Button" position="0 30 74 15" name="Nodes">
+                            <Property key="Caption" value="Nodes"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="MenuItem" skin="SMMenuBarButton" position="89 0 44 15" name="Share">
+            <Property key="Caption" value="Share"/>
+            <Property key="MenuItemType" value="Popup"/>
+            <Property key="MenuItemId" value="Project"/>
+        </Widget>
+        <Widget type="MenuItem" skin="SMMenuBarButton" position="139 0 37 15" name="Help">
+            <Property key="Caption" value="Help"/>
+            <Property key="MenuItemType" value="Popup"/>
+            <Property key="MenuItemId" value="Project"/>
+        </Widget>
+        <Widget type="MenuItem" skin="SMMenuBarButton" position="182 0 39 15" name="Filter">
+            <Property key="Caption" value="Filter"/>
+            <Property key="MenuItemType" value="Popup"/>
+            <Property key="MenuItemId" value="Project"/>
+            <Widget type="PopupMenu" skin="SMPopupMenu" position="50 25 102 115" style="Popup" layer="Popup">
+                <Widget type="MenuItem" skin="Button" position="0 0 94 15" name="All">
+                    <Property key="Caption" value="All"/>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 15 94 15" name="Asset">
+                    <Property key="Caption" value="Asset        "/>
+                    <Widget type="Button" skin="SMSmallButton" position="110 2 20 20" name="AssetCheckbox">
+                        <Property key="FontName" value="ToolTip"/>
+                    </Widget>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 30 94 15" name="Blueprint">
+                    <Property key="Caption" value="Blueprint        "/>
+                    <Widget type="Button" skin="SMSmallButton" position="110 2 20 20" name="BlueprintCheckbox">
+                        <Property key="FontName" value="ToolTip"/>
+                    </Widget>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 45 94 15" name="Prefab">
+                    <Property key="Caption" value="Prefab        "/>
+                    <Widget type="Button" skin="SMSmallButton" position="110 2 20 20" name="PrefabCheckbox">
+                        <Property key="FontName" value="ToolTip"/>
+                    </Widget>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 60 94 15" name="Node">
+                    <Property key="Caption" value="Node        "/>
+                    <Widget type="Button" skin="SMSmallButton" position="110 2 20 20" name="NodeCheckbox">
+                        <Property key="FontName" value="ToolTip"/>
+                    </Widget>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 75 94 15" name="Decal">
+                    <Property key="Caption" value="Decal        "/>
+                    <Widget type="Button" skin="SMSmallButton" position="110 2 20 20" name="DecalCheckbox">
+                        <Property key="FontName" value="ToolTip"/>
+                    </Widget>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 90 94 15" name="Harvestable">
+                    <Property key="Caption" value="Harvestable        "/>
+                    <Widget type="Button" skin="SMSmallButton" position="110 2 20 20" name="HarvestableCheckbox">
+                        <Property key="FontName" value="ToolTip"/>
+                    </Widget>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="MenuItem" skin="SMMenuBarButton" position="227 0 61 15" name="Blueprints">
+            <Property key="Caption" value="Blueprints"/>
+            <Property key="MenuItemType" value="Popup"/>
+            <Property key="Visible" value="false"/>
+            <Widget type="PopupMenu" skin="SMPopupMenu" position="2 25 103 55" style="Popup" layer="Popup">
+                <Widget type="MenuItem" skin="Button" position="0 0 95 15" name="ImportBlueprint">
+                    <Property key="Caption" value="Import Blueprint"/>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 15 95 15" name="MergeBlueprints">
+                    <Property key="Caption" value="Merge Blueprints"/>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 30 95 15" name="ReloadBlueprints">
+                    <Property key="Caption" value="Reload Blueprints"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="MenuItem" skin="SMMenuBarButton" position="294 0 50 15" name="Prefabs">
+            <Property key="Caption" value="Prefabs"/>
+            <Property key="MenuItemType" value="Popup"/>
+            <Property key="Visible" value="false"/>
+            <Widget type="PopupMenu" skin="SMPopupMenu" position="2 25 156 70" style="Popup" layer="Popup">
+                <Widget type="MenuItem" skin="Button" position="0 0 148 15" name="ImportPrefab">
+                    <Property key="Caption" value="Import Prefab"/>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 15 148 15" name="LoadPrefab">
+                    <Property key="Caption" value="Load Prefab (Opens new tile)"/>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 30 148 15" name="SavePrefab">
+                    <Property key="Caption" value="Save Prefab"/>
+                </Widget>
+                <Widget type="MenuItem" skin="Button" position="0 45 148 15" name="UpgradePrefabs">
+                    <Property key="Caption" value="Upgrade Prefabs"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="MenuItem" skin="SMMenuBarButton" position="350 0 71 15" name="TileSettings">
+            <Property key="Caption" value="Tile Settings"/>
+            <Property key="MenuItemType" value="Popup"/>
+            <Property key="MenuItemId" value="Project"/>
+            <Property key="Visible" value="false"/>
+        </Widget>
+        <Widget type="MenuItem" skin="SMMenuBarButton" position="427 0 64 15" name="RenderingSettings">
+            <Property key="Caption" value="Rendering"/>
+            <Property key="MenuItemType" value="Popup"/>
+            <Property key="Visible" value="false"/>
+            <Widget type="PopupMenu" skin="SMPopupMenu" position="2 25 95 70" style="Popup" layer="Popup">
+                <Widget type="MenuItem" skin="SMMenuBarButton" position="0 0 87 15" name="Rendering Mode">
+                    <Property key="Caption" value="Redering Mode"/>
+                    <Property key="MenuItemType" value="Popup"/>
+                    <Property key="Visible" value="true"/>
+                    <Widget type="PopupMenu" skin="SMPopupMenu" position="2 25 103 55" style="Popup" layer="Popup">
+                        <Widget type="MenuItem" skin="Button" position="0 0 95 15" name="Mode_Default">
+                            <Property key="Caption" value="Default"/>
+                        </Widget>
+                        <Widget type="MenuItem" skin="Button" position="0 15 95 15" name="Mode_Challenge Indoor">
+                            <Property key="Caption" value="Challenge Indoor"/>
+                        </Widget>
+                        <Widget type="MenuItem" skin="Button" position="0 30 95 15" name="Mode_Dungeon">
+                            <Property key="Caption" value="Dungeon"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="MenuItem" skin="SMMenuBarButton" position="0 15 87 15" name="Shadows">
+                    <Property key="Caption" value="Shadows"/>
+                    <Property key="MenuItemType" value="Popup"/>
+                    <Property key="Visible" value="true"/>
+                    <Widget type="PopupMenu" skin="SMPopupMenu" position="2 25 40 40" style="Popup" layer="Popup">
+                        <Widget type="MenuItem" skin="Button" position="0 0 32 15" name="Shadows_On">
+                            <Property key="Caption" value="On"/>
+                        </Widget>
+                        <Widget type="MenuItem" skin="Button" position="0 15 32 15" name="Shadows_Off">
+                            <Property key="Caption" value="Off"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="MenuItem" skin="SMMenuBarButton" position="0 30 87 15" name="Connections">
+                    <Property key="Caption" value="Connections"/>
+                    <Property key="MenuItemType" value="Popup"/>
+                    <Property key="Visible" value="true"/>
+                    <Widget type="PopupMenu" skin="SMPopupMenu" position="2 25 40 40" style="Popup" layer="Popup">
+                        <Widget type="MenuItem" skin="Button" position="0 0 32 15" name="Connections_On">
+                            <Property key="Caption" value="On"/>
+                        </Widget>
+                        <Widget type="MenuItem" skin="Button" position="0 15 32 15" name="Connections_Off">
+                            <Property key="Caption" value="Off"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="MenuItem" skin="SMMenuBarButton" position="0 45 87 15" name="Reflections">
+                    <Property key="Caption" value="Reflections"/>
+                    <Property key="MenuItemType" value="Popup"/>
+                    <Property key="Visible" value="true"/>
+                    <Widget type="PopupMenu" skin="SMPopupMenu" position="2 25 40 40" style="Popup" layer="Popup">
+                        <Widget type="MenuItem" skin="Button" position="0 0 32 15" name="Reflection Areas_On">
+                            <Property key="Caption" value="On"/>
+                        </Widget>
+                        <Widget type="MenuItem" skin="Button" position="0 15 32 15" name="Reflection Areas_Off">
+                            <Property key="Caption" value="Off"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="MenuItem" skin="SMMenuBarButton" position="497 0 23 15" name="Up">
+            <Property key="Caption" value=".."/>
+            <Property key="MenuItemType" value="Popup"/>
+            <Property key="MenuItemId" value="Project"/>
+            <Property key="Visible" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="680 2 500 21" align="Right Top" layer="Statistic" name="TileName"/>
+    </Widget>
+    <Widget type="Window" skin="SMWindowC" position="0 26 179 347" layer="Overlapped" name="ToolsWindow">
+        <Property key="Caption" value="Tools"/>
+        <Property key="MinSize" value="180 226"/>
+        <Property key="Visible" value="false"/>
+        <Property key="NeedKey" value="false"/>
+        <Widget type="ScrollView" skin="SMEmptyScrollView" position="4 4 168 342" align="Stretch" name="ToolsView">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowCS" position="800 26 210 300" layer="Overlapped" name="PropertiesWindow">
+        <Property key="Caption" value="Properties"/>
+        <Property key="MinSize" value="210 300"/>
+        <Property key="Visible" value="false"/>
+        <Property key="NeedKey" value="false"/>
+        <Widget type="ScrollView" skin="SMEmptyScrollView" position="0 5 205 260" align="Stretch" name="PropertiesView">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowCSX" position="800 300 390 300" layer="Overlapped" name="TileSettingsWindow">
+        <Property key="Caption" value="Tile Settings"/>
+        <Property key="MinSize" value="390 300"/>
+        <Property key="Visible" value="false"/>
+        <Property key="NeedKey" value="false"/>
+        <Widget type="ScrollView" skin="SMEmptyScrollView" position="0 5 385 260" align="Stretch" name="TileSettingsView">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowCS" position="0 370 327 470" layer="Overlapped" name="AssetLibraryWindow">
+        <Property key="NeedKey" value="false"/>
+        <Property key="Caption" value="Asset Library"/>
+        <Property key="MinSize" value="217 370"/>
+        <Widget type="MenuBar" skin="SMMenuBarTransparent" position="11 7 307 32" align="HStretch Top">
+            <Widget type="MenuItem" skin="SMMenuBarButton" position="0 0 70 23" name="CategoryButton">
+                <Property key="Caption" value="Category: All"/>
+                <Property key="MenuItemType" value="Popup"/>
+                <Property key="MenuItemId" value="Project"/>
+                <Widget type="PopupMenu" skin="SMPopupMenu" position="50 31 8 10" style="Popup" layer="Popup" name="CategoryMenu"/>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="SMButton" position="13 48 290 29" name="SteamWorkshop">
+            <Property key="Caption" value="Steam Workshop"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="ItemBox" skin="SMEditorListBox" position="11 85 307 358" align="Stretch" name="AssetList">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowCS" position="0 372 327 470" layer="Overlapped" name="NodeLibraryWindow">
+        <Property key="NeedKey" value="false"/>
+        <Property key="Caption" value="Node Library"/>
+        <Property key="MinSize" value="217 370"/>
+        <Widget type="ItemBox" skin="SMEditorListBox" position="11 10 307 433" align="Stretch" name="AssetList">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowCS" position="0 372 327 470" layer="Overlapped" name="ShapeLibraryWindow">
+        <Property key="NeedKey" value="false"/>
+        <Property key="Caption" value="Shape Library"/>
+        <Property key="MinSize" value="217 370"/>
+        <Widget type="ItemBox" skin="SMEditorListBox" position="11 10 307 433" align="Stretch" name="AssetList">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowCS" position="0 372 327 470" layer="Overlapped" name="HarvestableLibraryWindow">
+        <Property key="NeedKey" value="false"/>
+        <Property key="Caption" value="Harvestable Library"/>
+        <Property key="MinSize" value="217 370"/>
+        <Widget type="MenuBar" skin="SMMenuBarTransparent" position="11 7 307 32" align="HStretch Top">
+            <Widget type="MenuItem" skin="SMMenuBarButton" position="0 0 70 23" name="CategoryButton">
+                <Property key="Caption" value="Category: All"/>
+                <Property key="MenuItemType" value="Popup"/>
+                <Property key="MenuItemId" value="Project"/>
+                <Widget type="PopupMenu" skin="SMPopupMenu" position="50 31 8 10" style="Popup" layer="Popup" name="CategoryMenu"/>
+            </Widget>
+        </Widget>
+        <Widget type="ItemBox" skin="SMEditorListBox" position="11 85 307 358" align="Stretch" name="AssetList">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowCS" position="0 518 316 320" layer="Overlapped" name="GroundMaterialWindow">
+        <Property key="NeedKey" value="false"/>
+        <Property key="Caption" value="Ground Material"/>
+        <Property key="MinSize" value="108 180"/>
+        <Widget type="ComboBox" skin="SMComboBox" position="4 4 301 24" align="HStretch Top" name="GroundMaterialSet">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="ItemBox" skin="SMEditorListBox" position="0 30 307 260" align="Stretch" name="GroundMaterialList">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowCS" position="0 518 240 320" layer="Overlapped" name="ClutterLibraryWindow">
+        <Property key="NeedKey" value="false"/>
+        <Property key="Caption" value="Clutter Library"/>
+        <Property key="MinSize" value="180 280"/>
+        <Property key="Visible" value="false"/>
+        <Widget type="ScrollView" skin="SMEditorListBox" position="0 0 230 300" align="Stretch" name="ClutterLibraryView">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowC" position="0 370 240 150" layer="Overlapped" name="BrushWindow">
+        <Property key="NeedKey" value="false"/>
+        <Property key="Caption" value="Brush"/>
+        <Property key="Visible" value="false"/>
+        <Widget type="ScrollView" skin="SMEmptyScrollView" position="4 4 229 128" align="Stretch" name="BrushView">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowC" position="0 518 240 122" layer="Overlapped" name="TerrainBrushWindow">
+        <Property key="NeedKey" value="false"/>
+        <Property key="Visible" value="false"/>
+        <Property key="Caption" value="Terrain Brush"/>
+        <Widget type="ScrollView" skin="SMEmptyScrollView" position="4 4 229 100" align="Stretch" name="TerrainBrushView">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowC" position="1010 26 270 525" layer="Overlapped" name="ColorEditor">
+        <Property key="Caption" value="Color"/>
+        <Property key="Visible" value="false"/>
+        <Property key="NeedKey" value="false"/>
+        <Widget type="ImageBox" skin="ImageBox" position="3 5 256 256" name="ColorMatrixImage">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position="3 266 256 24" name="HueGradientImage">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="ScrollView" skin="SMEmptyScrollView" position="130 325 130 125" name="HSVList">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position="3 295 256 24" name="AlphaGradientImage">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="ScrollView" skin="SMEmptyScrollView" position="5 325 120 125" name="RGBList">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="ScrollView" skin="SMEmptyScrollView" position="5 450 255 40" name="ButtonArea">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="Window" skin="SMWindowC" position="800 26 486 280" layer="Overlapped" name="CameraWindow">
+        <Property key="Caption" value="Camera"/>
+        <Property key="Visible" value="false"/>
+        <Property key="NeedKey" value="false"/>
+        <Property key="MinSize" value="486 280"/>
+        <Widget type="TextureBox" skin="TextureBox" position="3 5 480 270" align="Stretch" name="CameraView">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+
+    <Widget type="TextBox" skin="TextBox" position_real="-0.0078125 0.0234375 1 0.975586" align="Right Top" layer="Statistic" name="InfoBox">
+        <Property key="TextAlign" value="Right Top"/>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

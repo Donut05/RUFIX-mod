@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="MainPanel" position_real="0 0 1 1">
+        <Widget type="Widget" skin="PanelEmpty" name="ContainerHostPanel" position_real="0.028109 0.00694444 0.942078 0.939815">
+            <Widget type="Widget" skin="PanelEmpty" name="Container" position_real="0 0 1 0.980296">
+                <Widget type="Widget" skin="PanelEmpty" name="LeftStack" position_real="0 0 0.412297 1" />
+                <Widget type="Widget" skin="PanelEmpty" name="RightStack" position_real="0.542495 0 0.412297 1" />
+            </Widget>
+        </Widget>
+        <Widget type="ScrollBar" skin="InventoryVSlider" name="Scroll" position_real="0.972743 0.0601852 0.0153322 0.858796">
+            <Property key="Range" value="101" />
+            <Property key="Page" value="1" />
+            <Property key="RangePosition" value="10" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

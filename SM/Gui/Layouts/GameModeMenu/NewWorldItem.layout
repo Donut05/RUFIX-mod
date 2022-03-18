@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="MainPanel" position_real="0 0 1 1">
+        <Property key="NeedMouse" value="false" />
+        <Property key="NeedKey" value="false" />
+        <Widget type="TextBox" skin="TextBox" name="Name" position_real="0 0.657143 0.885714 0.228571">
+            <Property key="Caption" value="Game Name" />
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="SM_ButtonTiny" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Preview" position_real="0 0 0.885714 0.885714">
+            <Property key="ImageTexture" value="tumb_terrain.png" />
+            <Widget type="Widget" skin="HighlightSelectionBox" name="PreviewSelectBorder" position_real="0 0 1 1" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

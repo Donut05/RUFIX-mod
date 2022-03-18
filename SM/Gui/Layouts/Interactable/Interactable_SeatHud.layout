@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ItemBox" skin="InventoryItemBox2" name="ButtonGrid" position_real="0.0263158 0 0.973684 1">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>
