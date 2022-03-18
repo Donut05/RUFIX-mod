@@ -1,0 +1,31 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 15,
+			"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_controller.fbx",
+			"subMeshMap": {
+				"controller": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_controller_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_controller_asg.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_controller_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_controller_lod1.fbx",
+			"subMeshMap": {
+				"controller": {
+					"material": "DifAsg",
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_controller_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_controller_asg.tga",
+						""
+					]
+				}
+			}
+		}
+	]
+}

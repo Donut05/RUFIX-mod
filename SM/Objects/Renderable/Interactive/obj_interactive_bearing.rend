@@ -1,0 +1,31 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 11,
+			"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_bearing.fbx",
+			"subMeshMap": {
+				"bearing": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_bearing_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_bearing_asg.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_bearing_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_bearing_lod1.fbx",
+			"subMeshMap": {
+				"bearing": {
+					"material": "DifAsg",
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_bearing_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_bearing_asg.tga",
+						""
+					]
+				}
+			}
+		}
+	]
+}

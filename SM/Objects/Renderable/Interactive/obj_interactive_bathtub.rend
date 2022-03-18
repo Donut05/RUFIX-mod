@@ -1,0 +1,31 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 15,
+			"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_bathtub.fbx",
+			"subMeshMap": {
+				"bathtub": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_bathtub_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_bathtub_asg.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_bathtub_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_bathtub_lod1.fbx",
+			"subMeshMap": {
+				"bathtub": {
+					"material": "DifAsg",
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_bathtub_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_bathtub_asg.tga",
+						""
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"lodList": [
+					{
+						"minViewSize": 20,
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_driverseat_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_driverseat_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_driverseat_nor.tga"
+								],
+								"material": "SkelAnimDifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_driverseat.mesh",
+						"includes": [
+							"POSITION",
+							"UV0",
+							"NORMAL",
+							"TANGENT",
+							"BLEND_INDICES",
+							"BLEND_WEIGHTS"
+						],
+						"custom": {
+							"skeleton": {
+								"anim0": "steering"
+							}
+						}
+					},
+					{
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_driverseat_lod1.fbx",
+						"subMeshMap": {
+							"driverseat": {
+								"material": "DifAsg",
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_driverseat_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_driverseat_asg.tga",
+									""
+								]
+							}
+						}
+					}
+			]
+}

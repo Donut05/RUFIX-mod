@@ -1,0 +1,48 @@
+{
+	"lodList": [
+					{
+						"minViewSize": 30,
+						"subMeshMap": {
+							"mounted_spudgun": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							"barrel_basic": {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_mountablespudgun_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_mountablespudgun_on.fbx"
+					},
+					{
+						"subMeshMap": {
+							"mounted_spudgun": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+									""
+								],
+								"material": "DifAsg"
+							},
+							"barrel_basic": {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_asg.tga",
+									""
+								],
+								"material": "DifAsg"
+							}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_mountablespudgun_lod1.fbx"
+					}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 55,
+			"subMeshList": [
+				{
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_dif.tga",
+						"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_asg.tga",
+						"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+			"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel.fbx"
+		},
+		{
+			"minViewSize": 15,
+			"subMeshList": [
+				{
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_dif.tga",
+						"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_asg.tga",
+						"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+			"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel_lod1.fbx"
+		},
+		{
+			"subMeshList": [
+				{
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_dif.tga",
+						"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_asg.tga",
+						"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+			"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel_lod2.fbx"
+		}
+	]
+}

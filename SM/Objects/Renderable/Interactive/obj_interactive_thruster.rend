@@ -1,0 +1,34 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 15,
+			"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_off.fbx",
+			"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_off01.fbx",
+			"pose1": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_on.fbx",
+			"pose2": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_on01.fbx",
+			"subMeshMap": {
+				"thruster": {
+					"material": "3PoseAnimDifAsgNor",
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_asg.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_thruster_lod1.fbx",
+			"subMeshMap": {
+				"thruster": {
+					"material": "DifAsg",
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_enginejet_asg.tga",
+						""
+					]
+				}
+			}
+		}
+	]
+}

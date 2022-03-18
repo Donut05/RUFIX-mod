@@ -1,0 +1,33 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 10,
+			"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_suspensionsport_off.fbx",
+			"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_suspensionsport_on.fbx",
+			"subMeshMap": {
+				"suspension": {
+					"material": "PoseAnimDifAsgNor",
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_suspensionsport_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_suspensions_asg.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_suspensions_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_suspensionsport_off_lod1.fbx",
+			"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_suspensionsport_on_lod1.fbx",
+			"subMeshMap": {
+				"suspension": {
+					"material": "PoseAnimDifAsgNor",
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_suspensionsport_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_suspensions_asg.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_suspensions_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

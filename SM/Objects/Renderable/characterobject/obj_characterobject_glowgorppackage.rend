@@ -1,0 +1,44 @@
+{
+"lodList": [
+	{
+		"subMeshMap": {
+			"plastic_mat": {
+				"textureList": [
+					"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_glass_dif.tga",
+					"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+					"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+				],
+				"material": "Glass"
+			},
+			"packaging_mat": {
+				"textureList": [
+					"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+					"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+					"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+					
+				],
+				"material": "DifAsgNor"
+			},
+			"stickers_mat": {
+				"textureList": [
+					"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_dif.tga",
+					"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_asg.tga",
+					"$GAME_DATA/Objects/Textures/characterobject/obj_characterobject_farmbotpackage_nor.tga"
+					
+				],
+				"material": "DifAsgNorAlpha"
+			},
+			"glowgorp_mat": {
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_nor.tga"
+					
+				],
+				"material": "DifAsgNor"
+			}
+		},
+		"mesh": "$GAME_DATA/Objects/Mesh/characterobject/obj_characterobject_glowgorppackage.fbx"
+	}
+]
+}

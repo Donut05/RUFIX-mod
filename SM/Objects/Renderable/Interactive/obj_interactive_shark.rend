@@ -1,0 +1,56 @@
+{
+	"lodList": [
+					{
+						"minViewSize": 20,
+						"subMeshMap": {
+							"Shark": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_shark_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_shark_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_shark_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							"Wood": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sharkwood_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sharkwood_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sharkwood_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							"Hook": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sharkhook_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sharkhook_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sharkhook_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_raftshark_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_raftshark_on.fbx"
+					},
+					{
+						"subMeshMap": {
+							"Shark": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_shark_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_shark_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_shark_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							"Wood": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sharkwood_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sharkwood_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sharkwood_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_raftshark_lod1.fbx"
+					}
+				]
+			}
