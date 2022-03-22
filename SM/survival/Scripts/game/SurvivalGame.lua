@@ -368,12 +368,40 @@ function SurvivalGame.cl_onChatCommand( self, params )
 		end
 	elseif params[1] == "/harvestable" then
 		local character = sm.localPlayer.getPlayer().character
+		local trees = {
+			{"c4ea19d3-2469-4059-9f13-3ddb4f7e0b79", "711c3e72-7ba1-4424-ae70-c13d23afe818", "a7aa52af-4276-4b2d-af44-36bc41864e04"},
+			{"8411caba-63db-4b93-ad67-7ae8e350d360", "1cb503a4-9306-412f-9e13-371bc634af60", "fa864e51-67db-4ac9-823b-cfbdf523375d"},
+			{"91ec04ea-9bf7-4a9d-bb7f-3d0125ff78c7", "4d482999-98b7-4023-a149-d47be709b8f7", "3db0a60d-8668-4c8a-8dd2-f5ceb294977e"},
+			{"73f968f0-d3a3-4334-86a8-a90203a3a56d", "86324c5b-e97a-41f6-aa2c-7c6462f1f2e7", "27aa53ea-1e09-4251-a284-437f93850409"}
+		}
+		local rocks = {
+			{"0d3362ae-4cb3-42ae-8a08-d3f9ed79e274", "f6b8e9b8-5592-46b6-acf9-86123bf630a9", "60ad4b7f-a7ef-4944-8a87-0844e6305513"},
+			{"ab5b947e-a223-4842-83dd-aa6b23ac2b86", "5da6c862-8a5c-4b56-90d3-5f038d569c4a", "90e0ef6a-8409-4459-8926-e5351d7da611"},
+			{"ab362045-0444-4749-9f24-f5e850162857", "63fb92b3-e1dc-4b5c-9ed3-7b572bc01ca4", "67111401-1ee1-4bfb-8780-fa878352f90d"}
+		}
 		if character then
 			local harvestableUuid = sm.uuid.new( "00000000-0000-0000-0000-000000000000" )
-			if params[2] == "tree" then
-				harvestableUuid = sm.uuid.new( "c4ea19d3-2469-4059-9f13-3ddb4f7e0b79" )
-			elseif params[2] == "stone" then
-				harvestableUuid = sm.uuid.new( "0d3362ae-4cb3-42ae-8a08-d3f9ed79e274" )
+			if params[2] == "birch" then
+				local randomTreeid = trees[1][ math.random( 1, #trees[1] ) ]
+				harvestableUuid = sm.uuid.new( randomTreeid )
+			elseif params[2] == "pine" then
+				local randomTreeid = trees[2][ math.random( 1, #trees[2] ) ]
+				harvestableUuid = sm.uuid.new( randomTreeid )
+			elseif params[2] == "leafy" then
+				local randomTreeid = trees[3][ math.random( 1, #trees[3] ) ]
+				harvestableUuid = sm.uuid.new( randomTreeid )
+			elseif params[2] == "spruce" then
+				local randomTreeid = trees[4][ math.random( 1, #trees[4] ) ]
+				harvestableUuid = sm.uuid.new( randomTreeid )
+			elseif params[2] == "stone-small" then
+				local randomRockid = rocks[1][ math.random( 1, #rocks[1] ) ]
+				harvestableUuid = sm.uuid.new( randomRockid )
+			elseif params[2] == "stone-medium" then
+				local randomRockid = rocks[2][ math.random( 1, #rocks[2] ) ]
+				harvestableUuid = sm.uuid.new( randomRockid )
+			elseif params[2] == "stone-big" then
+				local randomRockid = rocks[3][ math.random( 1, #rocks[3] ) ]
+				harvestableUuid = sm.uuid.new( randomRockid )
 			elseif params[2] == "soil" then
 				harvestableUuid = hvs_soil
 			elseif params[2] == "fencelong" then
@@ -389,7 +417,13 @@ function SurvivalGame.cl_onChatCommand( self, params )
 			elseif params[2] then
 				harvestableUuid = sm.uuid.new( params[2] )
 			end
-			local spawnParams = { world = character:getWorld(), uuid = harvestableUuid, position = character.worldPosition, quat = sm.vec3.getRotation( sm.vec3.new( 0, 1, 0 ), sm.vec3.new( 0, 0, 1 ) )  }
+			local range = 7.5
+			local success, result = sm.localPlayer.getRaycast( range )
+			if success then
+				spawnParams.aimPosition = result.pointWorld
+			else
+				spawnParams.aimPosition = sm.localPlayer.getRaycastStart() + sm.localPlayer.getDirection() * range
+			end
 			self.network:sendToServer( "sv_spawnHarvestable", spawnParams )
 		end
 	elseif params[1] == "/cleardebug" then
@@ -432,22 +466,22 @@ end
 
 function SurvivalGame.sv_switchGodMode( self )
 	g_godMode = not g_godMode
-	self.network:sendToClients( "client_showMessage", "GODMODE: " .. ( g_godMode and "On" or "Off" ) )
+	self.network:sendToClients( "client_showMessage", "GODMODE: " .. ( g_godMode and "ВКЛ." or "ВЫКЛ." ) )
 end
 
 function SurvivalGame.sv_n_switchAggroMode( self, params )
 	sm.game.setEnableAggro(params.aggroMode )
-	self.network:sendToClients( "client_showMessage", "AGGRO: " .. ( params.aggroMode and "On" or "Off" ) )
+	self.network:sendToClients( "client_showMessage", "AGGRO: " .. ( params.aggroMode and "ВКЛ." or "ВЫКЛ." ) )
 end
 
 function SurvivalGame.sv_enableRestrictions( self, state )
 	sm.game.setEnableRestrictions( state )
-	self.network:sendToClients( "client_showMessage", ( state and "Restricted" or "Unrestricted"  ) )
+	self.network:sendToClients( "client_showMessage", ( state and "Ограниячения строительства: ВКЛ." or "Ограниячения строительства: ВЫКЛ."  ) )
 end
 
 function SurvivalGame.sv_setLimitedInventory( self, state )
 	sm.game.setLimitedInventory( state )
-	self.network:sendToClients( "client_showMessage", ( state and "Limited inventory" or "Unlimited inventory"  ) )
+	self.network:sendToClients( "client_showMessage", ( state and "Обычный инвентарь выживания" or "Неограниченный инвентарь"  ) )
 end
 
 function SurvivalGame.sv_ambush( self, params )
@@ -485,7 +519,7 @@ function SurvivalGame.sv_setTimeProgress( self, timeProgress )
 		self.sv.time.timeProgress = timeProgress
 		self.sv.syncTimer.count = self.sv.syncTimer.ticks -- Force sync
 	end
-	self.network:sendToClients( "client_showMessage", ( "Time scale set to "..( self.sv.time.timeProgress and "on" or "off ") ) )
+	self.network:sendToClients( "client_showMessage", ( "Ход времени "..( self.sv.time.timeProgress and "возобновлён" or "приостановлен") ) )
 end
 
 function SurvivalGame.sv_killPlayer( self, params )
@@ -516,9 +550,9 @@ function SurvivalGame.sv_onChatCommand( self, params, player )
 			player.character:setTumbling( params[2] )
 		end
 		if player.character:isTumbling() then
-			self.network:sendToClients( "client_showMessage", "Player is tumbling" )
+			self.network:sendToClients( "client_showMessage", "Игрок упал" )
 		else
-			self.network:sendToClients( "client_showMessage", "Player is not tumbling" )
+			self.network:sendToClients( "client_showMessage", "Игрок стоит" )
 		end
 
 	elseif params[1] == "/sethp" then
@@ -539,7 +573,7 @@ function SurvivalGame.sv_onChatCommand( self, params, player )
 		elseif params[2] == "hideout" then
 			pos = sm.vec3.new( 32, -1248, 100 )
 		else
-			self.network:sendToClient( player, "client_showMessage", "Unknown place" )
+			self.network:sendToClient( player, "client_showMessage", "Неправильная локация" )
 		end
 		if pos then
 			local cellX, cellY = math.floor( pos.x/64 ), math.floor( pos.y/64 )
@@ -590,7 +624,7 @@ function SurvivalGame.sv_onChatCommand( self, params, player )
 end
 
 function SurvivalGame.server_onPlayerJoined( self, player, newPlayer )
-	print( player.name, "joined the game" )
+	print( player.name, "присоединился (-ась) к игре" )
 
 	if newPlayer then --Player is first time joiners
 		local inventory = player:getInventory()
@@ -661,7 +695,7 @@ function SurvivalGame.server_onPlayerJoined( self, player, newPlayer )
 end
 
 function SurvivalGame.server_onPlayerLeft( self, player )
-	print( player.name, "left the game" )
+	print( player.name, "покинул (-а) игру" )
 	g_elevatorManager:sv_onPlayerLeft( player )
 end
 

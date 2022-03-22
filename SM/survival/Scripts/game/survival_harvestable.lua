@@ -47,6 +47,7 @@ hvs_tree_birch03 = sm.uuid.new( "a7aa52af-4276-4b2d-af44-36bc41864e04" )
 hvs_tree_leafy01 = sm.uuid.new( "91ec04ea-9bf7-4a9d-bb7f-3d0125ff78c7" )
 hvs_tree_leafy02 = sm.uuid.new( "4d482999-98b7-4023-a149-d47be709b8f7" )
 hvs_tree_leafy03 = sm.uuid.new( "3db0a60d-8668-4c8a-8dd2-f5ceb294977e" )
+
 hvs_tree_spruce01 = sm.uuid.new( "73f968f0-d3a3-4334-86a8-a90203a3a56d" )
 hvs_tree_spruce02 = sm.uuid.new( "86324c5b-e97a-41f6-aa2c-7c6462f1f2e7" )
 hvs_tree_spruce03 = sm.uuid.new( "27aa53ea-1e09-4251-a284-437f93850409" )

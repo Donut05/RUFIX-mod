@@ -71,9 +71,14 @@ end
 
 --CLASSES
 LockerContainer = class( StorageContainer )
+
 CabinetContainer = class( StorageContainer )
+CabinetContainer.poseWeightCount = 1
+
 MicrowaveContainer = class( StorageContainer )
+
 RuinContainer = class( StorageContainer )
+RuinContainer.poseWeightCount = 1
 
 --Storage functionalty
 function LockerContainer.server_onCreate( self )

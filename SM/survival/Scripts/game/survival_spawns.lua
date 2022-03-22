@@ -1,3 +1,4 @@
+dofile( "$SURVIVAL_DATA/Scripts/game/survival_items.lua" )
 -- Constants
 
 -- Multiplies with the number of nodes in a cell
@@ -291,6 +292,9 @@ local function ChestSpawnFunction( cell, interactables, tag )
 	assert( interactables )
 	for _, interactable in ipairs( interactables ) do
 		local container = interactable:getContainer()
+		if not container or container == nil then
+			container =	interactable:addContainer( 0, 4, 65535 )
+		end
 		local loot
 		if cell.isStartArea then
 			loot = SelectLoot( "loot_ruinchest_startarea", container:getSize() )
