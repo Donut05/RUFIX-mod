@@ -1,0 +1,41 @@
+{
+	"partList": [
+		{
+			//Debug chest used with the /monty cheat
+			"uuid": "88f402ec-9706-4ad7-9e51-e17b8162cf92",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+                            "chest_extras": {  
+	                            "material": "PoseAnimDifAsgNor",
+	                            "textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_smallchest_extras_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_smallchest_extras_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_smallchest_extras_nor.tga"
+	                            ]
+                      	  	},
+                            "small_chest": {
+                                "material": "PoseAnimDifAsgNor",
+                                "textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_smallchest_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_smallchest_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_smallchest_nor.tga"
+                                ]
+                            }
+                        },
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_smallchest_off.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_smallchest_on.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"color": "df7f01",
+			"box": { "x": 3, "y": 2, "z": 3 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"chest" : {}
+		}
+	]
+}

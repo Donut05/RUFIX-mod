@@ -1,0 +1,44 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 50,
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pump_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pump_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pump_nor.tga"
+					],
+					"material": "PoseUVAnimDifAsgNor",
+					"custom": {
+						"uv0": {
+							"v": 1,
+							"u": 0.1666666666666667
+						}
+					}
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_pipepump.fbx",
+			"pose0": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_pipepump_pose0.fbx"
+		},
+		{
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pump_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pump_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pump_nor.tga"
+					],
+					"material": "UVAnimDifAsgNor",
+					"custom": {
+						"uv0": {
+							"v": 1,
+							"u": 0.1666666666666667
+						}
+					}
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_pipepump_lod1.fbx"
+		}
+	]
+}

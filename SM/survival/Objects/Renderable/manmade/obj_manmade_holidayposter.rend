@@ -1,0 +1,50 @@
+{
+				"lodList": [
+					{	
+						"minViewSize": 50,
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_holidayposter_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_holidayposter_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_holidayposter_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_holidayposter_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_holidayposter_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/manmade/obj_manmade_holidayposter.fbx"
+					},
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_holidayposter_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_holidayposter_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_holidayposter_nor.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_holidayposter_ao.tga"
+								],
+								"material": "DifAsgNorAo"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/manmade/obj_manmade_holidayposter_lod1.fbx"
+					}
+				]
+			}

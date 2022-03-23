@@ -1,0 +1,50 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 30,
+			"subMeshMap": {
+				"chest": {
+					"material": "3PoseAnimDifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_chest_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_chest_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_chest_nor.tga"
+					]
+				},
+				"connectionpoint": {
+					"material": "3PoseAnimDifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_nor.tga"
+					]
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_chest.fbx",
+			"pose0": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_chest_pose0.fbx",
+			"pose1": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_chest_pose1.fbx",
+			"pose2": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_chest_pose2.fbx"
+		},
+		{
+			"subMeshMap": {
+				"chest": {
+					"material": "DifAsg",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_chest_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_chest_asg.tga",
+						""
+					]
+				},
+				"connectionpoint": {
+					"material": "DifAsg",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_asg.tga",
+						""
+					]
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_chest_lod1.fbx"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 35,
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/harvests/Resource/obj_harvest_resource_slimyclam.fbx",
+			"subMeshMap": {
+				"slimyclam_mat": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Resource/obj_harvest_resource_slimyclam_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Resource/obj_harvest_resource_slimyclam_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Resource/obj_harvest_resource_slimyclam_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/harvests/Resource/obj_harvest_resource_slimyclam_lod1.fbx",
+			"subMeshMap": {
+				"slimyclam_mat": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Resource/obj_harvest_resource_slimyclam_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Resource/obj_harvest_resource_slimyclam_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Resource/obj_harvest_resource_slimyclam_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 20,
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_chemical.fbx",
+			"subMeshMap": {
+				"chemicalconsumable": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_crudeoil_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_crudeoil_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_crudeoil_nor.tga"
+					]
+				},
+				"glass": {
+					"material": "Glass",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_crudeoil_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_crudeoil_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_crudeoil_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_chemical_lod1.fbx",
+			"subMeshMap": {
+				"chemicalconsumable": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_crudeoil_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_crudeoil_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_crudeoil_nor.tga"
+					]
+				},
+				"glass": {
+					"material": "Glass",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_crudeoil_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_crudeoil_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_crudeoil_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

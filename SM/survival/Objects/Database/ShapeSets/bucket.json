@@ -1,0 +1,136 @@
+{
+	"partList": [
+		{
+			"uuid": "798c2c81-1f8e-481b-8c32-b71b5dc5511a",
+			"name": "obj_tool_bucket_empty",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/tool_parts/obj_tool_parts_bucket_empty.fbx"
+					}
+				]
+			},
+			"color": "0b9ade",
+			"cylinder": {
+				"diameter": 2,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y-X+X",
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"restrictions": {
+				"destructable": false,
+				"erasable": true
+			},
+			"autoTool": "52c1d933-5ba0-47da-b107-477b6c211a5d"
+		},
+		{
+			"uuid": "103fc4e6-7e57-465e-a86d-983343415877",
+			"name": "obj_tool_bucket_water",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"bucket_mat": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							"water_mat": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/tool_parts/obj_tool_parts_bucket_full.fbx"
+					}
+				]
+			},
+			"color": "0b9ade",
+			"cylinder": {
+				"diameter": 2,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y-X+X",
+			"physicsMaterial": "Plastic",
+			"showInInventory": false,
+			"ratings": {},
+			"stackSize": 1,
+			"restrictions": {
+				"destructable": false,
+				"erasable": true
+			},
+			"autoTool": "52c1d933-5ba0-47da-b107-477b6c211a5d"
+		},
+		{
+			"uuid": "2e792123-4a10-4cc6-b9ef-c5a518655cb4",
+			"name": "obj_tool_bucket_chemical",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"bucket_mat": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							"water_mat": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_chemical_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/tool_parts/obj_tool_parts_bucket_full.fbx"
+					}
+				]
+			},
+			"color": "0b9ade",
+			"cylinder": {
+				"diameter": 2,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y-X+X",
+			"physicsMaterial": "Plastic",
+			"showInInventory": false,
+			"ratings": {},
+			"stackSize": 1,
+			"restrictions": {
+				"destructable": false,
+				"erasable": true
+			},
+			"autoTool": "52c1d933-5ba0-47da-b107-477b6c211a5d"
+		}
+	]
+}

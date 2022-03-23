@@ -1,0 +1,33 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 55,
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_filecabinet_closed.fbx",
+			"pose0": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_filecabinet_open.fbx",
+			"subMeshMap": {
+				"filecabinet": {
+					"material": "PoseAnimDifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_filecabinet_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_filecabinet_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_filecabinet_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_filecabinet_closed_lod1.fbx",
+			"pose0": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_filecabinet_open_lod1.fbx",
+			"subMeshMap": {
+				"filecabinet": {
+					"material": "PoseAnimDifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_filecabinet_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_filecabinet_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_filecabinet_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

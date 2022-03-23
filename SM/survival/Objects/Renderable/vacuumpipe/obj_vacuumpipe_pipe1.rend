@@ -1,0 +1,37 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 20,
+			"subMeshMap": {
+				"pipe": {
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_nor.tga"
+					],
+					"material": "UVAnimDifAsgNor",
+					"custom": {
+						"uv0": {
+							"v": 1,
+							"u": 0.25
+						}
+					}
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_pipe1.fbx"
+		},
+		{
+			"subMeshMap": {
+				"pipe": {
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_pipe01_lod1.fbx"
+		}
+	]
+}

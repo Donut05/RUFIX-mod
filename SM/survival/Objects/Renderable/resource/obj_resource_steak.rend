@@ -1,0 +1,31 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 50,
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_steak_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_steak_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_steak_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/resource/obj_resource_steak.fbx"
+		},
+		{
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_steak_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_steak_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_steak_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/resource/obj_resource_steak_lod1.fbx"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+    "lodList": [
+        {
+            "subMeshMap": {
+                "crate": {
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_crate_dif.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_crate_asg.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_crate_nor.tga"
+                    ]
+                },
+                "broccolicrate": {
+                    "material": "DifAsgNorAlpha",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_broccolicrate_dif.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_broccolicrate_asg.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/containers/obj_containers_broccolicrate_nor.tga"
+                    ]
+                }
+            },
+            "mesh": "$SURVIVAL_DATA/Objects/Mesh/containers/obj_containers_broccolicrate.fbx"
+        }
+    ]
+}

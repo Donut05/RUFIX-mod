@@ -1,0 +1,51 @@
+{
+				"lodList": [
+					{
+						"minViewSize": 20,
+						"subMeshList": [
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_ammo_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_ammo_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_ammo_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_ammo_potato_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_ammo_potato_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_ammo_potato_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_ammo.fbx"
+					},
+					{
+						"subMeshList": [
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_ammo_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_ammo_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_ammo_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_ammo_potato_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_ammo_potato_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_ammo_potato_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_ammo_lod1.fbx"
+					}
+				]
+			}

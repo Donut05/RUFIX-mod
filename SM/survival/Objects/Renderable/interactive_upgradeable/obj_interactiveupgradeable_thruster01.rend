@@ -1,0 +1,34 @@
+	{
+	"lodList": [
+		{
+			"minViewSize": 45,
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_thruster_01_off.fbx",
+			"pose0": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_thruster_01_off.fbx",
+			"pose1": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_thruster_01_pose0.fbx",
+			"pose2": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_thruster_01_pose1.fbx",
+			"subMeshMap": {
+				"submesh0": {
+					"material": "3PoseAnimDifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_thruster_01_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_thruster_01_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_thruster_01_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_thruster_01_lod1.fbx",
+			"subMeshMap": {
+				"submesh0": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_thruster_01_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_thruster_01_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_thruster_01_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

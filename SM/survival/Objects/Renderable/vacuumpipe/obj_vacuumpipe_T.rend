@@ -1,0 +1,53 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 24,
+			"subMeshMap": {
+				"pipe": {
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_nor.tga"
+					],
+					"material": "UVAnimDifAsgNor",
+					"custom": {
+						"uv0": {
+							"v": 1,
+							"u": 0.25
+						}
+					}
+				},
+				"glass": {
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_glass_dif.tga",
+						"$GAME_DATA/Objects/Textures/blocks/blk_glass_asg.tga",
+						"$GAME_DATA/Objects/Textures/blocks/blk_glass_nor.tga"
+					],
+					"material": "Glass"
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_pipe_T.fbx"
+		},
+		{
+			"subMeshMap": {
+				"pipe": {
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_nor.tga"
+					],
+					"material": "DifAsgNor"
+				},
+				"glass": {
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_glass_dif.tga",
+						"$GAME_DATA/Objects/Textures/blocks/blk_glass_asg.tga",
+						"$GAME_DATA/Objects/Textures/blocks/blk_glass_nor.tga"
+					],
+					"material": "Glass"
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_pipe_T_lod1.fbx"
+		}
+	]
+}

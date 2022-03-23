@@ -1,0 +1,47 @@
+/*
+	Audio id explanation:
+		Determines how the material sounds like when collided with.
+		1 - Grass
+		2 - Plastic
+		3 - Stone
+		4 - Wood
+		5 - Metal
+		10 - Glass
+*/
+{
+	"materials": 
+	[
+		{
+			"name": "Grass",
+			"audio id": 1
+		},
+		{
+			"name": "Plastic",
+			"audio id": 2
+		},
+		{
+			"name": "Rock",
+			"audio id": 3
+		},
+		{
+			"name": "Wood",
+			"audio id": 4
+		},
+		{
+			"name": "Metal",
+			"audio id": 5
+		},
+		{
+			"name": "Steering",
+			"audio id": 5
+		},
+		{
+			"name": "Glass",
+			"audio id": 10
+		},
+		{
+			"name": "Mechanical",
+			"audio id": 19
+		}
+	]
+}

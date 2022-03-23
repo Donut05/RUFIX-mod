@@ -1,0 +1,31 @@
+	{
+	"lodList": [
+		{
+			"minViewSize": 45,
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_seat_03.fbx",
+			"subMeshMap": {
+				"submesh2": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_03_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_03_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_03_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_seat_03_lod1.fbx",
+			"subMeshMap": {
+				"submesh2": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_03_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_03_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_03_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

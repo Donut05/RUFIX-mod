@@ -1,0 +1,136 @@
+{
+	"partList":
+	[
+		// { REMOVE
+		// 	//Waypoint object
+		// 	"uuid": "4c511539-1ef5-4f59-9f33-42731c7f3668",
+		// 	"renderable": {
+		// 		"lodList": [
+		// 			{
+		// 				"subMeshList": [
+		// 					{
+		// 						"textureList": [
+		// 							"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_dif.tga",
+		// 							"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_asg.tga",
+		// 							"$GAME_DATA/Objects/Textures/fittings/obj_fittings_pipes_nor.tga"
+		// 						],
+		// 						"material": "DifAsgNor"
+		// 					}
+		// 				],
+		// 				"mesh": "$GAME_DATA/Objects/Mesh/fittings/obj_fittings_pipevalve.mesh"
+		// 			}
+		// 		]
+		// 	},
+		// 	"rotationSet": "PropY",
+		// 	"sticky": "-Y",
+		// 	"color": "17a417",
+		// 	"cylinder": { "diameter": 1, "depth": 1, "margin": 0.04, "axis": "Y" },
+		// 	"physicsMaterial": "Metal",
+		// 	"waypoint" :
+		// 	{
+		// 		"data":{}
+		// 	}
+		// },
+		{
+			// Large waypoint
+			"uuid": "b5858089-a1a1-4d13-a485-fdaa204d9c6b",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$CHALLENGE_DATA/Objects/Textures/interactive/obj_interactive_startposition_dif.tga",
+									"$CHALLENGE_DATA/Objects/Textures/interactive/obj_interactive_startposition_asg.tga",
+									"$CHALLENGE_DATA/Objects/Textures/interactive/obj_interactive_startposition_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$CHALLENGE_DATA/Objects/Mesh/interactive/obj_interactive_startposition.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"color": "17a417",
+			"box": { "x": 4, "y": 1, "z": 4 },
+			"density": 1250.0,
+			"qualityLevel": 0,
+			"physicsMaterial": "Metal",
+			"waypoint" :
+			{
+			},
+			"sticky": "-Y"
+		},
+		{
+			// Large Jump waypoint
+			"uuid": "b5858080-a1a1-4d13-a485-fdaa204d9c6b",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$CHALLENGE_DATA/Objects/Textures/interactive/obj_interactive_startposition_dif.tga",
+									"$CHALLENGE_DATA/Objects/Textures/interactive/obj_interactive_startposition_asg.tga",
+									"$CHALLENGE_DATA/Objects/Textures/interactive/obj_interactive_startposition_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$CHALLENGE_DATA/Objects/Mesh/interactive/obj_interactive_startposition.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"color": "1717a4",
+			"box": { "x": 4, "y": 1, "z": 4 },
+			"density": 1250.0,
+			"qualityLevel": 0,
+			"physicsMaterial": "Metal",
+			"waypoint" :
+			{
+				"actions":
+				[
+					{ "action": "jump", "start": 0.15, "stop": 0.70 }
+				]
+			},
+			"sticky": "-Y"
+		},
+		{
+			// Large Condition waypoint
+			"uuid": "b5858081-a1a1-4d13-a485-fdaa204d9c6b",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$CHALLENGE_DATA/Objects/Textures/interactive/obj_interactive_startposition_dif.tga",
+									"$CHALLENGE_DATA/Objects/Textures/interactive/obj_interactive_startposition_asg.tga",
+									"$CHALLENGE_DATA/Objects/Textures/interactive/obj_interactive_startposition_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$CHALLENGE_DATA/Objects/Mesh/interactive/obj_interactive_startposition.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"color": "a41717",
+			"box": { "x": 4, "y": 1, "z": 4 },
+			"density": 1250.0,
+			"qualityLevel": 0,
+			"physicsMaterial": "Metal",
+			"waypoint" :
+			{
+				"conditions":
+				[
+					{ "variable": "height", "condition": "<", "value": 1.5 }
+				]
+			},
+			"sticky": "-Y"
+		}
+	]
+}

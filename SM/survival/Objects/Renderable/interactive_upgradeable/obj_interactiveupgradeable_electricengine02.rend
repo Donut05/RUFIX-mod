@@ -1,0 +1,32 @@
+	{
+	"lodList": [
+		{
+			"minViewSize": 30,
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_electricengine_02_off.fbx",
+			"pose0": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_electricengine_02_on.fbx",
+			"subMeshMap": {
+				"submesh1": {
+					"material": "PoseAnimDifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_electricengine_02_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_electricengine_02_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_electricengine_02_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_electricengine_02_lod1.fbx",
+			"subMeshMap": {
+				"submesh1": {
+					"material": "DifAsg",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_electricengine_02_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_electricengine_02_asg.tga",
+						""
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 30,
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_fridge.fbx",
+			"subMeshMap": {
+				"fridge": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_fridge_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_fridge_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_fridge_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_fridge_lod1.fbx",
+			"subMeshMap": {
+				"fridge": {
+					"material": "DifAsg",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_fridge_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_fridge_asg.tga",
+						""
+					]
+				}
+			}
+		}
+	]
+}

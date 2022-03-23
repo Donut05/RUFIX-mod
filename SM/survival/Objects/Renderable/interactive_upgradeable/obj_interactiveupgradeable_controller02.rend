@@ -1,0 +1,31 @@
+	{
+	"lodList": [
+		{
+			"minViewSize": 25,
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_controller_01.fbx",
+			"subMeshMap": {
+				"submesh0": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_controller_02_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_controller_02_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_controller_02_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_controller_01_lod1.fbx",
+			"subMeshMap": {
+				"submesh0": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_controller_02_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_controller_02_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_controller_02_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

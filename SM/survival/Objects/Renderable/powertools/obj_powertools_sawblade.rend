@@ -1,0 +1,31 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 55,
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/powertools/obj_powertools_sawblade_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/powertools/obj_powertools_sawblade_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/powertools/obj_powertools_sawblade_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/powertools/obj_powertools_sawblade.fbx"
+		},
+		{
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/powertools/obj_powertools_sawblade_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/powertools/obj_powertools_sawblade_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/powertools/obj_powertools_sawblade_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/powertools/obj_powertools_sawblade_lod1.fbx"
+		}
+	]
+}

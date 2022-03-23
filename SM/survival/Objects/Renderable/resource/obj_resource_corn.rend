@@ -1,0 +1,31 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 20,
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_corn_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_corn_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_corn_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_corn.fbx"
+		},
+		{
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_corn_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_corn_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_corn_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_corn_lod1.fbx"
+		}
+	]
+}

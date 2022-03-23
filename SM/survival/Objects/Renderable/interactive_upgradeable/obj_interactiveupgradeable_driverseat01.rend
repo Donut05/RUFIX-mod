@@ -1,0 +1,37 @@
+	{
+	"lodList": [
+		{
+		"minViewSize": 45,
+			"subMeshMap": {
+				"submesh0": {
+					"material": "SkelAnimDifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_01_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_01_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_01_nor.tga"
+					]
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_driverseat_01.dae",
+			"animationList": [
+				{
+					"name": "j_ratt",
+					"file": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_driverseat_01.dae"
+				}
+			]
+		},
+		{
+			"subMeshMap": {
+				"submesh0": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_01_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_01_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_driverseat_01_nor.tga"
+					]
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_driverseat_01_lod1.fbx"
+		}
+	]
+}

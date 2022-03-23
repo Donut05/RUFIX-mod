@@ -1,0 +1,31 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 35,
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_glowpoop_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_glowpoop_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_glowpoop_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/resource/obj_resource_glowpoop.fbx"
+		},
+		{
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_glowpoop_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_glowpoop_asg.tga",
+						""
+					],
+					"material": "DifAsg"
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/resource/obj_resource_glowpoop_lod1.fbx"
+		}
+	]
+}

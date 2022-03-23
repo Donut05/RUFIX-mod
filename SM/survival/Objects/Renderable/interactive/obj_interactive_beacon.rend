@@ -1,0 +1,33 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 55,
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_beacon.fbx",
+			"pose0": "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_beacon_pose0.fbx",
+			"subMeshMap": {
+				"radar": {
+					"material": "PoseAnimDifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_beacon_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_beacon_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_beacon_nor.tga"
+					]
+				},
+				"radar_uvanim": {
+					"material": "PoseUVAnimDifAsg",
+					"custom": {
+						"uv0": {
+							"v": 0.25,
+							"u": 1
+						}
+					},
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_beaconuvanim_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_beaconuvanim_asg.tga",
+						""
+					]
+				}
+			}
+		}
+	]
+}

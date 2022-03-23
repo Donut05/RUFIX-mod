@@ -1,0 +1,33 @@
+{
+				"lodList": [
+					{
+						"minViewSize": 20,
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/manmade/obj_manmade_signFresh_off.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/manmade/obj_manmade_signFresh_on.fbx"
+					},
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/manmade/obj_manmade_atlas01_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/manmade/obj_manmade_signFresh_off_lod1.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/manmade/obj_manmade_signFresh_on_lod1.fbx"
+					}
+				]
+			}

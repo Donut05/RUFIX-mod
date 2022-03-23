@@ -1,0 +1,294 @@
+{
+	"partList": [
+		{
+			//Concreete
+			"uuid": "6453da9b-7b14-47db-a88e-b087219e475d",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"custom": {
+									"textureTiling" : [5,5,5]
+								},
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Textures/mattest/mattest_sphere_geo.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "8d8f89",
+			"physicsMaterial": "Metal",
+			"box": { "x": 5, "y": 5, "z": 5 },
+			"density": 250.0
+		},
+		{
+			//Stone
+			"uuid": "c82fcf5d-9ed8-4122-93ed-e78ce24891ff",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"custom": {
+									"textureTiling" : [5,5,5]
+								},
+								"textureList": [
+									"$SURVIVAL_DATA/Terrain/Textures/Tiledtextures/Nature/Rocks/t_tiled_rocks_cracked_dif.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Tiledtextures/Nature/Rocks/t_tiled_rocks_cracked_asg.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Tiledtextures/Nature/Rocks/t_tiled_rocks_cracked_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Textures/mattest/mattest_sphere_geo.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "6e7569",
+			"physicsMaterial": "Metal",
+			"box": { "x": 5, "y": 5, "z": 5 },
+			"density": 250.0
+		},
+		{
+			//Wood
+			"uuid": "662c18dd-4895-4bb6-84c8-94757289aed4",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"custom": {
+									"textureTiling" : [5,5,5]
+								},
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Textures/mattest/mattest_sphere_geo.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "9b683a",
+			"physicsMaterial": "Metal",
+			"box": { "x": 5, "y": 5, "z": 5 },
+			"density": 250.0
+		},
+		{
+			//METAL
+			"uuid": "1a770d76-ff80-4151-bf7b-2bb2d479f938",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"custom": {
+									"textureTiling" : [5,5,5]
+								},
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_metal01_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_metal01_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_metal01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Textures/mattest/mattest_sphere_geo.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "675f51",
+			"physicsMaterial": "Metal",
+			"box": { "x": 5, "y": 5, "z": 5 },
+			"density": 250.0
+		},
+		{
+			//Plastic
+			"uuid": "22301801-9293-45a5-b928-4d938159c89c",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"custom": {
+									"textureTiling" : [5,5,5]
+								},
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/mattest/plastic_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/mattest/plastic_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/mattest/plastic_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Textures/mattest/mattest_sphere_geo.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "ff9d00",
+			"physicsMaterial": "Metal",
+			"box": { "x": 5, "y": 5, "z": 5 },
+			"density": 250.0
+		},
+		{
+			//Fabric
+			"uuid": "83f483ca-0f6d-4215-85e0-98984c35dceb",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"custom": {
+									"textureTiling" : [5,5,5]
+								},
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/mattest/fabric_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/mattest/fabric_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/mattest/fabric_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Textures/mattest/mattest_sphere_geo.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "008e7a",
+			"physicsMaterial": "Metal",
+			"box": { "x": 5, "y": 5, "z": 5 },
+			"density": 250.0
+		},
+		{
+			//Glass
+			"uuid": "7072d943-edb7-4fc6-8810-96b824db5568",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"custom": {
+									"textureTiling" : [5,5,5]
+								},
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/mattest/glass_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/mattest/glass_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/mattest/glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Textures/mattest/mattest_sphere_geo.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "e4f8ff",
+			"physicsMaterial": "Metal",
+			"box": { "x": 5, "y": 5, "z": 5 },
+			"density": 250.0
+		},
+		{
+			//Glass Plastic
+			"uuid": "abf1abe3-b2bb-42e7-99bb-1119b31f35d9",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"custom": {
+									"textureTiling" : [5,5,5]
+								},
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/mattest/glass_plastic_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/mattest/glass_plastic_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/mattest/fabric_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Textures/mattest/mattest_sphere_geo.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "e4f8ff",
+			"physicsMaterial": "Metal",
+			"box": { "x": 5, "y": 5, "z": 5 },
+			"density": 250.0
+		},
+		{
+			//Glass Polycarbonate
+			"uuid": "e04e7d82-f34f-46e4-ad8b-7263f716ce1e",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"custom": {
+									"textureTiling" : [5,5,5]
+								},
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/mattest/glass_polycarbonate_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/mattest/glass_polycarbonate_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_metal01_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Textures/mattest/mattest_sphere_geo.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "e4f8ff",
+			"physicsMaterial": "Metal",
+			"box": { "x": 5, "y": 5, "z": 5 },
+			"density": 250.0
+		},
+		{
+			//Glass Space
+			"uuid": "bd9bbec3-b745-4dc6-9104-42874a0eb1db",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"custom": {
+									"textureTiling" : [5,5,5]
+								},
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/mattest/glass_space_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/mattest/glass_space_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/mattest/glass_space_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Textures/mattest/mattest_sphere_geo.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "e4f8ff",
+			"physicsMaterial": "Metal",
+			"box": { "x": 5, "y": 5, "z": 5 },
+			"density": 250.0
+		}
+	]
+}
