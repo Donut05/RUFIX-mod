@@ -511,7 +511,7 @@ function SurvivalGame.sv_setTimeOfDay( self, timeOfDay )
 		self.sv.time.timeOfDay = timeOfDay
 		self.sv.syncTimer.count = self.sv.syncTimer.ticks -- Force sync
 	end
-	self.network:sendToClients( "client_showMessage", ( "Time of day set to "..self.sv.time.timeOfDay ) )
+	self.network:sendToClients( "client_showMessage", ( "Время установлено на "..self.sv.time.timeOfDay ) )
 end
 
 function SurvivalGame.sv_setTimeProgress( self, timeProgress )

@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<MyGUI type="Resource" version="1.1">	
-	<Resource type="ResourceSkin" name="DressbotEffectBackground" size="374 374">
-		<BasisSkin type="EffectSkin" offset="0 0 374 374">
-			<State name="normal" effect="" />
-			<State name="active" effect="Gui - DressbotBackground" offset="0 0" depth="100.0" />
-		</BasisSkin>
-	</Resource>
-</MyGUI>
