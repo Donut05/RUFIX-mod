@@ -72,9 +72,8 @@ function StorageContainer.client_onInteract( self, character, state )
 end
 
 function StorageContainer:gui_close()
---	self.guiOpened = false
---	self.interactable:setPoseWeight( 0, -1 )
-	print( "HE HE HI HA" )
+	self.guiOpened = false
+	self.interactable:setPoseWeight( 0, -1 )
 end
 
 function StorageContainer.client_onUpdate( self, dt )
