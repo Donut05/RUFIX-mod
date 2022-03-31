@@ -6,6 +6,7 @@ StorageContainer = class( nil )
 StorageContainer.maxChildCount = 255
 
 local ContainerSize = 5
+local gui
 
 function StorageContainer.server_onCreate( self )
 	local container = self.shape.interactable:getContainer( 0 )
@@ -30,7 +31,7 @@ function StorageContainer.client_onInteract( self, character, state )
 	if state == true then
 		local container = self.shape.interactable:getContainer( 0 )
 		if container then
-			local gui = nil
+			gui = nil
 			
 			local shapeUuid = self.shape:getShapeUuid()
 			
@@ -41,6 +42,8 @@ function StorageContainer.client_onInteract( self, character, state )
 			elseif shapeUuid == obj_interactive_filecabinet then
 				gui = sm.gui.createContainerGui( true )
 				gui:setText( "UpperName", "#{CHEST_TITLE_CABINET}" )
+				gui:setOnCloseCallback("gui_close")
+				self.interactable:setPoseWeight( 0, 1 )
 				
 			elseif shapeUuid == obj_spaceship_microwave then
 				gui = sm.gui.createContainerGui( true )
@@ -49,6 +52,8 @@ function StorageContainer.client_onInteract( self, character, state )
 			elseif shapeUuid == obj_survivalobject_ruinchest then
 				gui = sm.gui.createContainerGui( true )
 				gui:setText( "UpperName", "#{CHEST_TITLE_RUINDUMPSTER}" )
+				gui:setOnCloseCallback("gui_close")
+				self.interactable:setPoseWeight( 0, 1 )
 				
 			end
 			
@@ -60,13 +65,24 @@ function StorageContainer.client_onInteract( self, character, state )
 			gui:setContainer( "UpperGrid", container )
 			gui:setText( "LowerName", "#{INVENTORY_TITLE}" )
 			gui:setContainer( "LowerGrid", sm.localPlayer.getInventory() )
+			self.guiOpened = true
 			gui:open()
 		end
 	end	
 end
 
-function StorageContainer.client_onUpdate( self, dt )
+function StorageContainer:gui_close()
+--	self.guiOpened = false
+--	self.interactable:setPoseWeight( 0, -1 )
+	print( "HE HE HI HA" )
+end
 
+function StorageContainer.client_onUpdate( self, dt )
+	
+end
+
+function StorageContainer.client_onDestroy( self )
+	gui:close()
 end
 
 --CLASSES
