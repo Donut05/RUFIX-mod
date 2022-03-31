@@ -1,12 +1,9 @@
---StorageContainer.lua--
-
 dofile "$SURVIVAL_DATA/Scripts/game/survival_items.lua"
 
-StorageContainer = class( nil )
+StorageContainer = class()
 StorageContainer.maxChildCount = 255
 
 local ContainerSize = 5
-local gui
 
 function StorageContainer.server_onCreate( self )
 	local container = self.shape.interactable:getContainer( 0 )
@@ -16,7 +13,13 @@ function StorageContainer.server_onCreate( self )
 	if self.data.filterUid then
 		local filters = { sm.uuid.new( self.data.filterUid ) }
 		container:setFilters( filters )
-	end	
+	end
+end
+
+function StorageContainer.client_onCreate( self )
+	self.gui = sm.gui.createContainerGui()
+	self.gui:setText( "UpperName", "#{CONTAINER_TITLE_GENERIC}" )
+	self.poseCounter = 0
 end
 
 function StorageContainer.client_canCarry( self )
@@ -31,57 +34,40 @@ function StorageContainer.client_onInteract( self, character, state )
 	if state == true then
 		local container = self.shape.interactable:getContainer( 0 )
 		if container then
-			gui = nil
-			
 			local shapeUuid = self.shape:getShapeUuid()
-			
 			if shapeUuid == obj_interactive_locker then
-				gui = sm.gui.createContainerGui( true )
-				gui:setText( "UpperName", "#{CHEST_TITLE_LOCKER}" )
-				
+				self.gui:setText( "UpperName", "#{CHEST_TITLE_LOCKER}" )
 			elseif shapeUuid == obj_interactive_filecabinet then
-				gui = sm.gui.createContainerGui( true )
-				gui:setText( "UpperName", "#{CHEST_TITLE_CABINET}" )
-				gui:setOnCloseCallback("gui_close")
-				self.interactable:setPoseWeight( 0, 1 )
-				
+				self.gui:setText( "UpperName", "#{CHEST_TITLE_CABINET}" )
 			elseif shapeUuid == obj_spaceship_microwave then
-				gui = sm.gui.createContainerGui( true )
-				gui:setText( "UpperName", "#{CHEST_TITLE_MICROWAVE}" )
-				
+				self.gui:setText( "UpperName", "#{CHEST_TITLE_MICROWAVE}" )
 			elseif shapeUuid == obj_survivalobject_ruinchest then
-				gui = sm.gui.createContainerGui( true )
-				gui:setText( "UpperName", "#{CHEST_TITLE_RUINDUMPSTER}" )
-				gui:setOnCloseCallback("gui_close")
-				self.interactable:setPoseWeight( 0, 1 )
-				
+				self.gui:setText( "UpperName", "#{CHEST_TITLE_RUINDUMPSTER}" )
 			end
-			
-			if gui == nil then
-				gui = sm.gui.createContainerGui( true )
-				gui:setText( "UpperName", "#{CONTAINER_TITLE_GENERIC}" )
-			end
-			
-			gui:setContainer( "UpperGrid", container )
-			gui:setText( "LowerName", "#{INVENTORY_TITLE}" )
-			gui:setContainer( "LowerGrid", sm.localPlayer.getInventory() )
-			self.guiOpened = true
-			gui:open()
-		end
-	end	
-end
 
-function StorageContainer:gui_close()
-	self.guiOpened = false
-	self.interactable:setPoseWeight( 0, -1 )
+			self.gui:setContainer( "UpperGrid", container )
+			self.gui:setText( "LowerName", "#{INVENTORY_TITLE}" )
+			self.gui:setContainer( "LowerGrid", sm.localPlayer.getInventory() )
+			self.gui:open()
+		end
+	end
 end
 
 function StorageContainer.client_onUpdate( self, dt )
-	
+	local shapeUUID = self.shape:getShapeUuid()
+	if shapeUUID == obj_interactive_filecabinet or shapeUUID == obj_survivalobject_ruinchest then
+		if self.gui:isActive() then
+			self.poseCounter = sm.util.clamp(self.poseCounter + dt*5, 0, 1)
+		else
+			self.poseCounter = sm.util.clamp(self.poseCounter - dt*5, 0, 1)
+		end
+
+		self.interactable:setPoseWeight( 0, self.poseCounter )
+	end
 end
 
 function StorageContainer.client_onDestroy( self )
-	gui:close()
+	self.gui:close()
 end
 
 --CLASSES
@@ -120,6 +106,6 @@ end
 function RuinContainer.server_onCreate( self )
 	local container = self.shape.interactable:getContainer( 0 )
 	if not container then
-		container =	self.shape:getInteractable():addContainer( 0, 4, 65535 )
+		container =	self.shape:getInteractable():addContainer( 0, 6, 65535 )
 	end
 end

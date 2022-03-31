@@ -6,6 +6,7 @@ ConsumableContainer = class( nil )
 ConsumableContainer.maxChildCount = 255
 
 local ContainerSize = 5
+local gui
 
 function ConsumableContainer.server_onCreate( self )
 	local container = self.shape.interactable:getContainer( 0 )
@@ -30,7 +31,7 @@ function ConsumableContainer.client_onInteract( self, character, state )
 	if state == true then
 		local container = self.shape.interactable:getContainer( 0 )
 		if container then
-			local gui = nil
+			gui = nil
 			
 			local shapeUuid = self.shape:getShapeUuid()
 			
@@ -98,6 +99,10 @@ function SeedContainer.server_onCreate( self )
 		container =	self.shape:getInteractable():addContainer( 0, 5, 65535 )
 	end
 	container:setFilters( sm.item.getPlantableUuids() )
+end
+
+function ConsumableContainer.client_onDestroy( self )
+	gui:close()
 end
 
 WaterContainer = class( ConsumableContainer )
