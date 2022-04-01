@@ -6,7 +6,6 @@ ConsumableContainer = class( nil )
 ConsumableContainer.maxChildCount = 255
 
 local ContainerSize = 5
-local gui
 
 function ConsumableContainer.server_onCreate( self )
 	local container = self.shape.interactable:getContainer( 0 )
@@ -31,46 +30,46 @@ function ConsumableContainer.client_onInteract( self, character, state )
 	if state == true then
 		local container = self.shape.interactable:getContainer( 0 )
 		if container then
-			gui = nil
+			self.gui = nil
 			
 			local shapeUuid = self.shape:getShapeUuid()
 			
 			if shapeUuid == obj_container_ammo then
-				gui = sm.gui.createAmmunitionContainerGui( true )
+				self.gui = sm.gui.createAmmunitionContainerGui( true )
 				
 			elseif shapeUuid == obj_container_battery then
-				gui = sm.gui.createBatteryContainerGui( true )
+				self.gui = sm.gui.createBatteryContainerGui( true )
 				
 			elseif shapeUuid == obj_container_chemical then
-				gui = sm.gui.createChemicalContainerGui( true )
+				self.gui = sm.gui.createChemicalContainerGui( true )
 				
 			elseif shapeUuid == obj_container_fertilizer then
-				gui = sm.gui.createFertilizerContainerGui( true )
+				self.gui = sm.gui.createFertilizerContainerGui( true )
 				
 			elseif shapeUuid == obj_container_gas then
-				gui = sm.gui.createGasContainerGui( true )
+				self.gui = sm.gui.createGasContainerGui( true )
 				
 			elseif shapeUuid == obj_container_seed then
-				gui = sm.gui.createSeedContainerGui( true )
+				self.gui = sm.gui.createSeedContainerGui( true )
 				
 			elseif shapeUuid == obj_container_water then
-				gui = sm.gui.createWaterContainerGui( true )
+				self.gui = sm.gui.createWaterContainerGui( true )
 				
 			elseif shapeUuid == obj_interactive_fridge then
-				gui = sm.gui.createContainerGui( true ) --sm.gui.createGuiFromLayout ( "$GAME_DATA/Gui/Layouts/Interactable/Interactable_Chest.layout", true ) rip spaghetti code
-				gui:setText( "UpperName", "#{CHEST_TITLE_FRIDGE}" )
+				self.gui = sm.gui.createContainerGui( true ) --sm.gui.createGuiFromLayout ( "$GAME_DATA/Gui/Layouts/Interactable/Interactable_Chest.layout", true ) rip spaghetti code
+				self.gui:setText( "UpperName", "#{CHEST_TITLE_FRIDGE}" )
 
 			end
 			
-			if gui == nil then
-				gui = sm.gui.createContainerGui( true )
-				gui:setText( "UpperName", "#{CONTAINER_TITLE_GENERIC}" )
+			if self.gui == nil then
+				self.gui = sm.gui.createContainerGui( true )
+				self.gui:setText( "UpperName", "#{CONTAINER_TITLE_GENERIC}" )
 			end
 			
-			gui:setContainer( "UpperGrid", container )
-			gui:setText( "LowerName", "#{INVENTORY_TITLE}" )
-			gui:setContainer( "LowerGrid", sm.localPlayer.getInventory() )
-			gui:open()
+			self.gui:setContainer( "UpperGrid", container )
+			self.gui:setText( "LowerName", "#{INVENTORY_TITLE}" )
+			self.gui:setContainer( "LowerGrid", sm.localPlayer.getInventory() )
+			self.gui:open()
 		end
 	end	
 end
@@ -102,7 +101,7 @@ function SeedContainer.server_onCreate( self )
 end
 
 function ConsumableContainer.client_onDestroy( self )
-	gui:close()
+	self.gui:close()
 end
 
 WaterContainer = class( ConsumableContainer )
