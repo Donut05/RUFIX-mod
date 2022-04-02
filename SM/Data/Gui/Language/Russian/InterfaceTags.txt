@@ -192,18 +192,18 @@ BUILD СОБРАТЬ
 
 CHALLENGE_BUILDER СОЗДАТЬ
 CHALLENGE_BUILDER_2 СОЗДАТЬ
-CHALLENGE_BUILDER_ADD ДОБАВИТЬ В ПАКЕТ ИСПЫТАНИЙ
+CHALLENGE_BUILDER_ADD ДОБАВИТЬ В НАБОР
 CHALLENGE_BUILDER_CHALLENGE_NAME Название испытания
-CHALLENGE_BUILDER_CHALLENGE_PACK_NAME Название пакета испытаний
-CHALLENGE_BUILDER_CHALLENGE_PACK_NAME_2 НАЗВАНИЕ ПАКЕТА ИСПЫТАНИЙ
-CHALLENGE_BUILDER_CHALLENGE_PACKS ПАКЕТЫ ИСПЫТАНИЙ
+CHALLENGE_BUILDER_CHALLENGE_PACK_NAME Название набора испытаний
+CHALLENGE_BUILDER_CHALLENGE_PACK_NAME_2 НАЗВАНИЕ НАБОРА ИСПЫТАНИЙ
+CHALLENGE_BUILDER_CHALLENGE_PACKS НАБОРЫ ИСПЫТАНИЙ
 CHALLENGE_BUILDER_CHAT_MESSAGE Добро пожаловать в Scrap Mechanic: Строитель испытаний! На подъемнике уже есть несколько полезных готовых конструкций. Через команды чата можно выбрать для игроков набор стартовых инструментов. Команда /help в чате выводит список всех доступных команд.
 CHALLENGE_BUILDER_HAVE_TO_BEAT_LINE_1 Чтобы поделиться испытанием,
 CHALLENGE_BUILDER_HAVE_TO_BEAT_LINE_2 его надо сначала пройти.
 CHALLENGE_BUILDER_NEW_CHALLENGE НОВОЕ ИСПЫТАНИЕ
-CHALLENGE_BUILDER_NEW_CHALLENGE_PACK НОВЫЙ ПАКЕТ ИСПЫТАНИЙ
+CHALLENGE_BUILDER_NEW_CHALLENGE_PACK НОВЫЙ НАБОР ИСПЫТАНИЙ
 CHALLENGE_BUILDER_NO_PACKS_LINE_1 У вас пока нет пакетов испытаний.
-CHALLENGE_BUILDER_NO_PACKS_LINE_2 Чтобы создать новый пакет, нажмите
+CHALLENGE_BUILDER_NO_PACKS_LINE_2 Чтобы создать новый наюор, нажмите
 CHALLENGE_BUILDER_SAVE_BEFORE_EXIT СОХРАНИТЬ ПЕРЕД ВЫХОДОМ?
 CHALLENGE_BUILDER_SAVE_REMINDER Не забывайте периодически сохранять испытание
 
@@ -218,7 +218,7 @@ CHALLENGE_MENU_SELECT_CHALLENGE ВЫБЕРИТЕ ИСПЫТАНИЕ
 CHALLENGE_MENU_TITLE ИСПЫТАНИЕ
 CHALLENGE_NEW_RECORD НОВЫЙ РЕКОРД
 CHALLENGE_NEXT ДАЛЬШЕ
-CHALLENGE_PACK_MENU_TITLE ПАКЕТ ИСПЫТАНИЙ
+CHALLENGE_PACK_MENU_TITLE НАБОР ИСПЫТАНИЙ
 CHALLENGE_RESET СБРОСИТЬ
 CHALLENGE_RESTART ПЕРЕЗАПУСТИТЬ
 CHALLENGE_WIN ВЫ ВЫИГРАЛИ!
@@ -396,7 +396,7 @@ ERRMSG_TITLE_WARNING Внимание
 ERRMSG_UGC_DEPENDENCY_DELETED Мир использует несуществующий контент!
 ERRMSG_UGC_UNPUBLISHED_LINE_1 больше не в публичном доступе.
 ERRMSG_UGC_UNPUBLISHED_LINE_2 Контент недоступен для друзей
-ERRMSG_UNLOAD_MOD_LINE1 Удалена используемая модификация!
+ERRMSG_UNLOAD_MOD_LINE1 Изменён список модификаций!
 ERRMSG_UNLOAD_MOD_LINE2 Из-за этого уровень может перестать загружаться.
 ERRMSG_UNLOAD_MOD_LINE3 Продолжить?
 ERRMSG_VERSION_MISMATCH_LINE1 Несовпадение версий
@@ -513,8 +513,8 @@ MENU_MODS_ENABLE_ALL ВКЛЮЧИТЬ ВСЕ
 MENU_MODS_NO_MODS_PART_1 Модификации не установлены.
 MENU_MODS_NO_MODS_PART_2 – открыть доступные
 MENU_MODS_NO_MODS_PART_3 модификации в Steam.
-MENU_MODS_SELECTED Выбранные модификации
-MENU_MODS_SELECT_MODS ВЫБРАННЫЕ МОДИФИКАЦИИ
+MENU_MODS_SELECTED Выбранных модификаций
+MENU_MODS_SELECT_MODS ПОДТВЕРДИТЬ ВЫБОР МОДИФИКАЦИЙ
 MENU_MODS_TITLE МОДИФИКАЦИИ
 
 MENU_NEW_FLAT ПЛОСКАЯ ПОВЕРХНОСТЬ
@@ -715,7 +715,7 @@ SLIDER_SLOW МЕДЛЕННО
 STEAM_WORKSHOP МАСТЕРСКАЯ STEAM
 STEAM_WORKSHOP_2 Мастерская Steam
 STEAM_WORKSHOP_ACTION_VERIFY_INTEGRITY Пожалуйста, проверьте названия файлов на соответствие правилам
-STEAM_WORKSHOP_BY , автор:
+STEAM_WORKSHOP_BY  автор:
 STEAM_WORKSHOP_DOWNLOADING ЗАГРУЗКА
 STEAM_WORKSHOP_EXPORT_UNNAMED Без названия
 STEAM_WORKSHOP_FAILED_CREATE_ITEM Не удалось загрузить предмет из мастерской

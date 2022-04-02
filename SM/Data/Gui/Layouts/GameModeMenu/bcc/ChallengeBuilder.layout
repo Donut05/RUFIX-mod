@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="ChallengeBuilderMainPanel" position_real="0.202604 0.158333 0.416667 0.722222">
+        <Widget type="Widget" skin="NonBlurryBackgroundDarkRoundedUpperRight" position_real="0 0 1 0.128205">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.05 0.31 0.0375 0.4">
+                <Property key="ImageTexture" value="IconChallengeMode.png" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.11 0.37 0.83125 0.3">
+                <Property key="Caption" value="#{CHALLENGE_BUILDER}" />
+                <Property key="FontName" value="SM_HeaderLarge_Medium" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="NonBlurryBackgroundLightRoundedLowerLeft" position_real="0 0.128205 1 0.871795">
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="ChallengeBuilderLevelList" position_real="0.05 0.0588235 0.875 0.882353" />
+            <Widget type="ScrollBar" skin="InventoryVSlider" name="ChallengeBuilderLevelScroll" position_real="0.93 0.0588235 0.0375 0.882353" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="BackgroundMenuChallenge_builderdetails" name="ChallengeBuilderInfoPanel" position_real="0.629687 0.158333 0.15625 0.722222">
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.1 0.0512821 0.8 0.184615">
+            <Property key="ImageTexture" value="PreviewFrameFallback.png" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Widget type="ImageBox" skin="ImageBox" name="ChallengeIcon" position_real="0.0416667 0.0694444 0.916667 0.861111">
+                <Property key="ImageTexture" value="" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="SearchBarBackground" name="ChallengeName" position_real="0.1 0.261538 0.8 0.0512821">
+            <Widget type="TextBox" skin="TextBox" name="DefaultText" position_real="0.05 0.125 0.916667 0.75">
+                <Property key="Caption" value="#{CHALLENGE_BUILDER_CHALLENGE_NAME}" />
+                <Property key="TextAlign" value="Left VCenter" />
+                <Property key="TextColour" value="0.29803921568 0.29803921568 0.29803921568" />
+                <Property key="FontName" value="SM_TextSmall" />
+                <UserString key="FontName" value="SM_TextSmall" />
+            </Widget>
+            <Widget type="EditBox" skin="EditBoxEmpty" name="EditText" position_real="0.05 0.125 0.916667 0.75">
+                <Property key="Caption" value="" />
+                <Property key="TextAlign" value="Left VCenter" />
+                <Property key="TextColour" value="1 1 1" />
+                <Property key="FontName" value="SM_TextSmall" />
+                <UserString key="FontName" value="SM_TextSmall" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="SearchBarBackground" name="ChallengeDescription" position_real="0.1 0.325641 0.8 0.251282">
+            <Widget type="TextBox" skin="TextBox" name="DefaultText" position_real="0.05 0.0510204 0.916667 0.897959">
+                <Property key="Caption" value="#{DESCRIPTION}" />
+                <Property key="TextAlign" value="Left Top" />
+                <Property key="TextColour" value="0.29803921568 0.29803921568 0.29803921568" />
+                <Property key="MultiLine" value="true" />
+                <Property key="FontName" value="SM_TextSmall" />
+                <UserString key="FontName" value="SM_TextSmall" />
+            </Widget>
+            <Widget type="EditBox" skin="EditBoxEmpty" name="EditText" position_real="0.05 0.0510204 0.916667 0.897959">
+                <Property key="Caption" value="" />
+                <Property key="TextAlign" value="Left Top" />
+                <Property key="TextColour" value="1 1 1" />
+                <Property key="MultiLine" value="true" />
+                <Property key="FontName" value="SM_TextSmall" />
+                <UserString key="FontName" value="SM_TextSmall" />
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="ActiveButton" name="AddToChallengePack" position_real="0.08 0.596154 0.84 0.0666667">
+            <Property key="Caption" value="#{CHALLENGE_BUILDER_ADD}" />
+            <Property key="FontName" value="SM_ButtonSmall" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" name="Delete" position_real="0.1 0.682051 0.8 0.0512821">
+            <Property key="Caption" value="#{DELETE}" />
+            <Property key="FontName" value="SM_ButtonSmall" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" name="Play" position_real="0.1 0.758974 0.8 0.0512821">
+            <Property key="Caption" value="#{PLAY}" />
+            <Property key="FontName" value="SM_ButtonSmall" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="HaveToBeatText" position_real="0.1 0.811538 0.8 0.0307692">
+            <Property key="Caption" value="#{CHALLENGE_BUILDER_HAVE_TO_BEAT_LINE_1}" />
+            <Property key="FontName" value="SM_TextTiny" />
+            <Property key="TextColour" value="0.57 0.57 0.57" />
+            <Property key="TextAlign" value="HCenter Bottom" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="HaveToBeatText2" position_real="0.1 0.846154 0.8 0.0307692">
+            <Property key="Caption" value="#{CHALLENGE_BUILDER_HAVE_TO_BEAT_LINE_2}" />
+            <Property key="FontName" value="SM_TextTiny" />
+            <Property key="TextColour" value="0.57 0.57 0.57" />
+            <Property key="TextAlign" value="HCenter Top" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="RecordContainer" position_real="0.1 0.823077 0.8 0.0269231">
+            <Widget type="TextBox" skin="TextBox" name="RecordTime" position_real="0.5125 0 0.4875 1.14286">
+                <Property key="Caption" value="2d 32h 56h" />
+                <Property key="FontName" value="SM_LabelTiny" />
+                <Property key="TextAlign" value="Right VCenter" />
+                <Property key="TextColour" value="1 0.8156863 0.2745098" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="RecordTimeLabel" position_real="0.075 0 0.4375 1">
+                <Property key="Caption" value="#{PLAYTIME}" />
+                <Property key="FontName" value="SM_LabelTiny" />
+                <Property key="TextAlign" value="Left VCenter" />
+                <Property key="TextColour" value="0.57 0.57 0.57" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" name="RecordIcon" position_real="0 0.0952381 0.0666667 0.857143">
+                <Property key="ImageTexture" value="IconStopwatch.png" />
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="StyledButtonLarge" name="Build" position_real="0.0833333 0.880769 0.826667 0.0884615">
+            <Property key="Caption" value="#{BUILD}" />
+            <Property key="FontName" value="SM_Button" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

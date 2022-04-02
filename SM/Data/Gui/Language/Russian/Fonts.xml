@@ -47,7 +47,7 @@
 		<Property key="LetterSpacing" value="0.66666667" />
 	</Resource>
 	<Resource type="ResourceTrueTypeFont" name="SM_TabSmall">
-		<Property key="Source" value="NotoSans-Medium.ttf" />
+		<Property key="Source" value="RussoOne-Regular.ttf" /> //NotoSans-Medium.ttf
 		<Property key="Size" value="8" />
 		<Property key="LetterSpacing" value="0.0" />
 	</Resource>
@@ -81,7 +81,7 @@
 		<Property key="LetterSpacing" value="0.66666667" />
 	</Resource>
 	<Resource type="ResourceTrueTypeFont" name="SM_SearchText">
-		<Property key="Source" value="NotoSans-Regular.ttf" />
+		<Property key="Source" value="Jura-Light.ttf" /> //NotoSans-Regular.ttf
 		<Property key="Size" value="10" />
 	</Resource>
 	<Resource type="ResourceTrueTypeFont" name="SM_ToolTipText">
@@ -163,7 +163,7 @@ DO NOT DO THIS THE LIST OF FONTS IS HARDCODED-->
 		<Property key="Size" value="6" />
 	</Resource>
 	<Resource type="ResourceTrueTypeFont" name="SM_UserName">
-		<Property key="Source" value="NotoSans-Regular.ttf" />
+		<Property key="Source" value="Xolonium-Bold.otf" /> //NotoSans-Regular.ttf
 		<Property key="Size" value="8" /> 
 	</Resource>
 	<Resource type="ResourceTrueTypeFont" name="SM_ListItem">

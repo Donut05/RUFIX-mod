@@ -16,114 +16,114 @@
                 <Property key="Caption" value="#{INVENTORY_TITLE}" />
                 <Property key="TextAlign" value="Left Top" />
             </Widget>
-            <Widget type="Button" skin="InventoryTab" name="All" position_real="0.04 0.7 0.1175 0.3">
-                <Property key="NeedKey" value="false" />
-                <Widget type="TextBox" skin="TextBox" name="Title" position_real="0.234043 0 0.531915 1">
-                    <Property key="Caption" value=" #{ALL_CAPS}" />
-                    <Property key="FontName" value="SM_TabSmall" />
-                    <Property key="NeedKey" value="false" />
-                    <Property key="NeedMouse" value="false" />
-                    <Property key="TextAlign" value="Left VCenter" />
+            <Widget type="Button" skin="InventoryTab" position_real="0.0158333 0.697987 0.116667 0.295302" name="All">
+                <Property key="NeedKey" value="false"/>
+                <Widget type="TextBox" skin="TextBox" position_real="0.2 0 0.528571 1" name="Title">
+                    <Property key="Caption" value=" #{ALL_CAPS}"/>
+                    <Property key="FontName" value="SM_TabSmall"/>
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="TextAlign" value="Center"/>
                 </Widget>
             </Widget>
-            <Widget type="Button" skin="InventoryTab" name="tool" position_real="0.1575 0.7 0.13 0.3">
-                <Property key="NeedKey" value="false" />
-                <Widget type="ImageBox" skin="ImageBox" name="TypeIcon" position_real="0.192308 0.4 0.0769231 0.266667">
-                    <Property key="ImageResource" value="ItemTypeSet" />
-                    <Property key="ImageGroup" value="ItemTypeColor" />
-                    <Property key="ImageName" value="tool" />
-                    <Property key="NeedMouse" value="false" />
-                    <Property key="NeedKey" value="false" />
-                    <UserString key="Cmpnd_InheritColor" value="false" />
+            <Widget type="Button" skin="InventoryTab" position_real="0.131667 0.697987 0.129167 0.295302" name="tool">
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.187097 0.386364 0.0709677 0.25" name="TypeIcon">
+                    <Property key="ImageResource" value="ItemTypeSet"/>
+                    <Property key="ImageGroup" value="ItemTypeColor"/>
+                    <Property key="ImageName" value="tool"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                    <UserString key="Cmpnd_InheritColor" value="false"/>
                 </Widget>
-                <Widget type="TextBox" skin="TextBox" name="Title" position_real="0.288462 0 0.5 1">
-                    <Property key="Caption" value=" #{PART_FILTER_TOOLS}" />
-                    <Property key="FontName" value="SM_TabSmall" />
-                    <Property key="NeedKey" value="false" />
-                    <Property key="NeedMouse" value="false" />
-                    <Property key="TextAlign" value="Left VCenter" />
-                </Widget>
-            </Widget>
-            <Widget type="Button" skin="InventoryTab" name="block" position_real="0.2875 0.7 0.13 0.3">
-                <Property key="NeedKey" value="false" />
-                <Widget type="ImageBox" skin="ImageBox" name="TypeIcon" position_real="0.192308 0.4 0.0769231 0.266667">
-                    <Property key="ImageResource" value="ItemTypeSet" />
-                    <Property key="ImageGroup" value="ItemTypeColor" />
-                    <Property key="ImageName" value="block" />
-                    <Property key="NeedKey" value="false" />
-                    <Property key="NeedMouse" value="false" />
-                    <UserString key="Cmpnd_InheritColor" value="false" />
-                </Widget>
-                <Widget type="TextBox" skin="TextBox" name="Title" position_real="0.288462 0.0666667 0.5 0.933333">
-                    <Property key="Caption" value=" #{PART_FILTER_BLOCKS}" />
-                    <Property key="FontName" value="SM_TabSmall" />
-                    <Property key="NeedKey" value="false" />
-                    <Property key="NeedMouse" value="false" />
-                    <Property key="TextAlign" value="Left VCenter" />
+                <Widget type="TextBox" skin="TextBox" position_real="0.283871 0 0.496774 1" name="Title">
+                    <Property key="Caption" value=" #{PART_FILTER_TOOLS}"/>
+                    <Property key="FontName" value="SM_TabSmall"/>
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
                 </Widget>
             </Widget>
-            <Widget type="Button" skin="InventoryTab" name="interactive" position_real="0.4175 0.7 0.13 0.3">
-                <Property key="NeedKey" value="false" />
-                <Widget type="ImageBox" skin="ImageBox" name="TypeIcon" position_real="0.192308 0.4 0.0769231 0.266667">
-                    <Property key="ImageResource" value="ItemTypeSet" />
-                    <Property key="ImageGroup" value="ItemTypeColor" />
-                    <Property key="ImageName" value="interactive" />
-                    <Property key="NeedKey" value="false" />
-                    <Property key="NeedMouse" value="false" />
-                    <UserString key="Cmpnd_InheritColor" value="false" />
+            <Widget type="Button" skin="InventoryTab" position_real="0.260833 0.697987 0.129167 0.295302" name="block">
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.187097 0.386364 0.0709677 0.25" name="TypeIcon">
+                    <Property key="ImageResource" value="ItemTypeSet"/>
+                    <Property key="ImageGroup" value="ItemTypeColor"/>
+                    <Property key="ImageName" value="block"/>
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <UserString key="Cmpnd_InheritColor" value="false"/>
                 </Widget>
-                <Widget type="TextBox" skin="TextBox" name="Title" position_real="0.288462 0.0666667 0.5 0.933333">
-                    <Property key="Caption" value=" #{PART_FILTER_INTERACTIVE}" />
-                    <Property key="FontName" value="SM_TabSmall" />
-                    <Property key="NeedKey" value="false" />
-                    <Property key="NeedMouse" value="false" />
-                    <Property key="TextAlign" value="Left VCenter" />
-                </Widget>
-            </Widget>
-            <Widget type="Button" skin="InventoryTab" name="part" position_real="0.5475 0.7 0.13 0.3">
-                <Property key="NeedKey" value="false" />
-                <Widget type="ImageBox" skin="ImageBox" name="TypeIcon" position_real="0.192308 0.4 0.0769231 0.266667">
-                    <Property key="ImageResource" value="ItemTypeSet" />
-                    <Property key="ImageGroup" value="ItemTypeColor" />
-                    <Property key="ImageName" value="part" />
-                    <Property key="NeedKey" value="false" />
-                    <Property key="NeedMouse" value="false" />
-                    <UserString key="Cmpnd_InheritColor" value="false" />
-                </Widget>
-                <Widget type="TextBox" skin="TextBox" name="Title" position_real="0.288462 0.0666667 0.5 0.933333">
-                    <Property key="Caption" value=" #{PART_FILTER_PARTS}" />
-                    <Property key="FontName" value="SM_TabSmall" />
-                    <Property key="NeedKey" value="false" />
-                    <Property key="NeedMouse" value="false" />
-                    <Property key="TextAlign" value="Left VCenter" />
+                <Widget type="TextBox" skin="TextBox" position_real="0.283871 0.0454545 0.496774 0.931818" name="Title">
+                    <Property key="Caption" value=" #{PART_FILTER_BLOCKS}"/>
+                    <Property key="FontName" value="SM_TabSmall"/>
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
                 </Widget>
             </Widget>
-            <Widget type="Button" skin="InventoryTab" name="consumable" position_real="0.6775 0.7 0.13 0.3">
-                <Property key="NeedKey" value="false" />
-                <Widget type="ImageBox" skin="ImageBox" name="TypeIcon" position_real="0.192308 0.4 0.0769231 0.266667">
-                    <Property key="ImageResource" value="ItemTypeSet" />
-                    <Property key="ImageGroup" value="ItemTypeColor" />
-                    <Property key="ImageName" value="consumable" />
-                    <Property key="NeedKey" value="false" />
-                    <Property key="NeedMouse" value="false" />
-                    <UserString key="Cmpnd_InheritColor" value="false" />
+            <Widget type="Button" skin="InventoryTab" position_real="0.390833 0.697987 0.129167 0.295302" name="interactive">
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.187097 0.386364 0.0709677 0.25" name="TypeIcon">
+                    <Property key="ImageResource" value="ItemTypeSet"/>
+                    <Property key="ImageGroup" value="ItemTypeColor"/>
+                    <Property key="ImageName" value="interactive"/>
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <UserString key="Cmpnd_InheritColor" value="false"/>
                 </Widget>
-                <Widget type="TextBox" skin="TextBox" name="Title" position_real="0.288462 0.0666667 0.5 0.933333">
-                    <Property key="Caption" value=" #{PART_FILTER_CONSUMABLE}" />
-                    <Property key="FontName" value="SM_TabSmall" />
-                    <Property key="NeedKey" value="false" />
-                    <Property key="NeedMouse" value="false" />
-                    <Property key="TextAlign" value="Left VCenter" />
+                <Widget type="TextBox" skin="TextBox" position_real="0.283871 0.0454545 0.496774 0.931818" name="Title">
+                    <Property key="Caption" value=" #{PART_FILTER_INTERACTIVE}"/>
+                    <Property key="FontName" value="SM_TabSmall"/>
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
                 </Widget>
             </Widget>
-            <Widget type="Button" skin="InventoryTab" name="Mod" position_real="0.8075 0.7 0.1175 0.3">
-                <Property key="NeedKey" value="false" />
-                <Widget type="TextBox" skin="TextBox" name="Title" position_real="0.212766 0 0.553191 1">
-                    <Property key="Caption" value="#{PART_FILTER_MODS}" />
-                    <Property key="FontName" value="SM_TabSmall" />
-                    <Property key="TextAlign" value="Center" />
-                    <Property key="NeedKey" value="false" />
-                    <Property key="NeedMouse" value="false" />
+            <Widget type="Button" skin="InventoryTab" position_real="0.520833 0.697987 0.129167 0.295302" name="part">
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.187097 0.386364 0.0709677 0.25" name="TypeIcon">
+                    <Property key="ImageResource" value="ItemTypeSet"/>
+                    <Property key="ImageGroup" value="ItemTypeColor"/>
+                    <Property key="ImageName" value="part"/>
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <UserString key="Cmpnd_InheritColor" value="false"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.283871 0.0454545 0.496774 0.931818" name="Title">
+                    <Property key="Caption" value=" #{PART_FILTER_PARTS}"/>
+                    <Property key="FontName" value="SM_TabSmall"/>
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="InventoryTab" position_real="0.65 0.697987 0.129167 0.295302" name="consumable">
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.187097 0.386364 0.0709677 0.25" name="TypeIcon">
+                    <Property key="ImageResource" value="ItemTypeSet"/>
+                    <Property key="ImageGroup" value="ItemTypeColor"/>
+                    <Property key="ImageName" value="consumable"/>
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <UserString key="Cmpnd_InheritColor" value="false"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.283871 0.0454545 0.496774 0.931818" name="Title">
+                    <Property key="Caption" value=" #{PART_FILTER_CONSUMABLE}"/>
+                    <Property key="FontName" value="SM_TabSmall"/>
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="InventoryTab" position_real="0.779167 0.697987 0.116667 0.295302" name="Mod">
+                <Property key="NeedKey" value="false"/>
+                <Widget type="TextBox" skin="TextBox" position_real="0.207143 0 0.55 1" name="Title">
+                    <Property key="Caption" value="#{PART_FILTER_MODS}"/>
+                    <Property key="FontName" value="SM_TabSmall"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
                 </Widget>
             </Widget>
             <Widget type="Widget" skin="SearchBarBackground" position_real="0.64125 0.26 0.31625 0.26">
