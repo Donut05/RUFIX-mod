@@ -240,7 +240,7 @@ CHAT_PLAYER_KICKED лишается доступа в игру
 CHAT_PLAYER_LEFT выходит из игры
 CHAT_PLAYER_RECONNECTED подключается
 
-CHEST_TITLE_CHEST СУНДУК
+CHEST_TITLE_CHEST СОДЕРЖИМОЕ
 CHEST_TITLE_LOST_ITEMS ПОТЕРЯННЫЕ ВЕЩИ
 CHEST_TITLE_LOCKER ШКАФЧИК
 CHEST_TITLE_MICROWAVE СЛОМАННАЯ МИКРОВОЛНОВКА
