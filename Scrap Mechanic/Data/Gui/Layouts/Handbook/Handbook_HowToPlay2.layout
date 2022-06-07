@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" layer="Back" name="MainPanel" position_real="0 0 1 1">
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1">
+            <Property key="ImageTexture" value="2_how_to_play_2_4.jpg" />
+            <Widget type="Widget" skin="PanelEmpty" name="PageToggle" position_real="0.886207 0.932927 0.103448 0.0609756">
+                <Widget type="Button" skin="LeftArrow" name="Prev" position_real="0 0 0.233333 1" />
+                <Widget type="Button" skin="RightArrow" name="Next" position_real="0.766667 0 0.233333 1" />
+                <Widget type="TextBox" skin="TextBox" name="Tracker" position_real="0.233333 0 0.533333 1">
+                    <Property key="Caption" value="5/5" />
+                    <Property key="FontName" value="HandbookPageCount" />
+                    <Property key="TextAlign" value="Center" />
+                </Widget>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.210345 0.0426829 0.786207 0.109756">
+                <Property key="FontName" value="HandbookTitle" />
+                <Property key="Caption" value="#{HANDBOOK_HOW_TO_PLAY_TITLE}" />
+                <Property key="TextAlign" value="Default" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" name="Video" position_real="0.731034 0.0304878 0.213793 0.0609756">
+                <Property key="ImageTexture" value="VideoButton.png" />
+                <UserString key="Link" value="https://www.youtube.com/embed/qwAvu8q-guk?autoplay=1" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.213793 0.158537 0.782759 0.0365854">
+                <Property key="Caption" value="#{HANDBOOK_HOW_TO_PLAY_PAGE2_SUBTITLE1}" />
+                <Property key="FontName" value="HandbookSubTitle" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.213793 0.195122 0.782759 0.0365854">
+                <Property key="Caption" value="#{HANDBOOK_HOW_TO_PLAY_PAGE2_SUBTITLE2}" />
+                <Property key="FontName" value="HandbookSubTitle" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.0344828 0.313415 0.162069 0.0329268">
+                <Property key="Caption" value="#{HANDBOOK_HOW_TO_PLAY_PAGE2_ADJUST_POSITION}" />
+                <Property key="FontName" value="HandbookInstructionSmall" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.215862 0.313415 0.137931 0.0329268">
+                <Property key="Caption" value="#{HANDBOOK_HOW_TO_PLAY_PAGE2_OBJECT_PLACE}" />
+                <Property key="FontName" value="HandbookInstructionSmall" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.358621 0.313415 0.18069 0.0329268">
+                <Property key="Caption" value="#{HANDBOOK_HOW_TO_PLAY_PAGE2_OBJECT_REMOVE}" />
+                <Property key="FontName" value="HandbookInstructionMedium" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.542759 0.313415 0.206897 0.0329268">
+                <Property key="Caption" value="#{HANDBOOK_HOW_TO_PLAY_PAGE2_OBJECT_ROTATE}" />
+                <Property key="FontName" value="HandbookInstructionMedium" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.0275862 0.634146 0.189655 0.0329268">
+                <Property key="Caption" value="#{HANDBOOK_HOW_TO_PLAY_PAGE2_ROTATE_DIRECTION}" />
+                <Property key="FontName" value="HandbookInstructionMedium" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" position_real="0.69931 0.634146 0.12069 0.0609756">
+                <Property key="Caption" value="#{HANDBOOK_HOLD_AND_DRAG}" />
+                <Property key="TextAlign" value="Left Top" />
+                <Property key="FontName" value="HandbookInstructionSmall" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <UserString key="FontName" value="HandbookInstructionSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.862759 0.634146 0.0827586 0.0292683">
+                <Property key="Caption" value="#{HANDBOOK_RELEASE}" />
+                <Property key="TextAlign" value="Right VCenter" />
+                <Property key="FontName" value="HandbookInstructionSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.258621 0.35 0.0965517 0.0292683">
+                <Property key="Caption" value="#{HANDBOOK_RELEASE}" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="HandbookInstructionSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.468966 0.408537 0.0655172 0.0292683">
+                <Property key="Caption" value="#{HANDBOOK_HOLD}" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="HandbookInstructionSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.0172414 0.35 0.0655172 0.0292683">
+                <Property key="Caption" value="#{HANDBOOK_HOLD}" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="HandbookInstructionSmall" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" position_real="0.32069 0.634146 0.12069 0.0609756">
+                <Property key="Caption" value="#{HANDBOOK_HOLD_AND_DRAG}" />
+                <Property key="TextAlign" value="Left Top" />
+                <Property key="FontName" value="HandbookInstructionSmall" />
+                <Property key="Static" value="true" />
+                <Property key="WordWrap" value="true" />
+                <UserString key="FontName" value="HandbookInstructionSmall" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.565517 0.630488 0.0655172 0.0292683">
+                <Property key="Caption" value="#{HANDBOOK_HOLD}" />
+                <Property key="TextAlign" value="Right VCenter" />
+                <Property key="FontName" value="HandbookInstructionSmall" />
+            </Widget>
+        </Widget>
+    </Widget>
+</MyGUI>

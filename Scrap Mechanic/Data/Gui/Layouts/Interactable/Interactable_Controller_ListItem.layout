@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="SequenceListBackground" name="SequencePanel" position_real="0.0301095 0.0454545 0.968978 1">
+        <Property key="NeedKey" value="false" />
+        <Property key="Colour" value="1 1 1" />
+        <Property key="NeedMouse" value="false" />
+        <Property key="InheritsPick" value="true" />
+        <Widget type="Widget" skin="PanelEmpty" name="Used" position_real="0 0 1 1">
+            <Property key="NeedMouse" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="InheritsPick" value="true" />
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="SequenceGrid" position_real="0.0188324 0 0.99435 1">
+                <Property key="NeedKey" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.111111 0.348485 0.00094162 0.30303">
+                <Property key="ImageTexture" value="gui_controller_row_divider.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.193974 0.348485 0.0122411 0.30303">
+                <Property key="ImageTexture" value="gui_controller_row_arrow.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.284369 0.348485 0.0122411 0.30303">
+                <Property key="ImageTexture" value="gui_controller_row_arrow.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.374765 0.348485 0.0122411 0.30303">
+                <Property key="ImageTexture" value="gui_controller_row_arrow.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.46516 0.348485 0.0122411 0.30303">
+                <Property key="ImageTexture" value="gui_controller_row_arrow.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.555556 0.348485 0.0122411 0.30303">
+                <Property key="ImageTexture" value="gui_controller_row_arrow.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.645951 0.348485 0.0122411 0.30303">
+                <Property key="ImageTexture" value="gui_controller_row_arrow.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.736347 0.348485 0.0122411 0.30303">
+                <Property key="ImageTexture" value="gui_controller_row_arrow.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.826742 0.348485 0.0122411 0.30303">
+                <Property key="ImageTexture" value="gui_controller_row_arrow.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.917137 0.348485 0.0122411 0.30303">
+                <Property key="ImageTexture" value="gui_controller_row_arrow.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="Unused" position_real="0.0480226 0 0.937853 1">
+            <Property key="FontName" value="SM_HeaderSmall" />
+            <Property key="Caption" value="#{CONTROLLER_SEQUENCE_NOT_USED}" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="TextColour" value="0.5 0.5 0.5" />
+            <Property key="InheritsPick" value="true" />
+            <Property key="NeedMouse" value="false" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="SequenceListBackgroundLocked" name="LockedSequencePanel" position_real="0.0301095 0.0454545 0.968978 1">
+        <Widget type="TextBox" skin="TextBox" name="UnlockText" position_real="0.0489642 0 0.937853 1">
+            <Property key="FontName" value="SM_HeaderSmall" />
+            <Property key="Caption" value="#{CONTROLLER_SEQUENCE_UNLOCK} X" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="TextColour" value="0.5 0.5 0.5" />
+        </Widget>
+    </Widget>
+    <Widget type="ImageBox" skin="ImageBox" position_real="0 0.0454545 0.060219 1">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Property key="ImageTexture" value="gui_controller_row_number.png" />
+        <Widget type="TextBox" skin="TextBox" name="Index" position_real="0 0 1 1">
+            <Property key="Caption" value="01" />
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="SM_NumberHuge" />
+            <Property key="TextColour" value="0.172549 0.184314 0.164706" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="LockIcon" position_real="0.378788 0.333333 0.242424 0.333333">
+            <Property key="ImageTexture" value="gui_icon_craftbot_lock_big.png" />
+            <Property key="Colour" value="0.172549 0.184314 0.164706" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

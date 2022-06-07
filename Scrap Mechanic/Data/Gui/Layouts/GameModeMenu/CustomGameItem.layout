@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="MainPanel" position_real="0 0 1 1">
+        <Property key="NeedMouse" value="false" />
+        <Property key="NeedKey" value="false" />
+        <Widget type="Button" skin="SelectionFieldBox" name="Background" position_real="0 0 1 0.888889">
+            <Widget type="ImageBox" skin="ImageBox" name="Preview" position_real="0 0 0.205882 1">
+                <Property key="ImageTexture" value="custom_game_preview_missing.jpg" />
+                <Widget type="Widget" skin="HighlightSelectionBox" name="PreviewSelectBorder" position_real="0 0 1.07143 1" />
+            </Widget>
+
+            <Widget type="TextBox" skin="TextBox" name="Name" position_real="0.242647 0 0.5 1">
+                <Property key="Caption" value="Game Name" />
+                <Property key="TextAlign" value="Left VCenter" />
+                <Property key="FontName" value="SM_ListItem" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="TimePast" position_real="0.205882 0 0.764706 1">
+                <Property key="Caption" value="Today" />
+                <Property key="TextAlign" value="VCenter Right" />
+                <Property key="FontName" value="SM_TextLabel" />
+            </Widget>
+            <Widget type="Widget" skin="HighlightSelectionBox" name="SelectBorder" position_real="0 0 1 1" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

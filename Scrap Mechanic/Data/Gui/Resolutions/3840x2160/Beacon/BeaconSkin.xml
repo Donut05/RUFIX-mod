@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MyGUI type="Resource" version="1.1">
+	<Resource name="BeaconBG" size="1020 240" texture="BeaconBG@4K.png" type="ResourceSkin">
+		<BasisSkin align="HStretch Top" offset="0 0 1020 228" type="BlurrySubSkin">
+			<State name="normal" offset="0 0 1020 228" />
+		</BasisSkin>
+		<BasisSkin align="Stretch" offset="0 228 1020 12" type="BlurrySubSkin">
+			<State name="normal" offset="0 228 1020 12" />
+		</BasisSkin>
+	</Resource>
+	<Resource name="BeaconBottomBG" size="1020 144" texture="BeaconBG@4K.png" type="ResourceSkin">
+		<BasisSkin align="HStretch Top" offset="0 0 1020 36" type="BlurrySubSkin">
+			<State name="normal" offset="0 240 1020 36" />
+		</BasisSkin>
+		<BasisSkin align="HStretch Bottom" offset="0 48 1020 96" type="BlurrySubSkin">
+			<State name="normal" offset="0 288 1020 96" />
+		</BasisSkin>
+		<BasisSkin align="Stretch" offset="0 36 1020 12" type="BlurrySubSkin">
+			<State name="normal" offset="0 276 1020 12" />
+		</BasisSkin>
+	</Resource>
+	<Resource name="BeaconIconColor" size="60 60" texture="BeaconIconColor@4K.png" type="ResourceSkin">
+		<BasisSkin align="Stretch" offset="0 0 60 60" type="SubSkin">
+			<State name="normal" offset="0 0 60 60" />
+		</BasisSkin>
+	</Resource>
+	<Resource name="BeaconIconColorBorder" size="84 84" texture="BeaconIconColorBorder@4K.png" type="ResourceSkin">
+		<BasisSkin align="Stretch" offset="0 0 84 84" type="SubSkin">
+			<State name="normal" offset="0 0 84 84" />
+			<State name="highlighted" offset="84 0 84 84" />
+			<State name="pushed" offset="84 0 84 84" />
+			<State name="normal_checked" offset="84 0 84 84" />
+		</BasisSkin>
+	</Resource>
+	<Resource name="BeaconIconBorder" size="156 156" texture="IconBorder@4K.png" type="ResourceSkin">
+		<BasisSkin align="Stretch" offset="0 0 156 156" type="SubSkin">
+			<State name="normal" offset="0 0 156 156" />
+			<State name="highlighted" offset="156 0 156 156" />
+			<State name="pushed" offset="156 0 156 156" />
+			<State name="normal_checked" offset="156 0 156 156" />
+		</BasisSkin>
+	</Resource>
+	<Resource name="BeaconWorldIconBG" size="132 132" texture="BeaconIconBlur@4K.png" type="ResourceSkin">
+		<BasisSkin align="Stretch" offset="0 0 132 132" type="BlurrySubSkin">
+			<State name="normal" offset="0 0 132 132" />
+		</BasisSkin>
+	</Resource>
+</MyGUI>

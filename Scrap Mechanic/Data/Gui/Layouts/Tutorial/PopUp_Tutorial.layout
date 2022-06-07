@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0.660937 0.2 0.326562 0.555556">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="Widget" skin="TutorialBgMain" name="BgMain" position_real="0.0909091 0.085 0.813397 0.715">
+            <Widget type="ImageBox" skin="ImageBox" name="ImageTutorial" position_real="0.0294118 0.034965 0.941176 0.391608" />
+            <Widget type="TextBox" skin="TextBox" name="TextTitle" position_real="0.0588235 0.433566 0.882353 0.125874">
+                <Property key="TextAlign" value="Left VCenter" />
+                <Property key="TextColour" value="1 1 1" />
+                <Property key="FontName" value="X_Hud_Alert" />
+            </Widget>
+            <Widget type="EditBox" skin="WordWrapEmpty" name="TextMessage" position_real="0.0588235 0.559441 0.882353 0.405594">
+                <Property key="TextColour" value="0.649123 0.649123 0.649123" />
+                <Property key="FontName" value="SM_TextSmall" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="TutorialBgBottom" name="BgBottom" position_real="0.0909091 0.8 0.813397 0.125">
+            <Widget type="TextBox" skin="TextBox" name="TextDismiss" position_real="0.176471 0.14 0.647059 0.68">
+                <Property key="TextAlign" value="Center" />
+                <Property key="TextColour" value="1 1 1" />
+                <Property key="FontName" value="SM_Button" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceLayout" name="EditBox_LiftInput" version="3.2.0">
+		<Widget type="Widget" skin="LiftInput" position="0 0 260 366" name="Root">
+			<UserString key="LE_TargetWidgetType" value="EditBox" />
+			<Widget type="TextBox" skin="EditClientSkin" position="12 12 236 342" align="Stretch" name="Client">
+				<Property key="TextAlign" value="Default" />
+				<Property key="FontName" value="SM_TextTiny" />
+				<Property key="Pointer" value="beam" />
+			</Widget>
+		</Widget>
+	</Resource>
+</MyGUI>

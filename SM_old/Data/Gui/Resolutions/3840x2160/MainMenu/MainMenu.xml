@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceSkin" name="NonBlurryBackgroundDarkRoundedUpperRight" size="87 87" texture="BGSpritesheet@4K.png">
+		<BasisSkin type="SubSkin" offset="0 0 3 84" align="Left Top">
+			<State name="normal" offset="9 6 3 84" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="3 0 0 84" align="HStretch Top">
+			<State name="normal" offset="12 6 0 84" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="3 0 84 84" align="Right Top">
+			<State name="normal" offset="12 6 84 84" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="3 84 84 0" align="Right VStretch">
+			<State name="normal" offset="12 90 84 0" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="3 84 84 3" align="Right Bottom">
+			<State name="normal" offset="12 90 84 3" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="3 84 0 3" align="HStretch Bottom">
+			<State name="normal" offset="12 90 0 3" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 84 3 3" align="Left Bottom">
+			<State name="normal" offset="9 90 3 3" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 84 3 0" align="Left VStretch">
+			<State name="normal" offset="9 90 3 0" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="3 84 0 0" align="Stretch">
+			<State name="normal" offset="12 90 0 0" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="NonBlurryBackgroundDarkRoundedLowerLeft" size="87 87" texture="BGSpritesheet@4K.png">
+		<BasisSkin type="SubSkin" offset="0 0 84 3" align="Left Top">
+			<State name="normal" offset="102 201 84 3" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="84 0 0 3" align="HStretch Top">
+			<State name="normal" offset="186 201 0 3" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="84 0 3 3" align="Right Top">
+			<State name="normal" offset="186 201 3 3" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="84 3 3 0" align="Right VStretch">
+			<State name="normal" offset="186 204 3 0" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="84 3 3 84" align="Right Bottom">
+			<State name="normal" offset="186 204 3 84" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="84 3 0 84" align="HStretch Bottom">
+			<State name="normal" offset="186 204 0 84" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 3 84 84" align="Left Bottom">
+			<State name="normal" offset="102 204 84 84" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 3 84 0" align="Left VStretch">
+			<State name="normal" offset="102 204 84 0" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="84 3 0 0" align="Stretch">
+			<State name="normal" offset="186 204 0 0" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="NonBlurryBackgroundLightSquared" size="42 42" texture="BGSpritesheet@4K.png">
+		<BasisSkin type="SubSkin" offset="0 0 6 6" align="Left Top">
+			<State name="normal" offset="198 198 6 6" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 0 30 6" align="HStretch Top">
+			<State name="normal" offset="204 198 30 6" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="36 0 6 6" align="Right Top">
+			<State name="normal" offset="234 198 6 6" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="36 6 6 30" align="Right VStretch">
+			<State name="normal" offset="234 204 6 30" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="36 36 6 6" align="Right Bottom">
+			<State name="normal" offset="234 234 6 6" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 36 30 6" align="HStretch Bottom">
+			<State name="normal" offset="204 234 30 6" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 36 6 6" align="Left Bottom">
+			<State name="normal" offset="198 234 6 6" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 6 6 30" align="Left VStretch">
+			<State name="normal" offset="198 204 6 30" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 6 30 30" align="Stretch">
+			<State name="normal" offset="204 204 30 30" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="NonBlurryBackgroundLightRoundedLowerLeft" size="87 87" texture="BGSpritesheet@4K.png">
+		<BasisSkin type="SubSkin" offset="0 0 84 3" align="Left Top">
+			<State name="normal" offset="6 105 84 3" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="84 0 0 3" align="HStretch Top">
+			<State name="normal" offset="90 105 0 3" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="84 0 3 3" align="Right Top">
+			<State name="normal" offset="90 105 3 3" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="84 3 3 0" align="Right VStretch">
+			<State name="normal" offset="90 108 3 0" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="84 3 3 84" align="Right Bottom">
+			<State name="normal" offset="90 108 3 84" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="84 3 0 84" align="HStretch Bottom">
+			<State name="normal" offset="90 108 0 84" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 3 84 84" align="Left Bottom">
+			<State name="normal" offset="6 108 84 84" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 3 84 0" align="Left VStretch">
+			<State name="normal" offset="6 108 84 0" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="84 3 0 0" align="Stretch">
+			<State name="normal" offset="90 108 0 0" />
+		</BasisSkin>
+	</Resource>
+    <Resource type="ResourceSkin" name="BackgroundMenuSurvival" size="681 1599" texture="gui_background_SurvivalMode.png">
+        <BasisSkin type="SubSkin" offset="0 0 681 1599" align="Stretch">
+            <State name="normal" offset="0 0 681 1599" />
+        </BasisSkin>
+    </Resource>
+	<Resource type="ResourceSkin" name="BackgroundMenuCreative" size="681 1659" texture="gui_background_CreativeMode.png">
+        <BasisSkin type="SubSkin" offset="0 0 681 1659" align="Stretch">
+            <State name="normal" offset="0 0 681 1659" />
+        </BasisSkin>
+    </Resource>
+	<Resource type="ResourceSkin" name="BackgroundMenuCreative_tilebuilder" size="600 759" texture="gui_background_tilebuilder.png">
+        <BasisSkin type="SubSkin" offset="0 0 600 759" align="Stretch">
+            <State name="normal" offset="0 0 600 759" />
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="BackgroundMenuCreative_worldbuilder" size="597 759" texture="gui_background_worldbuilder.png">
+        <BasisSkin type="SubSkin" offset="0 0 597 759" align="Stretch">
+            <State name="normal" offset="0 0 597 759" />
+        </BasisSkin>
+    </Resource>
+	<Resource type="ResourceSkin" name="BackgroundMenuDownload" size="600 1560" texture="gui_background_detailsdownload.png">
+        <BasisSkin type="SubSkin" offset="0 0 600 1560" align="Stretch">
+            <State name="normal" offset="0 0 600 1560" />
+        </BasisSkin>
+    </Resource>
+	<Resource type="ResourceSkin" name="BackgroundMenuChallenge" size="600 1641" texture="gui_background_challenge.png">
+        <BasisSkin type="SubSkin" offset="0 0 600 1641" align="Stretch">
+            <State name="normal" offset="0 0 600 1641" />
+        </BasisSkin>
+    </Resource>
+	<Resource type="ResourceSkin" name="BackgroundMenuChallenge_challengebuilder" size="681 1560" texture="gui_background_builder.png">
+        <BasisSkin type="SubSkin" offset="0 0 681 1560" align="Stretch">
+            <State name="normal" offset="0 0 681 1560" />
+        </BasisSkin>
+    </Resource>
+	<Resource type="ResourceSkin" name="BackgroundMenuChallenge_details" size="600 1560" texture="gui_background_challengedetails.png">
+        <BasisSkin type="SubSkin" offset="0 0 600 1560" align="Stretch">
+            <State name="normal" offset="0 0 600 1560" />
+        </BasisSkin>
+    </Resource>
+	 <Resource type="ResourceSkin" name="BackgroundMenuChallenge_builderdetails" size="600 201" texture="gui_backgrounds_buildersidepanel.png">
+		<BasisSkin type="SubSkin" offset="0 0 600 99" align="HStretch Top">
+			<State name="normal" offset="0 0 600 99" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 102 600 99" align="HStretch Bottom">
+			<State name="normal" offset="0 102 600 99" />
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 99 600 3" align="Stretch">
+			<State name="normal" offset="0 99 600 3" />
+		</BasisSkin>
+	</Resource>
+</MyGUI>

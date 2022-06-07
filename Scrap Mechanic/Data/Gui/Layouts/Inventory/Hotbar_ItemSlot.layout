@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Button" skin="HotbarItemBackground" name="MainPanel" position_real="0.00909091 0.00892857 0.981818 0.964286">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="ImageBox" skin="ImageBox" name="ItemIcon" position_real="0.12963 0.12963 0.740741 0.740741">
+            <Property key="NeedMouse" value="false" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="HighlightItemIcon" position_real="0.12963 0.0833333 0.740741 0.740741">
+            <Property key="NeedMouse" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="Visible" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="ItemCount" position_real="0.518519 0.731481 0.351852 0.148148">
+            <Property key="Caption" value="999" />
+            <Property key="TextAlign" value="Right VCenter" />
+            <Property key="FontName" value="SM_NumberSmall" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+    </Widget>
+    <Widget type="Button" skin="HotbarItemKeybindingBackground" name="Binding" position_real="0.381818 0.857143 0.236364 0.142857">
+        <Property key="TextAlign" value="Center" />
+        <Property key="FontName" value="SM_HotbarBinding" />
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Property key="TextShadow" value="false" />
+        <Property key="Caption" value="1" />
+        <Property key="TextShadowColour" value="0.8 0.407843 0.133333" />
+    </Widget>
+    <Widget type="ImageBox" skin="ImageBox" name="DraggedItemIcon" position_real="0.00909091 0.00892857 0.981818 0.964286">
+        <Property key="Visible" value="false" />
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+    </Widget>
+</MyGUI>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="MainPanel" position_real="0 0 1 1">
+        <Property key="NeedKey" value="false" />
+        <Widget type="Widget" skin="LargeVerticalSliderBackground" name="Background" position_real="0.0638298 0.0235294 0.276596 0.941176">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="true" />
+        </Widget>
+        <Widget type="Widget" skin="LargeVerticalSliderProgress" name="Progress" position_real="0.0638298 0.641176 0.265957 0.317647">
+            <Property key="NeedMouse" value="false" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+        <Widget type="Widget" skin="LargeVerticalSliderLimiter" name="Limiter" position_real="0.0638298 0.0294118 0.265957 0.194118">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Property key="Visible" value="false" />
+            <Widget type="ImageBox" skin="ImageBox" name="LimiterEnd" position_real="0 0.969697 0.96 0.030303">
+                <Property key="ImageTexture" value="gui_background_slider_limiter.png" />
+                <Property key="Visible" value="false" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="LargeVerticalSliderInnerShadow" position_real="0.0425532 0.0176471 0.308511 0.952941">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="Button" skin="LargeVerticalSliderHandle" name="Handle" position_real="0 0.823529 0.446809 0.164706">
+            <Property key="FontName" value="Default" />
+            <Property key="TextAlign" value="Center" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" name="LineContainer" position_real="0.43617 0 0.170213 1">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="RangeBeginText" position_real="0.680851 0.847059 0.297872 0.0588235">
+            <Property key="Caption" value="#{OFF_CAPS}" />
+            <Property key="FontName" value="SM_SliderLabel" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="TextColour" value="0.623529 0.619608 0.619608" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="RangeLimitText" position_real="0.680851 0.535294 0.297872 0.0588235">
+            <Property key="Caption" value="#{SLIDER_LIMIT}" />
+            <Property key="FontName" value="SM_SliderLabel" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="TextColour" value="1 0.803922 0.247059" />
+            <Property key="Visible" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="RangeEndText" position_real="0.680851 0.329412 0.297872 0.0588235">
+            <Property key="Caption" value="#{SLIDER_MAX}" />
+            <Property key="FontName" value="SM_SliderLabel" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="TextColour" value="0.623529 0.619608 0.619608" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

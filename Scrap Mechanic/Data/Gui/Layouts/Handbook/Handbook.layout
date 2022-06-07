@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="MainPanel" position_real="0.0572917 0.115741 0.880208 0.842593">
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="Widget" skin="PanelEmpty" name="Page" position_real="0.118343 0.0659341 0.857988 0.901099" />
+        <Widget type="ImageBox" skin="ImageBox" name="HowToPlay" position_real="0.145562 0 0.0414201 0.0659341">
+            <Property key="ImageTexture" value="HowToPlay.png" />
+            <Property key="NeedToolTip" value="true" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Tutorial" position_real="0.197041 0 0.0414201 0.0659341">
+            <Property key="ImageTexture" value="Tutorial.png" />
+            <Property key="NeedToolTip" value="true" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Bearing" position_real="0.248521 0 0.0414201 0.0659341">
+            <Property key="ImageTexture" value="Bearing.png" />
+            <Property key="NeedToolTip" value="true" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Lift" position_real="0.3 0 0.0414201 0.0659341">
+            <Property key="ImageTexture" value="Lift.png" />
+            <Property key="NeedToolTip" value="true" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="ConnectTool" position_real="0.351479 0 0.0414201 0.0659341">
+            <Property key="ImageTexture" value="ConnectTool.png" />
+            <Property key="NeedToolTip" value="true" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Seat" position_real="0.402959 0 0.0414201 0.0659341">
+            <Property key="ImageTexture" value="Seat.png" />
+            <Property key="NeedToolTip" value="true" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Engine" position_real="0.454438 0 0.0414201 0.0659341">
+            <Property key="NeedToolTip" value="true" />
+            <Property key="ImageTexture" value="Engine.png" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Thruster" position_real="0.505917 0 0.0414201 0.0659341">
+            <Property key="ImageTexture" value="Thruster.png" />
+            <Property key="NeedToolTip" value="true" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Controller" position_real="0.608876 0 0.0414201 0.0659341">
+            <Property key="ImageTexture" value="Controller.png" />
+            <Property key="NeedToolTip" value="true" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Triggers" position_real="0.557396 0 0.0414201 0.0659341">
+            <Property key="ImageTexture" value="Triggers.png" />
+            <Property key="NeedToolTip" value="true" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="LogicGate" position_real="0.660355 0 0.0414201 0.0659341">
+            <Property key="ImageTexture" value="LogicGate.png" />
+            <Property key="NeedToolTip" value="true" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="FAQ" position_real="0.711834 0 0.0414201 0.0659341">
+            <Property key="ImageTexture" value="FAQ.png" />
+            <Property key="NeedToolTip" value="true" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Close" position_real="0.926036 0 0.0414201 0.0659341">
+            <Property key="ImageTexture" value="Close.png" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="LeftFold" position_real="0 0.032967 0.118343 0.967033">
+            <Property key="ImageTexture" value="Left handbook flip page.png" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="RightPages" position_real="0.97574 0.0659341 0.0236686 0.901099">
+            <Property key="ImageTexture" value="Right handbook back pages.png" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="WhiteSkin" name="ToolTipPanel" position_real="0 0 0.127604 0.0277778">
+        <Property key="Colour" value="0 0 0" />
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="TextBox" skin="TextBox" name="Text" position_real="0 0 1 1">
+            <Property key="Caption" value="INFORMATION!" />
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="ToolTip" />
+        </Widget>
+    </Widget>
+</MyGUI>

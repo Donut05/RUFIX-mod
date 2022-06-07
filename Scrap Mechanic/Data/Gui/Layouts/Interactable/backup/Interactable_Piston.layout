@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundPiston" name="MainPanelUpgrade" position_real="0 0 0.3125 0.627778">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="true" />
+        <Property key="InheritsAlpha" value="false" />
+        <Property key="Visible" value="false" />
+        <Widget type="TextBox" skin="TextBox" name="Name" position_real="0.0825 0.0707965 0.8325 0.0575221">
+            <Property key="Caption" value="#{CONTROLLER_PISTON_TITLE}" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextAlign" value="Center" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="SubTitle" position_real="0.0825 0.130531 0.8325 0.0442478">
+            <Property key="TextAlign" value="Center" />
+            <Property key="TextColour" value="1 0.803922 0.247059" />
+            <Property key="FontName" value="SM_SubHeader" />
+            <Property key="Caption" value="#{LEVEL} 12345" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.065 0.367257 0.165 0.0442478">
+            <Property key="Caption" value="#{CONTROLLER_PISTON_RANGE}" />
+            <Property key="FontName" value="SM_TextLabel" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.065 0.570796 0.165 0.0442478">
+            <Property key="Caption" value="#{CONTROLLER_PISTON_SPEED}" />
+            <Property key="FontName" value="SM_TextLabel" />
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" name="RangeSlider" position_real="0.06 0.411504 0.885 0.119469" />
+        <Widget type="Widget" skin="PanelEmpty" name="SpeedSlider" position_real="0.06 0.615044 0.885 0.119469" />
+        <Widget type="Widget" skin="WhiteSkin" position_real="0.065 0.54646 0.865 0.00221239">
+            <Property key="Colour" value="0.592157 0.592157 0.592157" />
+            <Property key="Alpha" value="0.2" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.4 0.20354 0.2 0.176991" />
+        <Widget type="Button" skin="UpgradeButton" name="Upgrade" position_real="0.72 0.856195 0.225 0.10177">
+            <Property key="FontName" value="Default" />
+            <Widget type="TextBox" skin="TextBox" position_real="0.111111 0.195652 0.777778 0.26087">
+                <Property key="Caption" value="#{CONTROLLER_UPGRADE}" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="SM_ButtonTiny" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="UpgradeCost" position_real="0.444444 0.456522 0.444444 0.26087">
+                <Property key="FontName" value="SM_NumberMini" />
+                <Property key="TextAlign" value="Left VCenter" />
+                <Property key="Caption" value="00 / 00" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.277778 0.456522 0.144444 0.282609">
+                <Property key="ImageTexture" value="gui_icon_components.png" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="UpgradeIcon" position_real="0.055 0.845133 0.1325 0.117257">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.622642 0.490566 0.377358 0.509434">
+                <Property key="ImageTexture" value="gui_icon_upgrade.png" />
+            </Widget>
+        </Widget>
+        <Widget type="EditBox" skin="EditBoxEmpty" name="UpgradeInfo" position_real="0.245 0.809735 0.4475 0.190265">
+            <Property key="Caption" value="Level 5/5" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="WordWrap" value="true" />
+            <Property key="Static" value="true" />
+            <Property key="ReadOnly" value="true" />
+            <Property key="MultiLine" value="true" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="BackgroundInteractableWide" name="MainPanelNoUpgrade" position_real="0.3125 0 0.3125 0.508333">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="true" />
+        <Property key="InheritsAlpha" value="false" />
+        <Property key="Visible" value="true" />
+        <Widget type="TextBox" skin="TextBox" name="Name" position_real="0.0825 0.0874317 0.8325 0.0710383">
+            <Property key="Caption" value="#{CONTROLLER_PISTON_TITLE}" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextAlign" value="Center" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="SubTitle" position_real="0.0825 0.161202 0.8325 0.0546448">
+            <Property key="TextAlign" value="Center" />
+            <Property key="TextColour" value="1 0.803922 0.247059" />
+            <Property key="FontName" value="SM_SubHeader" />
+            <Property key="Caption" value="#{LEVEL} 12345" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.065 0.453552 0.165 0.0546448">
+            <Property key="Caption" value="#{CONTROLLER_PISTON_RANGE}" />
+            <Property key="FontName" value="SM_TextLabel" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.065 0.704918 0.165 0.0546448">
+            <Property key="Caption" value="#{CONTROLLER_PISTON_SPEED}" />
+            <Property key="FontName" value="SM_TextLabel" />
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" name="RangeSlider" position_real="0.06 0.508197 0.885 0.147541" />
+        <Widget type="Widget" skin="PanelEmpty" name="SpeedSlider" position_real="0.06 0.759563 0.885 0.147541" />
+        <Widget type="Widget" skin="WhiteSkin" position_real="0.065 0.674863 0.865 0.00273224">
+            <Property key="Colour" value="0.592157 0.592157 0.592157" />
+            <Property key="Alpha" value="0.2" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.4 0.251366 0.2 0.218579" />
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundInteractableNarrow" name="MainPanel" position_real="0 0 0.2625 0.576389">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="true" />
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="TextBox" skin="TextBox" name="Name" position_real="0 0.0674699 1 0.0626506">
+            <Property key="Caption" value="#{CONTROLLER_DRIVER_SEAT_TITLE}" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="SubTitle" position_real="0 0.13494 1 0.0481928">
+            <Property key="TextAlign" value="Center" />
+            <Property key="TextColour" value="1 0.803922 0.247059" />
+            <Property key="FontName" value="SM_SubHeader" />
+            <Property key="Caption" value="#{CONTROLLER_DRIVER_SEAT_TURNING}" />
+        </Widget>
+        <Widget type="Widget" skin="WhiteSkin" position_real="0.5 0.457831 0.00297619 0.383133">
+            <Property key="Alpha" value="0.2" />
+        </Widget>
+        <Widget type="Widget" skin="WhiteSkin" position_real="0.5 0.221687 0.00297619 0.101205">
+            <Property key="Alpha" value="0.2" />
+        </Widget>
+        <Widget type="Widget" skin="WhiteSkin" position_real="0.077381 0.874699 0.839286 0.00240964">
+            <Property key="Alpha" value="0.2" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.440476 0.33253 0.125 0.101205">
+            <Property key="ImageTexture" value="gui_icon_bearing.png" />
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" name="LeftAngle" position_real="0.077381 0.59759 0.39881 0.0674699">
+            <Widget type="Widget" skin="LargeHorizontalSliderBackground" name="Background" position_real="0.0298507 0.25 0.940299 0.464286" />
+            <Widget type="Widget" skin="LargeHorizontalSliderProgressInverted" name="Progress" position_real="0.701493 0.285714 0.268657 0.428571">
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="Widget" skin="LargeHorizontalSliderInnerShadow" position_real="0.0149254 0.214286 0.970149 0.571429">
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="Button" skin="LargeHorizontalSliderHandleNoPoint" name="Handle" position_real="0.61194 0 0.19403 1" />
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" name="RightAngle" position_real="0.52381 0.59759 0.39881 0.0674699">
+            <Widget type="Widget" skin="LargeHorizontalSliderBackground" name="Background" position_real="0.0298507 0.25 0.940299 0.464286" />
+            <Widget type="Widget" skin="LargeHorizontalSliderProgress" name="Progress" position_real="0.0298507 0.285714 0.283582 0.428571">
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="Widget" skin="LargeHorizontalSliderInnerShadow" position_real="0.0149254 0.214286 0.970149 0.571429">
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="Button" skin="LargeHorizontalSliderHandleNoPoint" name="Handle" position_real="0.61194 0 0.19403 1" />
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" name="LeftSpeed" position_real="0.077381 0.73253 0.39881 0.120482">
+            <Widget type="Widget" skin="LargeHorizontalSliderBackground" name="Background" position_real="0.0298507 0.56 0.940299 0.26" />
+            <Widget type="Widget" skin="LargeHorizontalSliderProgressInverted" name="Progress" position_real="0.701493 0.56 0.268657 0.24">
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="Widget" skin="LargeHorizontalSliderInnerShadow" position_real="0.0149254 0.52 0.970149 0.32">
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="Button" skin="LargeHorizontalSliderHandle" name="Handle" position_real="0.61194 0.36 0.19403 0.62" />
+            <Widget type="Widget" skin="PanelEmpty" name="LineContainer" position_real="0 0.18 1 0.2" />
+            <Widget type="Widget" skin="PanelEmpty" name="IndexContainer" position_real="0 0 1 0.18">
+                <UserString key="Font" value="SM_SliderLabel" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" name="RightSpeed" position_real="0.52381 0.73253 0.39881 0.120482">
+            <Widget type="Widget" skin="LargeHorizontalSliderBackground" name="Background" position_real="0.0298507 0.56 0.940299 0.26" />
+            <Widget type="Widget" skin="LargeHorizontalSliderProgress" name="Progress" position_real="0.0298507 0.56 0.432836 0.24">
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="Widget" skin="LargeHorizontalSliderInnerShadow" position_real="0.0149254 0.52 0.970149 0.32">
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+            <Widget type="Button" skin="LargeHorizontalSliderHandle" name="Handle" position_real="0.61194 0.36 0.19403 0.62" />
+            <Widget type="Widget" skin="PanelEmpty" name="LineContainer" position_real="0 0.18 1 0.2" />
+            <Widget type="Widget" skin="PanelEmpty" name="IndexContainer" position_real="0 0 1 0.18">
+                <UserString key="Font" value="SM_SliderLabel" />
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="LeftAngleText" position_real="0.077381 0.33253 0.25 0.101205">
+            <Property key="Caption" value="1234567890° " />
+            <Property key="FontName" value="SM_NumberHuge" />
+            <Property key="TextAlign" value="Left VCenter" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="RightAngleText" position_real="0.666667 0.33253 0.255952 0.101205">
+            <Property key="Caption" value="1234567890° " />
+            <Property key="FontName" value="SM_NumberHuge" />
+            <Property key="TextAlign" value="Right VCenter" />
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" name="On" position_real="0.602386 0.889068 0.159046 0.0787781">
+            <Property key="Caption" value="#{ON_CAPS}" />
+            <Property key="FontName" value="SM_ButtonTiny" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" name="Off" position_real="0.759443 0.889068 0.166998 0.0787781">
+            <Property key="Caption" value="#{OFF_CAPS}" />
+            <Property key="FontName" value="SM_ButtonTiny" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.0735587 0.900322 0.538767 0.0594855">
+            <Property key="Caption" value="#{CONTROLLER_DRIVER_SEAT_LOCK}" />
+            <Property key="FontName" value="SM_TextLabel" />
+            <Property key="TextAlign" value="Left VCenter" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.077381 0.689157 0.39881 0.0385542">
+            <Property key="Caption" value="#{CONTROLLER_DRIVER_SEAT_TURN_SPEED}" />
+            <Property key="FontName" value="SM_TextLabel" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.52381 0.689157 0.39881 0.0385542">
+            <Property key="Caption" value="#{CONTROLLER_DRIVER_SEAT_TURN_SPEED}" />
+            <Property key="FontName" value="SM_TextLabel" />
+            <Property key="TextAlign" value="Right VCenter" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.077381 0.549398 0.39881 0.0409639">
+            <Property key="Caption" value="#{CONTROLLER_DRIVER_SEAT_TURN_LEFT}" />
+            <Property key="FontName" value="SM_TextLabel" />
+            <Property key="TextAlign" value="Left VCenter" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.52381 0.549398 0.39881 0.0409639">
+            <Property key="Caption" value="#{CONTROLLER_DRIVER_SEAT_TURN_RIGHT}" />
+            <Property key="FontName" value="SM_TextLabel" />
+            <Property key="TextAlign" value="Right VCenter" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="LeftRotation" position_real="0.27381 0.20241 0.217262 0.375904">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="RightRotation" position_real="0.511905 0.20241 0.217262 0.375904">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

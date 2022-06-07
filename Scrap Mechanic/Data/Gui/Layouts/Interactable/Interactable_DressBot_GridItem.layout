@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Button" skin="DressbotQueueBackground" name="Background" position_real="0 0 0.989362 1">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="EffectWidget" skin="DressbotBoxItem" name="Effect" position_real="0.0645161 0.0566038 0.860215 0.877358">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+    </Widget>
+    <Widget type="EffectWidget" skin="DressbotDragBoxItem" name="DragEffect" position_real="0 0 1 1">
+        <Property key="Visible" value="false" />
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

@@ -1,0 +1,12 @@
+<MyGUI type="Resource" version="1.1">
+    <Resource type="ResourceImageSet" name="LogbookItemMap">
+        <Group name="LogbookItemMap" texture="LogbookItem@720.png" size="60 60">
+            <Index name="audio">
+                <Frame point="0 0"/>
+            </Index>
+            <Index name="photo">
+                <Frame point="60 0"/>
+            </Index>
+        </Group>
+    </Resource>
+</MyGUI>

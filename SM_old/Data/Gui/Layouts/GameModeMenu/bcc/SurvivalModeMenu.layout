@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="LoadGamePanel" position_real="0.202604 0.158333 0.416667 0.722222">
+        <Widget type="Widget" skin="NonBlurryBackgroundDarkRoundedUpperRight" position_real="0 0 1 0.128205">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.05 0.36 0.0375 0.29">
+                <Property key="ImageTexture" value="IconSurvivalMode.png" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.11 0.37 0.33125 0.3">
+                <Property key="Caption" value="#{MENU_SURVIVAL_TITLE}" />
+                <Property key="FontName" value="SM_HeaderLarge_Medium" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="NonBlurryBackgroundLightSquared" position_real="0 0.128205 1 0.744872">
+            <Widget type="Widget" skin="PanelEmpty" name="GameListContainer" position_real="0 0 1 0.998279">
+                <Widget type="ItemBox" skin="InventoryItemBox2" name="GameList" position_real="0.05 0.0689655 0.85 0.862069" />
+                <Widget type="ScrollBar" skin="InventoryVSlider" name="GameScroll" position_real="0.93125 0.0706897 0.0375 0.862069" />
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" name="NoGameContainer" position_real="0 0 1 0.998279">
+                <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.46875 0.32931 0.0625 0.0862069">
+                    <Property key="ImageTexture" value="gui_icon_popup_alert.png" />
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.18375 0.460345 0.6325 0.141379">
+                    <Property key="Caption" value="#808383#{MENU_SURVIVAL_NO_SAVES_1}\n#{MENU_SURVIVAL_NO_SAVES_2}\n#{MENU_SURVIVAL_NO_SAVES_3} “#ffd046#{NEW_GAME}#909292”" />
+                    <Property key="FontName" value="SM_Text" />
+                    <Property key="TextAlign" value="Center VCenter" />
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="NonBlurryBackgroundDarkRoundedLowerLeft" position_real="0 0.871795 1 0.128205">
+            <Widget type="Widget" skin="SearchBarBackground" name="NewGameName" position_real="0.05 0.3 0.5725 0.4">
+                <Widget type="EditBox" skin="EditBoxEmpty" name="DefaultText" position_real="0.0262009 0.125 0.978166 0.75">
+                    <Property key="Caption" value="#{MENU_CREATIVE_GAME_NAME}" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                    <Property key="TextColour" value="0.29803921568 0.29803921568 0.29803921568" />
+                    <Property key="FontName" value="SM_SearchText" />
+                    <UserString key="FontName" value="SM_SearchText" />
+                </Widget>
+                <Widget type="EditBox" skin="EditBoxEmpty" name="EditText" position_real="0.0262009 0.125 0.978166 0.75">
+                    <Property key="Caption" value="" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                    <Property key="TextColour" value="0.99 0.99 0.99" />
+                    <Property key="FontName" value="SM_SearchText" />
+                    <UserString key="FontName" value="SM_SearchText" />
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="ActiveButton" name="NewGame" position_real="0.655 0.23 0.315 0.52">
+                <Property key="Caption" value="#{NEW_GAME}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="BackgroundMenuSurvival" name="GameInfoPanel" position_real="0.61875 0.139815 0.177083 0.740741">
+        <Widget type="TextBox" skin="TextBox" name="GameName" position_real="0.147059 0.44625 0.717647 0.075">
+            <Property key="Caption" value="Game Name" />
+            <Property key="FontName" value="SM_GameName" />
+            <Property key="TextAlign" value="Left Top" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.147059 0.545 0.0470588 0.0225">
+            <Property key="ImageTexture" value="IconStopwatch.png" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.147059 0.5825 0.0470588 0.0225">
+            <Property key="ImageTexture" value="IconTime.png" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.147059 0.62 0.0470588 0.0225">
+            <Property key="ImageTexture" value="IconDate.png" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="GamePlayTime" position_real="0.520588 0.5425 0.344118 0.025">
+            <Property key="Caption" value="0123456789#{TIME_DAY_SHORT}#{TIME_HOUR_SHORT}#{TIME_MINUTE_SHORT}" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextAlign" value="Right VCenter" />
+            <Property key="TextColour" value="1 0.8156863 0.2745098" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="GameTime" position_real="0.520588 0.58 0.344118 0.025">
+            <Property key="Caption" value="23:42 PM" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextAlign" value="Right VCenter" />
+            <Property key="TextColour" value="1 0.8156863 0.2745098" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="GameDate" position_real="0.520588 0.6175 0.344118 0.025">
+            <Property key="Caption" value="2019-02-08" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextAlign" value="Right VCenter" />
+            <Property key="TextColour" value="1 0.8156863 0.2745098" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="GamePlayTimeLabel" position_real="0.217647 0.5425 0.4 0.025">
+            <Property key="Caption" value="#{PLAYTIME}" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="TextColour" value="0.57 0.57 0.57" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="GameTimeLabel" position_real="0.217647 0.58 0.4 0.025">
+            <Property key="Caption" value="#{TIME}" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="TextColour" value="0.57 0.57 0.57" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="GameDateLabel" position_real="0.217647 0.6175 0.4 0.025">
+            <Property key="Caption" value="#{DATE}" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="TextColour" value="0.57 0.57 0.57" />
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" name="Delete" position_real="0.152941 0.81125 0.705882 0.05">
+            <Property key="Caption" value="#{DELETE}" />
+            <Property key="FontName" value="SM_ButtonSmall" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="Button" skin="StyledButtonLarge" name="Play" position_real="0.138235 0.88375 0.729412 0.08625">
+            <Property key="Caption" value="#{PLAY}" />
+            <Property key="FontName" value="SM_Button" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

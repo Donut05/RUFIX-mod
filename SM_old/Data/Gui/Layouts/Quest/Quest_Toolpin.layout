@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="quest_toolpin" position_real="0 0 1 1" />
+    <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.147059 0.102041 0.705882 0.489796">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

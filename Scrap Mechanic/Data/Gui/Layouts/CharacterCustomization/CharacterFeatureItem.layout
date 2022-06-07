@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget name="MainPanel" skin="ContainerItemBackground" type="Button" position_real="0.0135135 0.0135135 0.972973 0.972973">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget name="ItemIcon" skin="ImageBox" type="ImageBox" position_real="0.0555556 0.0555556 0.888889 0.888889">
+            <Property key="NeedMouse" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="ImageResource" value="ItemIconsSet0" />
+        </Widget>
+        <Widget name="HighlightItemIcon" skin="ImageBox" type="ImageBox" position_real="0.194444 0.138889 0.611111 0.611111">
+            <Property key="NeedMouse" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="Visible" value="false" />
+            <Property key="ImageResource" value="ItemIconsSet0" />
+        </Widget>
+    </Widget>
+</MyGUI>

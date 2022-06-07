@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="EditBox" skin="TextBox" name="QuestTrackerTextBox" position_real="0.8125 0.388889 0.1875 0.611111">
+        <Property key="Caption" value="Quest" />
+        <Property key="FontName" value="SM_Label" />
+        <Property key="TextAlign" value="Left Top" />
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Property key="TextColour" value="1 1 1" />
+        <Property key="WordWrap" value="true" />
+        <Property key="ReadOnly" value="true" />
+        <Property key="Static" value="true" />
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

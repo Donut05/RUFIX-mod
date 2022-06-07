@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" align="Center" layer="Back" name="MainPanel" position_real="0 0 1 1">
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1">
+            <Property key="ImageTexture" value="16_logic_gate.jpg" />
+            <Widget type="Widget" skin="PanelEmpty" name="PageToggle" position_real="0.886207 0.932927 0.103448 0.0609756">
+                <Widget type="Button" skin="LeftArrow" name="Prev" position_real="0 0 0.233333 1" />
+                <Widget type="Button" skin="RightArrow" name="Next" position_real="0.766667 0 0.233333 1" />
+                <Widget type="TextBox" skin="TextBox" name="Tracker" position_real="0.233333 0 0.533333 1">
+                    <Property key="Caption" value="5/5" />
+                    <Property key="FontName" value="HandbookPageCount" />
+                    <Property key="TextAlign" value="Center" />
+                </Widget>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.210345 0.0426829 0.786207 0.109756">
+                <Property key="FontName" value="HandbookTitle" />
+                <Property key="Caption" value="#{HANDBOOK_LOGIC_GATE_TITLE}" />
+                <Property key="TextAlign" value="Default" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.213793 0.158537 0.782759 0.0365854">
+                <Property key="Caption" value="#{HANDBOOK_LOGIC_GATE_PAGE1_SUBTITLE1}" />
+                <Property key="FontName" value="HandbookSubTitle" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.213793 0.195122 0.782759 0.0365854">
+                <Property key="Caption" value="#{HANDBOOK_LOGIC_GATE_PAGE1_SUBTITLE2}" />
+                <Property key="FontName" value="HandbookSubTitle" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.213793 0.231707 0.782759 0.0365854">
+                <Property key="FontName" value="HandbookSubTitle" />
+                <Property key="Caption" value="#{HANDBOOK_LOGIC_GATE_PAGE1_SUBTITLE3}" />
+            </Widget>
+            <Widget type="EditBox" skin="EditBoxEmpty" position_real="0.502069 0.49878 0.1 0.0378049">
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <Property key="Caption" value="#{CONTROLLER_LOGIC_DESCRIPTION_XOR}" />
+                <Property key="FontName" value="HandbookLogicDescription" />
+                <Property key="TextAlign" value="HCenter Top" />
+                <Property key="MultiLine" value="true" />
+                <UserString key="FontName" value="HandbookLogicDescription" />
+            </Widget>
+        </Widget>
+    </Widget>
+</MyGUI>

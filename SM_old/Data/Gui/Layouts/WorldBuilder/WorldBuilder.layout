@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+
+    <Widget type="Widget" skin="WhiteSkin" position="0 0 100 100" layer="Main" align="Stretch" name="NewWindowPopupMask" >
+        <Widget type="EditorWindow" skin="EditorWindowNoResize" position="0 0 200 260" layer="Overlapped" name="NewWindow">
+            <Property key="Caption" value="New World"/>
+            <Property key="NeedKey" value="true"/>
+            <Property key="NeedMouse" value="true"/>
+        </Widget>
+
+        <Property key="NeedKey" value="true"/>
+        <Property key="NeedMouse" value="true"/>
+    </Widget>
+
+    <Widget type="Widget" skin="WhiteSkin" position="0 0 100 100" layer="Main" align="Stretch" name="WorldBrowserWindowPopupMask" >
+        <Widget type="EditorWindow" skin="EditorWindow" position="0 580 800 800" layer="Overlapped" name="WorldBrowserWindow">
+            <Property key="NeedKey" value="false"/>
+            <Property key="Caption" value="World Browser"/>
+            <Property key="MinSize" value="200 64"/>
+            <Widget type="ItemBox" skin="EditorListBox" position="0 28 780 740" align="Stretch" name="WorldList">
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+        </Widget>
+    </Widget>
+
+    <Widget type="Widget" skin="PanelEmpty" position="0 0 1920 64" layer="Main" align="HStretch Top" name="MenuBarContainer" >
+        <Widget type="EditorMenu" skin="WhiteSkin" position="0 0 1920 64" align="HStretch Top" name="LeftMenuBar"/>
+        <Widget type="EditorMenu" skin="WhiteSkin" position="100 0 600 64" align="HCenter Top" name="CenterMenuBar"/>
+        <Widget type="EditorMenu" skin="WhiteSkin" position="1620 0 300 64" align="Right Top" name="RightMenuBar"/>
+    </Widget>
+
+    <Widget type="EditorWindow" skin="EditorWindow" position="0 580 800 800" layer="Overlapped" name="TileBrowserWindow">
+        <Property key="NeedKey" value="false"/>
+        <Property key="Caption" value="Tile Browser"/>
+        <Property key="MinSize" value="600 64"/>
+        <Widget type="ItemBox" skin="EditorListBox" position="0 28 780 740" align="Stretch" name="TileList">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+
+    <CodeGeneratorSettings/>
+</MyGUI>

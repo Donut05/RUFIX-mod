@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="QuestTask" position_real="0.00833333 0 1 0.935065">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="TextBox" skin="TextBox" name="Title" position_real="0.108333 0.0138889 0.858333 0.152778">
+            <Property key="Caption" value="Getting Started" />
+            <Property key="TextAlign" value="Left VCenter" />
+            <Property key="FontName" value="SM_Header" />
+            <Property key="TextColour" value="1 1 0.752941" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0.2 0.2 0.2" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="TitleLine" position_real="0.00833333 0.208333 0.991667 0.0138889">
+            <Property key="ImageTexture" value="gui_questtracker_divider.png" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="QuestIcon" position_real="0 0.0138889 0.0916667 0.152778">
+            <Property key="ImageTexture" value="icon_questmarker.png" />
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" name="Tasks" position_real="0 0.277778 1 0.722222">
+            <Widget type="ImageBox" skin="ImageBox" align="Left Top" name="TaskCheckbox1" position_real="0.00833333 0 0.0666667 0.153846">
+                <Property key="ImageTexture" value="icon_checkmark_active.png" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" name="TaskText1" position_real="0.116667 0 0.85 0.25">
+                <Property key="Caption" value="0/6 Collect wood" />
+                <Property key="TextAlign" value="Left Top" />
+                <Property key="FontName" value="SM_TextLabel" />
+                <Property key="TextShadow" value="true" />
+                <Property key="TextShadowColour" value="0.2 0.2 0.2" />
+                <Property key="MultiLine" value="true" />
+                <Property key="WordWrap" value="true" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" align="Left Top" name="TaskCheckbox2" position_real="0.00833333 0.25 0.0666667 0.153846">
+                <Property key="ImageTexture" value="icon_checkmark_active.png" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" name="TaskText2" position_real="0.116667 0.25 0.85 0.25">
+                <Property key="Caption" value="0/6 Collect wood" />
+                <Property key="TextAlign" value="Left Top" />
+                <Property key="FontName" value="SM_TextLabel" />
+                <Property key="TextShadow" value="true" />
+                <Property key="TextShadowColour" value="0.2 0.2 0.2" />
+                <Property key="MultiLine" value="true" />
+                <Property key="WordWrap" value="true" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" align="Left Top" name="TaskCheckbox3" position_real="0.00833333 0.5 0.0666667 0.153846">
+                <Property key="ImageTexture" value="icon_checkmark_active.png" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" name="TaskText3" position_real="0.116667 0.5 0.85 0.25">
+                <Property key="Caption" value="0/6 Collect wood" />
+                <Property key="TextAlign" value="Left Top" />
+                <Property key="FontName" value="SM_TextLabel" />
+                <Property key="TextShadow" value="true" />
+                <Property key="TextShadowColour" value="0.2 0.2 0.2" />
+                <Property key="MultiLine" value="true" />
+                <Property key="WordWrap" value="true" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" align="Left Top" name="TaskCheckbox4" position_real="0.00833333 0.75 0.0666667 0.153846">
+                <Property key="ImageTexture" value="icon_checkmark_active.png" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" name="TaskText4" position_real="0.116667 0.75 0.85 0.25">
+                <Property key="Caption" value="0/6 Collect wood" />
+                <Property key="TextAlign" value="Left Top" />
+                <Property key="FontName" value="SM_TextLabel" />
+                <Property key="TextShadow" value="true" />
+                <Property key="TextShadowColour" value="0.2 0.2 0.2" />
+                <Property key="MultiLine" value="true" />
+                <Property key="WordWrap" value="true" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

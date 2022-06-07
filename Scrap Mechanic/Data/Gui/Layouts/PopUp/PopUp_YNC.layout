@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundPromptNarrow" name="BackPanel" position_real="0 0 0.270833 0.512963">
+        <Property key="NeedKey" value="false" />
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.115385 0.0577617 0.769231 0.819495">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.4375 0.0572687 0.125 0.110132">
+                <Property key="ImageTexture" value="gui_icon_popup_alert.png" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="Title" position_real="0 0.185022 1 0.0991189">
+                <Property key="FontName" value="SM_HeaderLarge_Medium" />
+                <Property key="Caption" value="#{WARNING_TUNNELING_TITLE}" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="EditBox" skin="TextBox" name="Message" position_real="0.1 0.299559 0.8 0.176211">
+                <Property key="Caption" value="Message" />
+                <Property key="FontName" value="SM_Text" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <Property key="MultiLine" value="true" />
+            </Widget>
+            <Widget type="Button" skin="PrimaryButton" name="Yes" position_real="0.09 0.477974 0.82 0.136564">
+                <Property key="Caption" value="#{MENU_YN_YES}" />
+                <Property key="FontName" value="SM_Button" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="SecondaryButton" name="No" position_real="0.105 0.645374 0.79 0.110132">
+                <Property key="Caption" value="#{MENU_YN_NO}" />
+                <Property key="FontName" value="SM_Button" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="SecondaryButton" name="Cancel" position_real="0.105 0.797357 0.79 0.110132">
+                <Property key="Caption" value="#{MENU_YN_CANCEL}" />
+                <Property key="FontName" value="SM_Button" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceSkin" name="ToolTipLeft" size="10 24" texture="gui_background_tooltip.png">
+		<BasisSkin type="SubSkin" offset="0 0 4 24" align="Left VStretch">
+			<State name="normal" offset="0 0 4 24"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="4 0 2 24" align="Stretch">
+			<State name="normal" offset="4 0 2 24"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 0 4 24" align="Right VStretch">
+			<State name="normal" offset="6 0 4 24"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="ToolTipRight" size="10 24" texture="gui_background_tooltip.png">
+		<BasisSkin type="SubSkin" offset="0 0 4 24" align="Left VStretch">
+			<State name="normal" offset="10 0 4 24"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="4 0 2 24" align="Stretch">
+			<State name="normal" offset="14 0 2 24"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 0 4 24" align="Right VStretch">
+			<State name="normal" offset="16 0 4 24"/>
+		</BasisSkin>
+	</Resource>
+</MyGUI>

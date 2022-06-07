@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position="0 0 645 500" name="MainPanel">
+        <Widget type="Widget" skin="InventoryBackground" position="0 0 645 45" name="Slider_0">
+            <Widget type="ScrollBar" skin="DebugHSlider" position="70 5 400 35" name="Slider">
+                <Property key="MoveToClick" value="true"/>
+                <Property key="Range" value="1001"/>
+                <Property key="RangePosition" value="500"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="475 5 60 35" name="Max">
+                <Property key="Caption" value="1"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="5 5 60 35" name="Min">
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="Caption" value="0"/>
+                <UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="540 5 100 35" name="Value">
+                <Property key="Caption" value="0.0"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="InventoryBackground" position="0 50 645 45" name="Slider_1">
+            <Widget type="ScrollBar" skin="DebugHSlider" position="70 5 400 35" name="Slider">
+                <Property key="MoveToClick" value="true"/>
+                <Property key="Range" value="1001"/>
+                <Property key="RangePosition" value="500"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="475 5 60 35" name="Max">
+                <Property key="Caption" value="1"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="5 5 60 35" name="Min">
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="Caption" value="0"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="540 5 100 35" name="Value">
+                <Property key="Caption" value="0.0"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="InventoryBackground" position="0 100 645 45" name="Slider_2">
+            <Widget type="ScrollBar" skin="DebugHSlider" position="70 5 400 35" name="Slider">
+                <Property key="MoveToClick" value="true"/>
+                <Property key="Range" value="1001"/>
+                <Property key="RangePosition" value="500"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="475 5 60 35" name="Max">
+                <Property key="Caption" value="1"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="5 5 60 35" name="Min">
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="Caption" value="0"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="540 5 100 35" name="Value">
+                <Property key="Caption" value="0.0"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="InventoryBackground" position="0 150 645 45" name="Slider_3">
+            <Widget type="ScrollBar" skin="DebugHSlider" position="70 5 400 35" name="Slider">
+                <Property key="MoveToClick" value="true"/>
+                <Property key="Range" value="1001"/>
+                <Property key="RangePosition" value="500"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="475 5 60 35" name="Max">
+                <Property key="Caption" value="1"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="5 5 60 35" name="Min">
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="Caption" value="0"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="540 5 100 35" name="Value">
+                <Property key="Caption" value="0.0"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="InventoryBackground" position="0 200 645 45" name="Slider_4">
+            <Widget type="ScrollBar" skin="DebugHSlider" position="70 5 400 35" name="Slider">
+                <Property key="MoveToClick" value="true"/>
+                <Property key="Range" value="1001"/>
+                <Property key="RangePosition" value="500"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="475 5 60 35" name="Max">
+                <Property key="Caption" value="1"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="5 5 60 35" name="Min">
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="Caption" value="0"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="540 5 100 35" name="Value">
+                <Property key="Caption" value="0.0"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="InventoryBackground" position="0 250 645 45" name="Slider_5">
+            <Widget type="ScrollBar" skin="DebugHSlider" position="70 5 400 35" name="Slider">
+                <Property key="MoveToClick" value="true"/>
+                <Property key="Range" value="1001"/>
+                <Property key="RangePosition" value="500"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="475 5 60 35" name="Max">
+                <Property key="Caption" value="1"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="5 5 60 35" name="Min">
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="Caption" value="0"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="540 5 100 35" name="Value">
+                <Property key="Caption" value="0.0"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="InventoryBackground" position="0 300 645 45" name="Slider_6">
+            <Widget type="ScrollBar" skin="DebugHSlider" position="70 5 400 35" name="Slider">
+                <Property key="MoveToClick" value="true"/>
+                <Property key="Range" value="1001"/>
+                <Property key="RangePosition" value="500"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="475 5 60 35" name="Max">
+                <Property key="Caption" value="1"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="5 5 60 35" name="Min">
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="Caption" value="0"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="540 5 100 35" name="Value">
+                <Property key="Caption" value="0.0"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="InventoryBackground" position="0 350 645 45" name="Slider_7">
+            <Widget type="ScrollBar" skin="DebugHSlider" position="70 5 400 35" name="Slider">
+                <Property key="MoveToClick" value="true"/>
+                <Property key="Range" value="1001"/>
+                <Property key="RangePosition" value="500"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="475 5 60 35" name="Max">
+                <Property key="Caption" value="1"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="5 5 60 35" name="Min">
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="Caption" value="0"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="540 5 100 35" name="Value">
+                <Property key="Caption" value="0.0"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="InventoryBackground" position="0 400 645 45" name="Slider_8">
+            <Widget type="ScrollBar" skin="DebugHSlider" position="70 5 400 35" name="Slider">
+                <Property key="MoveToClick" value="true"/>
+                <Property key="Range" value="1001"/>
+                <Property key="RangePosition" value="500"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="475 5 60 35" name="Max">
+                <Property key="Caption" value="1"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="5 5 60 35" name="Min">
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="Caption" value="0"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="540 5 100 35" name="Value">
+                <Property key="Caption" value="0.0"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="InventoryBackground" position="0 450 645 45" name="Slider_9">
+            <Widget type="ScrollBar" skin="DebugHSlider" position="70 5 400 35" name="Slider">
+                <Property key="MoveToClick" value="true"/>
+                <Property key="Range" value="1001"/>
+                <Property key="RangePosition" value="500"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="475 5 60 35" name="Max">
+                <Property key="Caption" value="1"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="5 5 60 35" name="Min">
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="Caption" value="0"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+            <Widget type="EditBox" skin="SMEditBox" position="540 5 100 35" name="Value">
+                <Property key="Caption" value="0.0"/>
+                <Property key="TextColour" value="0 0 0"/>
+                <Property key="FontName" value="Futura.21.manual"/>
+                <Property key="TextAlign" value="Center"/>
+				<UserString key="FontSize" value="21"/>
+            </Widget>
+        </Widget>
+    </Widget>
+</MyGUI>

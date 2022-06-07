@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="CrossHair" position_real="0.408854 0.337963 0.182292 0.324074">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+    </Widget>
+    <Widget type="ImageBox" skin="ImageBox" name="Progress" position_real="0.473958 0.453704 0.0520833 0.0925926">
+        <Property key="ImageGroup" value="remove" />
+        <Property key="ImageResource" value="Rotation" />
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+    </Widget>
+    <Widget type="Widget" skin="PanelEmpty" name="AlertPanel" position_real="0.229167 0.14537 0.541667 0.0925926">
+        <Widget type="TextBox" skin="TextBox" name="Alert" position_real="0 0.5 1 0.5">
+            <Property key="FontName" value="X_Hud_Alert" />
+            <Property key="Caption" value="You&apos;re starved, dehydrated and tired. Haybots are approaching, oh and your car is on fire by the way" />
+            <Property key="TextAlign" value="Center" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.477885 0.02 0.0442308 0.46">
+            <Property key="ImageTexture" value="gui_icon_alert.png" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="PanelEmpty" name="OnePartBindingBackground1" position_real="0.494792 0.546296 0.00104167 0.0277778">
+        <Property key="NeedMouse" value="false" />
+        <Property key="NeedKey" value="false" />
+        <Widget type="TextBox" skin="TextBox" name="Text" position_real="0.5 0 0 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="X_Hud_Interaction" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="PanelEmpty" name="ThreePartBindingBackground1" position_real="0.966667 0.546296 0.00729167 0.0277778">
+        <Property key="NeedMouse" value="false" />
+        <Property key="NeedKey" value="false" />
+        <Widget type="Widget" skin="InteractionBindingBackground" name="KeyBackground" position_real="0 0 1 1">
+            <Widget type="TextBox" skin="TextBox" name="KeyBinding" position_real="0.5 0 0 1">
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="X_Hud_Interaction" />
+                <Property key="TextColour" value="0.309804 0.309804 0.309804" />
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="PartOne" position_real="0 0 0 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="X_Hud_Interaction" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="PartTwo" position_real="1 0 0 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="X_Hud_Interaction" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="PanelEmpty" name="FivePartBindingBackground1" position_real="0.959375 0.546296 0.0145833 0.0277778">
+        <Property key="NeedMouse" value="false" />
+        <Property key="NeedKey" value="false" />
+        <Widget type="Widget" skin="InteractionBindingBackground" name="KeyBackgroundOne" position_real="0 0 0.5 1">
+            <Widget type="TextBox" skin="TextBox" name="KeyBindingOne" position_real="0.5 0 0 1">
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="X_Hud_Interaction" />
+                <Property key="TextColour" value="0.309804 0.309804 0.309804" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="InteractionBindingBackground" name="KeyBackgroundTwo" position_real="0.5 0 0.5 1">
+            <Widget type="TextBox" skin="TextBox" name="KeyBindingTwo" position_real="0.5 0 0 1">
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="X_Hud_Interaction" />
+                <Property key="TextColour" value="0.309804 0.309804 0.309804" />
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="PartOne" position_real="0 0 0 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="X_Hud_Interaction" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="PartTwo" position_real="0.5 0 0 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="X_Hud_Interaction" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="PartThree" position_real="1 0 0 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="X_Hud_Interaction" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="PanelEmpty" name="OnePartBindingBackground2" position_real="0.502604 0.578704 0.00104167 0.0277778">
+        <Property key="NeedMouse" value="false" />
+        <Property key="NeedKey" value="false" />
+        <Widget type="TextBox" skin="TextBox" name="Text" position_real="0.5 0 0 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="X_Hud_Interaction" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="PanelEmpty" name="ThreePartBindingBackground2" position_real="0.966667 0.578704 0.00729167 0.0277778">
+        <Property key="NeedMouse" value="false" />
+        <Property key="NeedKey" value="false" />
+        <Widget type="Widget" skin="InteractionBindingBackground" name="KeyBackground" position_real="0 0 1 1">
+            <Widget type="TextBox" skin="TextBox" name="KeyBinding" position_real="0.5 0 0 1">
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="X_Hud_Interaction" />
+                <Property key="TextColour" value="0.309804 0.309804 0.309804" />
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="PartOne" position_real="0 0 0 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="X_Hud_Interaction" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="PartTwo" position_real="1 0 0 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="X_Hud_Interaction" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="PanelEmpty" name="FivePartBindingBackground2" position_real="0.959375 0.578704 0.0145833 0.0277778">
+        <Property key="NeedMouse" value="false" />
+        <Property key="NeedKey" value="false" />
+        <Widget type="Widget" skin="InteractionBindingBackground" name="KeyBackgroundOne" position_real="0 0 0.5 1">
+            <Widget type="TextBox" skin="TextBox" name="KeyBindingOne" position_real="0.5 0 0 1">
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="X_Hud_Interaction" />
+                <Property key="TextColour" value="0.309804 0.309804 0.309804" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="InteractionBindingBackground" name="KeyBackgroundTwo" position_real="0.5 0 0.5 1">
+            <Widget type="TextBox" skin="TextBox" name="KeyBindingTwo" position_real="0.5 0 0 1">
+                <Property key="TextAlign" value="Center" />
+                <Property key="FontName" value="X_Hud_Interaction" />
+                <Property key="TextColour" value="0.309804 0.309804 0.309804" />
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="PartOne" position_real="0 0 0 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="X_Hud_Interaction" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="PartTwo" position_real="0.5 0 0 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="X_Hud_Interaction" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="PartThree" position_real="1 0 0 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="X_Hud_Interaction" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.4" />
+        </Widget>
+    </Widget>
+</MyGUI>

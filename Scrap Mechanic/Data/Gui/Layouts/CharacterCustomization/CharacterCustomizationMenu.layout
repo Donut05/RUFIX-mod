@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="CreateGamePanel" position_real="0.040625 0.184722 0.447656 0.740278">
+        <Widget type="Widget" skin="BackgroundDarkRoundedUpperRight" position_real="0 0 1 0.12758">
+            <Widget type="TextBox" skin="TextBox" position_real="0.108202 0 0.69808 1">
+                <Property key="Caption" value="#{CHARACTER_CUSTOMIZATION_TITLE}" />
+                <Property key="FontName" value="SM_HeaderLarge_Wide" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.0575916 0.338235 0.0296684 0.308824">
+                <Property key="ImageTexture" value="gui_mainmenu_icon_character.png" />
+                <Property key="Colour" value="1 0.780392 0.227451" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundLightRoundedLowerLeft" position_real="0 0.12758 1 0.870544">
+            <Widget type="Button" skin="GenderButton" name="Male" position_real="0.0575916 0.0431034 0.0628272 0.0560345">
+                <Property key="FontName" value="Default" />
+                <Property key="TextAlign" value="Center" />
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.277778 0.153846 0.444444 0.615385">
+                    <Property key="NeedKey" value="false" />
+                    <Property key="NeedMouse" value="false" />
+                    <Property key="ImageTexture" value="gui_character_icon_male.png" />
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="Female" position_real="0.129145 0.0431034 0.0628272 0.0560345">
+                <Property key="FontName" value="Default" />
+                <Property key="TextAlign" value="Center" />
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.333333 0.192308 0.277778 0.615385">
+                    <Property key="NeedKey" value="false" />
+                    <Property key="NeedMouse" value="false" />
+                    <Property key="ImageTexture" value="gui_character_icon_female.png" />
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="UpperLine" position_real="0.249564 0.0431034 0.0017452 0.0948276">
+                <Property key="Alpha" value="0.05" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="LowerLine" position_real="0.249564 0.224138 0.0017452 0.724138">
+                <Property key="Alpha" value="0.05" />
+            </Widget>
+            <Widget type="Button" skin="FeatureButton" name="Face" position_real="0 0.137931 0.249564 0.0862069">
+                <Property key="FontName" value="Default" />
+                <Property key="TextAlign" value="Center" />
+                <Widget type="TextBox" skin="TextBox" position_real="0.230769 0 0.769231 1">
+                    <Property key="Caption" value="#{CHARACTER_CUSTOMIZATION_CATEGORY_FACE}" />
+                    <Property key="FontName" value="SM_TextLabel" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                    <Property key="NeedMouse" value="false" />
+                    <Property key="NeedKey" value="false" />
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="FeatureButton" name="Hair" position_real="0 0.226293 0.249564 0.0862069">
+                <Property key="FontName" value="Default" />
+                <Property key="TextAlign" value="Center" />
+                <Widget type="TextBox" skin="TextBox" position_real="0.230769 0 0.769231 1">
+                    <Property key="Caption" value="#{CHARACTER_CUSTOMIZATION_CATEGORY_HAIR}" />
+                    <Property key="FontName" value="SM_TextLabel" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                    <Property key="NeedKey" value="false" />
+                    <Property key="NeedMouse" value="false" />
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="FeatureButton" name="FacialHair" position_real="0 0.314655 0.249564 0.0862069">
+                <Property key="FontName" value="Default" />
+                <Property key="TextAlign" value="Center" />
+                <Widget type="TextBox" skin="TextBox" position_real="0.230769 0 0.769231 1">
+                    <Property key="Caption" value="#{CHARACTER_CUSTOMIZATION_CATEGORY_HAIR_FACIAL}" />
+                    <Property key="FontName" value="SM_TextLabel" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                    <Property key="NeedKey" value="false" />
+                    <Property key="NeedMouse" value="false" />
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="FeatureButton" name="Hats" position_real="0 0.405172 0.249564 0.0862069">
+                <Property key="FontName" value="Default" />
+                <Property key="TextAlign" value="Center" />
+                <Widget type="TextBox" skin="TextBox" position_real="0.230769 0 0.769231 1">
+                    <Property key="NeedKey" value="false" />
+                    <Property key="NeedMouse" value="false" />
+                    <Property key="Caption" value="#{CHARACTER_CUSTOMIZATION_CATEGORY_HATS}" />
+                    <Property key="FontName" value="SM_TextLabel" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="FeatureButton" name="Torso" position_real="0 0.493534 0.249564 0.0862069">
+                <Property key="FontName" value="Default" />
+                <Property key="TextAlign" value="Center" />
+                <Widget type="TextBox" skin="TextBox" position_real="0.230769 0 0.769231 1">
+                    <Property key="NeedKey" value="false" />
+                    <Property key="NeedMouse" value="false" />
+                    <Property key="Caption" value="#{CHARACTER_CUSTOMIZATION_CATEGORY_TORSO}" />
+                    <Property key="FontName" value="SM_TextLabel" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="FeatureButton" name="Gloves" position_real="0 0.581897 0.249564 0.0862069">
+                <Property key="FontName" value="Default" />
+                <Property key="TextAlign" value="Center" />
+                <Widget type="TextBox" skin="TextBox" position_real="0.230769 0 0.769231 1">
+                    <Property key="NeedKey" value="false" />
+                    <Property key="NeedMouse" value="false" />
+                    <Property key="Caption" value="#{CHARACTER_CUSTOMIZATION_CATEGORY_GLOVES}" />
+                    <Property key="FontName" value="SM_TextLabel" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="FeatureButton" name="Legs" position_real="0 0.672414 0.249564 0.0862069">
+                <Property key="FontName" value="Default" />
+                <Property key="TextAlign" value="Center" />
+                <Widget type="TextBox" skin="TextBox" position_real="0.230769 0 0.769231 1">
+                    <Property key="NeedKey" value="false" />
+                    <Property key="NeedMouse" value="false" />
+                    <Property key="Caption" value="#{CHARACTER_CUSTOMIZATION_CATEGORY_LEGS}" />
+                    <Property key="FontName" value="SM_TextLabel" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="FeatureButton" name="Shoes" position_real="0 0.760776 0.249564 0.0862069">
+                <Property key="FontName" value="Default" />
+                <Property key="TextAlign" value="Center" />
+                <Widget type="TextBox" skin="TextBox" position_real="0.230769 0 0.769231 1">
+                    <Property key="NeedKey" value="false" />
+                    <Property key="NeedMouse" value="false" />
+                    <Property key="Caption" value="#{CHARACTER_CUSTOMIZATION_CATEGORY_SHOES}" />
+                    <Property key="FontName" value="SM_TextLabel" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="FeatureButton" name="Backpack" position_real="0 0.849138 0.249564 0.0862069">
+                <Property key="FontName" value="Default" />
+                <Property key="TextAlign" value="Center" />
+                <Widget type="TextBox" skin="TextBox" position_real="0.230769 0 0.769231 1">
+                    <Property key="Caption" value="#{CHARACTER_CUSTOMIZATION_CATEGORY_BACKPACK}" />
+                    <Property key="FontName" value="SM_TextLabel" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                    <Property key="NeedKey" value="false" />
+                    <Property key="NeedMouse" value="false" />
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line1" position_real="0.0575916 0.133621 0.176265 0.00215517">
+                <Property key="Alpha" value="0.05" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line2" position_real="0.0575916 0.224138 0.176265 0.00215517">
+                <Property key="Alpha" value="0.05" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line3" position_real="0.0575916 0.3125 0.176265 0.00215517">
+                <Property key="Alpha" value="0.05" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line4" position_real="0.0575916 0.400862 0.176265 0.00215517">
+                <Property key="Alpha" value="0.05" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line5" position_real="0.0575916 0.491379 0.176265 0.00215517">
+                <Property key="Alpha" value="0.05" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line6" position_real="0.0575916 0.579741 0.176265 0.00215517">
+                <Property key="Alpha" value="0.05" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line7" position_real="0.0575916 0.668103 0.176265 0.00215517">
+                <Property key="Alpha" value="0.05" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line8" position_real="0.0575916 0.758621 0.176265 0.00215517">
+                <Property key="Alpha" value="0.05" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line9" position_real="0.0575916 0.846983 0.176265 0.00215517">
+                <Property key="Alpha" value="0.05" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line10" position_real="0.0575916 0.935345 0.176265 0.00215517">
+                <Property key="Alpha" value="0.05" />
+            </Widget>
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="FeatureGrid" position_real="0.279232 0.103448 0.645724 0.784483">
+                <Property key="NeedKey" value="false" />
+            </Widget>
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="ColorGrid" position_real="0.279232 0.0948276 0.534031 0.146552">
+                <Property key="NeedKey" value="false" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="FeatureType" position_real="0.284468 0.0344828 0.115183 0.0387931">
+                <Property key="Caption" value="FACIAL HAIR: " />
+                <Property key="FontName" value="SM_Header" />
+                <Property key="TextColour" value="1 1 1" />
+                <Property key="Alpha" value="0.5" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="FeatureName" position_real="0.401396 0.0344828 0.34904 0.0387931">
+                <Property key="Caption" value="SHORT BOXED BEARD" />
+                <Property key="FontName" value="SM_Header" />
+                <Property key="TextColour" value="1 0.827451 0.290196" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

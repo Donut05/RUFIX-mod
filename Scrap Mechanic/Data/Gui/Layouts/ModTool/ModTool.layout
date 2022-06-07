@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+
+    <Widget type="Widget" skin="PanelEmpty" position="0 0 1920 38" align="HStretch Top" layer="Main" name="MenuBarContainer">
+        <Widget type="EditorMenu" skin="WhiteSkin" position="0 0 1920 38" align="HStretch Top" name="LeftMenuBar"/>
+    </Widget>
+
+    <Widget type="EditorWindow" skin="EditorWindow" position="388 68 504 758" layer="Overlapped" name="ModDescriptionWindow">
+        <Property key="Caption" value="My Mod"/>
+        <Widget type="ScrollView" skin="SMEmptyScrollView" position="12 14 480 720" align="Stretch" name="ModDescriptionWidgetLayout"/>
+    </Widget>
+
+    <Widget type="EditorWindow" skin="EditorWindow" position="0 38 280 758" layer="Overlapped" name="ModFileWindow">
+        <Property key="Caption" value="Files"/>
+        <Property key="NeedKey" value="true"/>
+        <Property key="NeedMouse" value="true"/>
+        <Property key="MinSize" value="262 64"/>
+        <!-- <Widget type="ImageBox" skin="WhiteSkin" align="Top | Left" position="4 5 18 18" name="SearchIcon">
+            <Property key="ImageTexture" value="$GAME_DATA/Gui/Editor/ed_icon_search.png"/>
+        </Widget>
+        <Widget type="AdvanceEditBox" skin="EditorEditBox" align="Top | HStretch" position="26 2 232 24" name="SearchText"/> -->
+        <Widget type="DynamicDataView" skin="WhiteSkin" align="Stretch" position="0 38 280 720" name="FileList"/>
+    </Widget>    
+
+    <Widget type="Widget" skin="WhiteSkin" position="0 0 1920 1080" layer="Popup" name="PopupMainPanel">
+        <Property key="Colour" value="0 0 0" />
+        <Property key="Alpha" value="0.6" />
+        <Widget type="EditorWindow" skin="EditorWindow" position="340 68 600 600" layer="Overlapped" name="OpenModWindow">
+            <Widget type="ItemBox" skin="EditorListBox" position="0 28 580 540" align="Stretch" name="ModList">
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+        </Widget>
+    </Widget>
+
+    <CodeGeneratorSettings/>
+</MyGUI>

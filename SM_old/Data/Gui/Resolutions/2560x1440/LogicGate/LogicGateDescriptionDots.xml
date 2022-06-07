@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MyGUI type="Resource" version="1.1">
+    <Resource name="LogicGateDescriptionDots" type="ResourceImageSet">
+        <Group name="LogicGateDescriptionDots" size="20 20" texture="LogicGateDescriptionDots@1440.png">
+            <Index name="off">
+                <Frame point="4 0" />
+            </Index>
+            <Index name="on">
+                <Frame point="28 0" />
+            </Index>
+        </Group>
+    </Resource>
+</MyGUI>

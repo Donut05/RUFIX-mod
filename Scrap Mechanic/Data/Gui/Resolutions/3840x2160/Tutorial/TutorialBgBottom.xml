@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceSkin" name="TutorialBgBottom" size="150 150" texture="gui_tutorial_bg_bottom.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 132 6" align="Left Top">
+			<State name="normal" offset="0 0 132 6" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="132 0 12 6" align="HStretch Top">
+			<State name="normal" offset="132 0 12 6" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="144 0 6 6" align="Right Top">
+			<State name="normal" offset="144 0 6 6" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="144 6 6 12" align="Right VStretch">
+			<State name="normal" offset="144 6 6 12" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="144 18 6 132" align="Right Bottom">
+			<State name="normal" offset="144 18 6 132" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="132 18 12 132" align="HStretch Bottom">
+			<State name="normal" offset="132 18 12 132" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="0 18 132 132" align="Left Bottom">
+			<State name="normal" offset="0 18 132 132" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="0 6 132 12" align="Left VStretch">
+			<State name="normal" offset="0 6 132 12" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="132 6 12 12" align="Stretch">
+			<State name="normal" offset="132 6 12 12" />
+		</BasisSkin>
+	</Resource>
+</MyGUI>

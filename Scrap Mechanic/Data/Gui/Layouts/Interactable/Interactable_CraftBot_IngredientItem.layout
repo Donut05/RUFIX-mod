@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.0454545 0.0333333 0.909091 0.666667">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+    </Widget>
+    <Widget type="TextBox" skin="TextBox" name="Quantity" position_real="0 0.733333 1 0.266667">
+        <Property key="Caption" value="*/0123456789" />
+        <Property key="FontName" value="SM_NumberTiny" />
+        <Property key="TextAlign" value="Center" />
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

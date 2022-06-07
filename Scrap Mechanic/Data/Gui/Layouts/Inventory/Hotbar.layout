@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ItemBox" skin="InventoryItemBox2" name="HotbarGrid" position_real="0.0274094 0 0.972591 0.876923">
+        <Property key="NeedKey" value="false" />
+    </Widget>
+    <Widget type="ImageBox" skin="ImageBox" name="IndicatorPanel" position_real="0 0.0384615 0.0194518 0.769231">
+        <Property key="ImageTexture" value="gui_inventory_background_page_indicator.png" />
+        <Property key="Visible" value="false" />
+        <Widget type="Button" skin="PageArrowUp" name="PrevHotbar" position_real="0.318182 0.08 0.363636 0.08" />
+        <Widget type="Button" skin="PageArrowDown" name="NextHotbar" position_real="0.318182 0.84 0.363636 0.08" />
+        <Widget type="Button" skin="PageIndicator" name="Hotbar_1" position_real="0.227273 0.3 0.545455 0.12">
+            <Property key="StateSelected" value="true" />
+        </Widget>
+        <Widget type="Button" skin="PageIndicator" name="Hotbar_2" position_real="0.227273 0.45 0.545455 0.12" />
+        <Widget type="Button" skin="PageIndicator" name="Hotbar_3" position_real="0.227273 0.59 0.545455 0.12" />
+    </Widget>
+</MyGUI>

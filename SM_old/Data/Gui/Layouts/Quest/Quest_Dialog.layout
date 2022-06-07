@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="BackPanel" position_real="0 0 1 1">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="Widget" skin="BackgroundPopup" position_real="0.265625 0.738889 0.46875 0.133333">
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Widget type="EditBox" skin="TextBox" name="DialogTextBox" position_real="0.16 0.145833 0.68 0.708333">
+                <Property key="FontName" value="SM_Text" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+                <Property key="TextColour" value="1 1 1" />
+                <Property key="TextAlign" value="HCenter Top" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Caption" value="In eu ipsum volutpat, suscipit tellus ut, semper leo.\n Proin eu augue sollicitudin enim interdum pretium a quis nibh.\n Curabitur sollicitudin mi vel enim finibus, et molestie mi feugiat. Integer et pretium eros. Nullam vitae massa lectus.\n " />
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

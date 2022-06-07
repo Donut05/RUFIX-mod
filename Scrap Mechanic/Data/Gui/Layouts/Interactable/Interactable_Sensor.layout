@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0.322917 0.127778 0.353646 0.638889" name="ContentPanel">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="true"/>
+        <Property key="InheritsAlpha" value="false"/>
+        <Property key="Visible" value="false"/>
+        <Widget type="Widget" skin="BackgroundSensor" position_real="0 0 1 1" name="UpgradeBackground"/>
+        <Widget type="Widget" skin="BackgroundSensorNoUpgrade" position_real="0 0 1 0.810145" name="NoUpgradeBackground"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.0652174 1 0.0550725" name="Name">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_TITLE}"/>
+            <Property key="FontName" value="SM_HeaderLarge_Wide"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.409426 0.2 0.175258 0.172464" name="Icon"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.130435 1 0.0434783" name="SubTitle">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 0.803922 0.247059"/>
+            <Property key="FontName" value="SM_SubHeader"/>
+            <Property key="Caption" value="#{LEVEL} 12345"/>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" name="UpgradeContainer">
+            <Widget type="Button" skin="UpgradeButton" position_real="0.751105 0.852174 0.194404 0.1" name="Upgrade">
+                <Property key="FontName" value="Default"/>
+                <Widget type="TextBox" skin="TextBox" position_real="0.0909091 0.188406 0.772727 0.26087">
+                    <Property key="Caption" value="#{CONTROLLER_UPGRADE}"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontName" value="SM_ButtonTiny"/>
+                    <Property key="NeedMouse" value="false"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.431818 0.434783 0.431818 0.26087" name="UpgradeCost">
+                    <Property key="FontName" value="SM_NumberMini"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
+                    <Property key="Caption" value="00 / 00"/>
+                    <Property key="NeedMouse" value="false"/>
+                </Widget>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.265152 0.434783 0.128788 0.26087">
+                    <Property key="ImageTexture" value="gui_icon_components.png"/>
+                    <Property key="NeedMouse" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.0456554 0.836232 0.116348 0.114493" name="UpgradeIcon">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.607595 0.481013 0.367089 0.493671">
+                    <Property key="ImageTexture" value="gui_icon_upgrade.png"/>
+                </Widget>
+            </Widget>
+            <Widget type="EditBox" skin="EditBoxEmpty" position_real="0.217968 0.836232 0.263623 0.114493" name="UpgradeInfo">
+                <Property key="Caption" value="Level 5/5"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+                <Property key="FontName" value="SM_LabelTiny"/>
+                <Property key="WordWrap" value="true"/>
+                <Property key="Static" value="true"/>
+                <Property key="ReadOnly" value="true"/>
+                <Property key="MultiLine" value="true"/>
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.0559647 0.368116 0.438881 0.084058">
+            <Property key="Caption" value="#{CONTROLLER_PISTON_RANGE}"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="FontName" value="SM_TextLabel"/>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.0559647 0.456522 0.88218 0.114493" name="RangeSlider"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0.0559647 0.568116 0.14433 0.084058">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_MODE}"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="FontName" value="SM_TextLabel"/>
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" position_real="0.0456554 0.646377 0.173785 0.0724638" name="ModeSwitch">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_MODE_SWITCH}"/>
+            <Property key="FontName" value="SM_ButtonSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" position_real="0.216495 0.646377 0.157585 0.0724638" name="ModeButton">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_MODE_BUTTON}"/>
+            <Property key="FontName" value="SM_ButtonSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.37408 0.568116 0.14433 0.084058">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_SOUND}"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="FontName" value="SM_TextLabel"/>
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" position_real="0.375552 0.646377 0.116348 0.0724638" name="SoundOn">
+            <Property key="Caption" value="#{ON}"/>
+            <Property key="FontName" value="SM_ButtonSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" position_real="0.493373 0.646377 0.116348 0.0724638" name="SoundOff">
+            <Property key="Caption" value="#{OFF}"/>
+            <Property key="FontName" value="SM_ButtonSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.624448 0.568116 0.375552 0.084058" name="ColorModeText">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_COLOR}"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="FontName" value="SM_TextLabel"/>
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" position_real="0.617084 0.646377 0.116348 0.0724638" name="ColorOn">
+            <Property key="Caption" value="#{ON}"/>
+            <Property key="FontName" value="SM_ButtonSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" position_real="0.733432 0.646377 0.116348 0.0724638" name="ColorOff">
+            <Property key="Caption" value="#{OFF}"/>
+            <Property key="FontName" value="SM_ButtonSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.870398 0.652174 0.0706922 0.0710145" name="ColorHolder"/>
+    </Widget>
+    <Widget type="Widget" skin="BackgroundSensorColorSelect" position_real="0.6875 0.127778 0.15625 0.527778" name="ColorSelectPanel">
+        <Property key="Visible" value="false"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.0684211 1 0.0807018">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_COLOR_PICKER_TITLE_1}\n#{CONTROLLER_SENSOR_COLOR_PICKER_TITLE_2}"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_SubHeader"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+        <Widget type="ItemBox" skin="InventoryItemBox2" position_real="0.0766667 0.235088 0.836667 0.703509" name="ColorList"/>
+        <Widget type="Widget" skin="BackgroundSensorColorSelect" position="-34 518 387 5"/>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

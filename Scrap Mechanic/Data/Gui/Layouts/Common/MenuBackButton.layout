@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Button" skin="MenuButton" name="Back" position_real="0.0375 0.0694444 0.128125 0.0555556">
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.0609756 0.25 0.121951 0.5">
+            <Property key="ImageTexture" value="gui_icon_back.png" />
+            <Property key="NeedMouse" value="false" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.22561 0.1 0.445122 0.8">
+            <Property key="Caption" value="#{BACK}" />
+            <Property key="FontName" value="SM_ButtonLarge" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Property key="TextAlign" value="Left VCenter" />
+        </Widget>
+        <Widget type="Button" skin="EscButton" position_real="0.695122 0.25 0.20122 0.5">
+            <Property key="NeedMouse" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

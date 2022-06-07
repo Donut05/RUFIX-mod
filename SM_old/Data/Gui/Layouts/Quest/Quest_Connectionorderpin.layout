@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="quest_connectionorderpin" position_real="0 0 1 1" />
+    <Widget type="TextBox" skin="TextBox" name="Icon" position_real="0.2 0.136364 0.6 0.454545">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Property key="FontName" value="SM_ButtonSmall" />
+        <Property key="TextAlign" value="Center" />
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

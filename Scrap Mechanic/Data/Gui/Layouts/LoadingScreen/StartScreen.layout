@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="WhiteSkin" name="LogoMainPanel" position_real="0 0 1 1">
+        <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1">
+            <Property key="ImageTexture" value="gui_loadingscreen_axolot.png" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

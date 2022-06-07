@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="ButtonPanel" position_real="0 0.452778 0.200781 0.290278">
+        <Widget type="Button" skin="ButtonPlay" name="Play" position_real="0.18677 0 0.793774 0.325359" />
+        <Widget type="Button" skin="MenuButton" name="Character" position_real="0.190661 0.401914 0.809339 0.200957">
+            <Property key="FontName" value="Default" />
+            <Widget type="TextBox" skin="TextBox" name="ButtonCaption" position_real="0.240385 0.0952381 0.653846 0.809524">
+                <Property key="FontName" value="SM_ButtonLarge" />
+                <Property key="Caption" value="#{MENU_MAIN_CHARACTER}" />
+                <Property key="NeedMouse" value="false" />
+                <Property key="NeedKey" value="false" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" name="ButtonIcon" position_real="0.0961538 0.238095 0.0817308 0.5">
+                <Property key="ImageTexture" value="gui_mainmenu_icon_character.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="MenuButton" name="Options" position_real="0.190661 0.602871 0.809339 0.200957">
+            <Property key="FontName" value="Default" />
+            <Widget type="TextBox" skin="TextBox" name="ButtonCaption" position_real="0.235577 0.0952381 0.653846 0.809524">
+                <Property key="Caption" value="#{MENU_MAIN_OPTIONS}" />
+                <Property key="FontName" value="SM_ButtonLarge" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" name="ButtonIcon" position_real="0.0913462 0.238095 0.0961538 0.47619">
+                <Property key="ImageTexture" value="gui_mainmenu_icon_options.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="MenuButton" name="Exit" position_real="0.190661 0.799043 0.809339 0.200957">
+            <Property key="FontName" value="Default" />
+            <Widget type="TextBox" skin="TextBox" name="ButtonCaption" position_real="0.235577 0.0952381 0.653846 0.809524">
+                <Property key="Caption" value="#{MENU_MAIN_EXIT_GAME}" />
+                <Property key="FontName" value="SM_ButtonLarge" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" name="ButtonIcon" position_real="0.0913462 0.238095 0.0961538 0.47619">
+                <Property key="ImageTexture" value="gui_mainmenu_icon_exit.png" />
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedMouse" value="false" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

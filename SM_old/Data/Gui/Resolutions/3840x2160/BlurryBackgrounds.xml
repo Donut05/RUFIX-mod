@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceSkin" name="BlurryBackgroundSkin" size="384 384" texture="blurry_background.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 384 384" align="Stretch">
+			<State name="normal" offset="0 0 384 384" blurThreshold="0.0" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundEngine" size="999 1260" texture="gui_background_engine.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 999 1260" align="Stretch">
+			<State name="normal" offset="0 0 999 1260" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundEngineNoUpgrade" size="999 999" texture="gui_background_engine_noupgrade.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 999 999" align="Stretch">
+			<State name="normal" offset="0 0 999 999" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundSensor" size="1359 1380" texture="gui_background_sensor.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1359 1380" align="Stretch">
+			<State name="normal" offset="0 0 1359 1380" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundSensorNoUpgrade" size="1359 1119" texture="gui_background_sensor_noupgrade.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1359 1119" align="Stretch">
+			<State name="normal" offset="0 0 1359 1119" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundWorkbench" size="801 1359" texture="gui_background_workbench.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 801 1359" align="Stretch">
+			<State name="normal" offset="0 0 801 1359" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundCookbot" size="1041 1389" texture="gui_background_cookbot.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1041 1389" align="Stretch">
+			<State name="normal" offset="0 0 1041 1389" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundHideout" size="1287 1671" texture="gui_background_hideout.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1287 1671" align="Stretch">
+			<State name="normal" offset="0 0 1287 1671" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundMechanicStation" size="861 1539" texture="gui_background_mechanic_station.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 861 1539" align="Stretch">
+			<State name="normal" offset="0 0 861 1539" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundMechanicStationTooltip" size="600 1539" texture="gui_background_mechanic_station_tooltip.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 600 1539" align="Stretch">
+			<State name="normal" offset="0 0 600 1539" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundPiston" size="1200 1359" texture="gui_background_piston.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1200 1359" align="Stretch">
+			<State name="normal" offset="0 0 1200 1359" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundMenuInGame" size="804 888" texture="gui_background_menu_escape.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 804 468" align="HStretch Top">
+			<State name="normal" offset="0 0 804 468" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="0 756 804 132" align="HStretch Bottom">
+			<State name="normal" offset="0 756 804 132" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="0 468 804 288" align="Stretch">
+			<State name="normal" offset="0 468 804 288" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundContainerAmmunition" size="1200 579" texture="gui_background_container_ammunition.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1200 579" align="Stretch">
+			<State name="normal" offset="0 0 1200 579" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundContainerBattery" size="1200 579" texture="gui_background_container_battery.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1200 579" align="Stretch">
+			<State name="normal" offset="0 0 1200 579" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundContainerChemicals" size="1200 579" texture="gui_background_container_chemicals.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1200 579" align="Stretch">
+			<State name="normal" offset="0 0 1200 579" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundContainerFertilizer" size="1200 579" texture="gui_background_container_fertilizer.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1200 579" align="Stretch">
+			<State name="normal" offset="0 0 1200 579" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundContainerGas" size="1200 579" texture="gui_background_container_gas.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1200 579" align="Stretch">
+			<State name="normal" offset="0 0 1200 579" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundContainerSeed" size="1200 579" texture="gui_background_container_seed.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1200 579" align="Stretch">
+			<State name="normal" offset="0 0 1200 579" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundContainerWater" size="1200 579" texture="gui_background_container_water.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1200 579" align="Stretch">
+			<State name="normal" offset="0 0 1200 579" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundSequenceController" size="3519 1641" texture="gui_background_controller.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 3519 1641" align="Stretch">
+			<State name="normal" offset="0 0 3519 1641" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundInteractableNarrow" size="999 321" texture="gui_background_narrow_3840x2160.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 999 231" align="HStretch Top">
+			<State name="normal" offset="0 0 999 231" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="0 231 999 90" align="HStretch Bottom">
+			<State name="normal" offset="0 231 999 90" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="0 231 999 0" align="Stretch">
+			<State name="normal" offset="0 231 999 0" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundInteractableWide" size="1200 1104" texture="gui_background_wide.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1200 378" align="HStretch Top">
+			<State name="normal" offset="0 0 1200 378" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="0 963 1200 141" align="HStretch Bottom">
+			<State name="normal" offset="0 963 1200 141" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="0 378 1200 585" align="Stretch">
+			<State name="normal" offset="0 378 1200 585" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundDressbot" size="1080 1560" texture="gui_background_dressbot.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1080 1560" align="Stretch">
+			<State name="normal" offset="0 0 1080 1560" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundBlueBot" size="1860 699" texture="gui_backgrounds_bluebot.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1860 699" align="Stretch">
+			<State name="normal" offset="0 0 1860 699" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundGreenBot" size="1860 699" texture="gui_backgrounds_greenbot.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1860 699" align="Stretch">
+			<State name="normal" offset="0 0 1860 699" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundRedBot" size="1860 699" texture="gui_backgrounds_redbot.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1860 699" align="Stretch">
+			<State name="normal" offset="0 0 1860 699" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundYellowBot" size="1860 780" texture="gui_backgrounds_yellowbot.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1860 780" align="Stretch">
+			<State name="normal" offset="0 0 1860 780" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundSensorColorSelect" size="600 201" texture="gui_backgrounds_buildersidepanel.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 600 99" align="HStretch Top">
+			<State name="normal" offset="0 0 600 99" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="0 102 600 99" align="HStretch Bottom">
+			<State name="normal" offset="0 102 600 99" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="0 99 600 3" align="Stretch">
+			<State name="normal" offset="0 99 600 3" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="BackgroundInteractableUltraWide" size="1998 360" texture="gui_background_ultra_wide.png">
+		<BasisSkin type="BlurrySubSkin" offset="0 0 1998 234" align="HStretch Top">
+			<State name="normal" offset="0 0 1998 234" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="0 270 1998 90" align="HStretch Bottom">
+			<State name="normal" offset="0 270 1998 90" />
+		</BasisSkin>
+		<BasisSkin type="BlurrySubSkin" offset="0 234 1998 36" align="Stretch">
+			<State name="normal" offset="0 234 1998 36" />
+		</BasisSkin>
+	</Resource>
+</MyGUI>

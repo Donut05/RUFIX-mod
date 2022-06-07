@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceSkin" name="DressbotRewardItem" size="266 266">
+		<BasisSkin type="EffectSkin" offset="0 0 266 266">
+			<State name="normal" effect="Gui - CustomizationRewardItem" offset="0 0" eulerXYZ="90 0 0" requiresUuid="true" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="DressbotProcessItem" size="160 186">
+		<BasisSkin type="EffectSkin" offset="0 0 160 186">
+			<State name="normal" effect="ShapeRenderable" offset="0 -16" scale="0.6" eulerXYZ="90 0 0" requiresUuid="true" />
+			<State name="floating" effect="Gui - DressbotBox" offset="0 -16" scale="0.6" eulerXYZ="90 0 0" requiresUuid="true" />			
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="DressbotDragProcessItem" size="160 186">
+		<BasisSkin type="EffectSkin" offset="0 0 160 186">
+			<State name="normal" effect="ShapeRenderable" offset="0 -16" scale="0.6" eulerXYZ="90 10 5" depth="-50.0" requiresUuid="true" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="DressbotBoxItem" size="160 186">
+		<BasisSkin type="EffectSkin" offset="0 0 160 186">
+			<State name="normal" effect="ShapeRenderable" offset="0 -12" scale="0.35" eulerXYZ="90 0 0" requiresUuid="true" />
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="DressbotDragBoxItem" size="160 186">
+		<BasisSkin type="EffectSkin" offset="0 0 160 186">
+			<State name="normal" effect="ShapeRenderable" offset="0 -12" scale="0.35" eulerXYZ="90 10 5" depth="-50.0" requiresUuid="true" />
+		</BasisSkin>
+	</Resource>
+</MyGUI>

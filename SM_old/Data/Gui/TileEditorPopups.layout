@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+
+    <Widget type="EditorWindow" skin="EditorWindowNoResize" position="0 580 800 800" layer="Overlapped" name="OpenTileWindow">
+        <Property key="NeedKey" value="false"/>
+        <Property key="Caption" value="Tiles"/>
+        <Property key="MinSize" value="200 64"/>
+        <Widget type="ItemBox" skin="EditorListBox" position="0 28 780 740" align="Stretch" name="TileList">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+
+    <Widget type="EditorWindow" skin="EditorWindowNoResize" position="405 20 555 520" layer="Overlapped" name="ShareWindow">
+        <Property key="Caption" value="Share Tile"/>
+        <Widget type="ScrollView" skin="SMEmptyScrollView" position="5 5 290 475" align="Stretch" name="ShareList">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="EditorButton" skin="EditorButton" position="340 375 170 30" name="ShareToSteam"/>
+        <Widget type="EditorButton" skin="EditorButton" position="340 430 170 30" name="SendToCustomGameMod"/>
+        <Widget type="ImageBox" skin="ImageBox" position="310 15 220 150" name="ShareImage"/>
+        <Widget type="TextBox" skin="TextBox" position="310 175 220 65" name="UserField"/>
+    </Widget>
+
+    <Widget type="EditorWindow" skin="EditorWindowNoResize" position="405 20 200 260" layer="Overlapped" name="NewWindow">
+        <Property key="Caption" value="New Tile"/>
+        <Property key="NeedKey" value="true"/>
+        <Property key="NeedMouse" value="true"/>
+    </Widget>
+    
+    <Widget type="EditorWindow" skin="EditorWindow" position="165 100 650 600" layer="Overlapped" name="HelpWindow">
+      <Property key="Visible" value="true"/>
+      <Property key="Caption" value="Help" />
+      <Property key="MinSize" value="200 200"/>
+        <Widget type="Widget" skin="PanelEmpty" position="0 28 650 600" align="Stretch" name="TabContainer">
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    
+</MyGUI>

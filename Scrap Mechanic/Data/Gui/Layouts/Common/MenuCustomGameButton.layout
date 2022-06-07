@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Button" skin="MenuButton" name="CustomGameButton" position_real="0.820312 0.0694444 0.142187 0.0555556">
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.0549451 0.25 0.10989 0.5">
+            <Property key="ImageTexture" value="icon_customgame_default.png" />
+            <Property key="NeedMouse" value="false" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.203297 0.1 0.741758 0.8">
+            <Property key="Caption" value="#{CUSTOM_GAME}" />
+            <Property key="FontName" value="SM_ButtonLarge" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+            <Property key="TextAlign" value="Left VCenter" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

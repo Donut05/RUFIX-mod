@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="WhiteSkin" name="Background" position_real="0 0 0.015625 0.0277778">
+        <Property key="Colour" value="0.117647 0.117647 0.117647" />
+        <Widget type="TextBox" skin="TextBox" name="Text" position_real="0 0 1 1">
+            <Property key="TextAlign" value="Center" />
+            <Property key="FontName" value="SM_ToolTipText" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

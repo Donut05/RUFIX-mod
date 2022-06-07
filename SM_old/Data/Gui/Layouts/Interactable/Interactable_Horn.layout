@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundInteractableNarrow" align="Default" name="BackPanel" position_real="0.00234375 0 0.260156 0.313889">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="true" />
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="TextBox" skin="TextBox" align="Default" position_real="0.0990991 0.146018 0.798799 0.146018">
+            <Property key="Caption" value="#{INTERACTABLE_HORN_TITLE}" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextAlign" value="Center" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="Window" skin="PanelEmpty" name="Slider" position_real="0.0990991 0.646018 0.798799 0.234513">
+            <Property key="Range" value="20" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" align="Default" name="Icon" position_real="0.408408 0.336283 0.168168 0.247788">
+            <Property key="Caption" value="1" />
+            <Property key="FontName" value="Default" />
+            <Property key="TextAlign" value="Center" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

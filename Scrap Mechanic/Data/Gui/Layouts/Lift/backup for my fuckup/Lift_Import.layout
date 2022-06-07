@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundLiftImport" name="BackPanel" position_real="0 0 0.854688 0.741667">
+        <Widget type="TextBox" skin="TextBox" align="Default" name="Title" position_real="0 0.0524345 1 0.0411985">
+            <Property key="Caption" value="#{LIFT_IMPORT_TITLE}" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextAlign" value="HCenter Top" />
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPanel" name="LeftPanel" position_real="0.0292505 0.161049 0.263254 0.775281">
+            <Widget type="TextBox" skin="TextBox" name="Header" position_real="0.0694444 0.0483092 0.673611 0.0628019">
+                <Property key="Caption" value="#{LIFT_IMPORT_BLUEPRINTS}" />
+                <Property key="FontName" value="SM_HeaderSmall" />
+                <Property key="TextAlign" value="Default" />
+            </Widget>
+            <Widget type="Widget" skin="SearchBarBackground" name="SearchBackground" position_real="0.0694444 0.101449 0.861111 0.0676329">
+                <Widget type="EditBox" skin="EditBoxEmpty" name="Search" position_real="0.016129 0 1 1">
+                    <Property key="Caption" value="#{SEARCH}" />
+                    <Property key="FontName" value="SM_SearchText" />
+                    <Property key="TextAlign" value="Left VCenter" />
+                    <Property key="TextColour" value="0.462745 0.462745 0.462745" />
+                </Widget>
+                <Widget type="ImageBox" skin="ImageBox" name="SearchIcon" position_real="0.91129 0.285714 0.0564516 0.5">
+                    <Property key="ImageTexture" value="gui_inventory_icon_search.png" />
+                </Widget>
+            </Widget>
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="BlueprintGrid" position_real="0.0694444 0.21256 0.791667 0.623188">
+                <Property key="NeedKey" value="false" />
+            </Widget>
+            <Widget type="ScrollBar" skin="InventoryVSlider" name="BlueprintScroll" position_real="0.868056 0.21256 0.0625 0.623188">
+                <Property key="Range" value="101" />
+                <Property key="RangePosition" value="0" />
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" name="Steam" position_real="0.0694444 0.879227 0.854167 0.0772947">
+                <Property key="Caption" value="#{STEAM_WORKSHOP_2}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+                <Widget type="ImageBox" skin="ImageBox" name="SteamIcon" position_real="0.0406504 0.25 0.0650407 0.5">
+                    <Property key="ImageTexture" value="IconMods.png" />
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="LiftGrid" name="CenterPanel" position_real="0.305302 0.161049 0.389397 0.775281">
+            <Widget type="Canvas" skin="Canvas" align="Default" name="Preview" position_real="0.0187793 0.0193237 0.962441 0.961353">
+                <Widget type="Button" skin="LiftSteamButton" name="SteamPageIcon" position_real="0.0292683 0.0351759 0.0731707 0.0753769">
+                    <Property key="ImageTexture" value="IconSteamDefault.png" />
+                    <Property key="NeedKey" value="false" />
+                    <Property key="Visible" value="false" />
+                </Widget>
+                <Widget type="Button" skin="LiftCameraButton" name="CameraIcon" position_real="0.897561 0.0351759 0.0731707 0.0753769">
+                    <Property key="ImageTexture" value="gui_icon_camera.png" />
+                    <Property key="NeedKey" value="false" />
+                    <Property key="Visible" value="false" />
+                </Widget>
+                <Widget type="Widget" skin="SearchBarBackground" name="NameBackground" position_real="0.102439 0.718593 0.795122 0.0904523">
+                    <Widget type="EditBox" skin="EditBoxEmpty" name="Name" position_real="0.0184049 0 0.96319 1">
+                        <Property key="FontName" value="SM_ItemTitle" />
+                        <Property key="Caption" value="Blueprint Name" />
+                        <Property key="TextAlign" value="Center" />
+                        <Property key="ReadOnly" value="true" />
+                        <Property key="Static" value="true" />
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="SettingsButton" align="Default" name="Delete" position_real="0.0195122 0.889447 0.195122 0.080402">
+                    <Property key="Caption" value="#{LIFT_DELETE}" />
+                    <Property key="FontName" value="SM_ButtonSmall" />
+                    <Property key="TextAlign" value="Center" />
+                    <Property key="Enabled" value="false" />
+                    <Property key="Colour" value="1 1 1" />
+                </Widget>
+                <Widget type="Button" skin="StyledButtonLarge" name="Import" position_real="0.292683 0.874372 0.42439 0.100503">
+                    <Property key="Caption" value="#{LIFT_IMPORT_BUILD}" />
+                    <Property key="FontName" value="SM_Button" />
+                    <Property key="TextAlign" value="Center" />
+                    <Property key="Enabled" value="false" />
+                </Widget>
+                <Widget type="Button" skin="SettingsButton" align="Default" name="Upload" position_real="0.785366 0.889447 0.195122 0.080402">
+                    <Property key="Caption" value="#{LIFT_IMPORT_SHARE}" />
+                    <Property key="FontName" value="SM_ButtonSmall" />
+                    <Property key="TextAlign" value="Center" />
+                    <Property key="Enabled" value="false" />
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" name="ByUser" position_real="0 0.824121 1 0.0351759">
+                    <Property key="Caption" value="By User" />
+                    <Property key="TextAlign" value="Center" />
+                    <Property key="FontName" value="SM_UserName" />
+                </Widget>
+                <Widget type="Widget" skin="PanelEmpty" name="CameraView" position_real="0.173171 0.0351759 0.653659 0.673367">
+                    <Property key="Alpha" value="0" />
+                    <Property key="NeedKey" value="false" />
+                    <Property key="NeedMouse" value="false" />
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="LiftTab" name="PartsTab" position_real="0.720293 0.164794 0.0402194 0.0524345">
+            <Property key="Caption" value="#{PART_FILTER_PARTS}" />
+            <Property key="FontName" value="SM_TabSmall" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="Button" skin="LiftTab" name="DescriptionTab" position_real="0.76234 0.164794 0.0402194 0.0524345">
+            <Property key="Caption" value="#{DESCRIPTION_CAPS}" />
+            <Property key="FontName" value="SM_TabSmall" />
+            <Property key="TextAlign" value="Center" />
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPanel" name="DescriptionBackground" position_real="0.707495 0.217228 0.263254 0.719101">
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="PartGrid" position_real="0.0555556 0.0416667 0.833333 0.916667">
+                <Property key="NeedKey" value="false" />
+            </Widget>
+            <Widget type="ScrollBar" skin="InventoryVSlider" align="Right Top" name="Scroll" position_real="0.875 0.0364583 0.0625 0.927083">
+                <Property key="Range" value="101" />
+                <Property key="RangePosition" value="0" />
+            </Widget>
+            <Widget type="EditBox" skin="EditBox_LiftInput" name="Description" position_real="0.0486111 0.0364583 0.902778 0.927083">
+                <Property key="FontName" value="SM_TextTiny" />
+                <Property key="Caption" value="A breif(?) description of your new, fancy creation" />
+                <Property key="WordWrap" value="true" />
+                <Property key="Static" value="true" />
+                <Property key="ReadOnly" value="true" />
+                <Property key="MaxTextLength" value="8000" />
+                <Property key="MultiLine" value="true" />
+                <Property key="TextAlign" value="Default" />
+                <Property key="OverflowToTheLeft" value="false" />
+                <Property key="TextColour" value="0.545098 0.6 0.627451" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

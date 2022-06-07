@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" align="Default" name="BackPanel" position_real="0 0 0.390625 0.7125">
+        <Property key="NeedKey" value="false" />
+        <Widget type="Widget" skin="BackgroundMechanicStation" position_real="0 0 0.572 1">
+            <Property key="NeedKey" value="false" />
+            <Widget type="ScrollBar" skin="CraftbotVSlider" name="Slider" position_real="2.78322 0.397661 0.0629371 0.508772">
+                <Property key="Range" value="100" />
+                <Property key="RangePosition" value="5" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="NameOne" position_real="0 0.0701754 1 0.0448343">
+                <Property key="FontName" value="SM_HeaderLarge_Wide" />
+                <Property key="Caption" value="#{MECHANIC_STATION_TITLE_1}" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="NameTwo" position_real="0 0.116959 1 0.0448343">
+                <Property key="Caption" value="#{MECHANIC_STATION_TITLE_2}" />
+                <Property key="FontName" value="SM_HeaderLarge_Wide" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="ButtonCraftBot" name="CraftBot" position_real="0.104895 0.212476 0.79021 0.2846">
+                <Property key="Caption" value="#{MECHANIC_STATION_CRAFT_BOT}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="ButtonCookBot" name="CookBot" position_real="0.104895 0.499025 0.395105 0.220273">
+                <Property key="Caption" value="#{MECHANIC_STATION_COOK_BOT}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="ButtonRefineryBot" name="RefineryBot" position_real="0.5 0.499025 0.395105 0.220273">
+                <Property key="Caption" value="#{MECHANIC_STATION_REFINERY_BOT}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="ButtonDressBot" name="DressBot" position_real="0.104895 0.719298 0.395105 0.220273">
+                <Property key="Caption" value="#{MECHANIC_STATION_DRESS_BOT}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="Button" skin="ButtonResourceBot" name="ResourceBot" position_real="0.5 0.719298 0.395105 0.220273">
+                <Property key="Caption" value="#{MECHANIC_STATION_RESOURCE_COLLECTOR}" />
+                <Property key="FontName" value="SM_ButtonSmall" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundMechanicStationTooltip" name="SideMainPanel" position_real="0.6 0 0.4 1">
+            <Widget type="Canvas" skin="Canvas" name="Preview" position_real="-0.03 -0.0116959 1.065 0.298246" />
+            <Widget type="EditBox" skin="EditBoxEmpty" name="ItemName" position_real="0.07 0.245614 0.86 0.0740741">
+                <Property key="Caption" value="This is a very long title on two rows" />
+                <Property key="FontName" value="SM_ItemTitle" />
+                <Property key="WordWrap" value="true" />
+                <Property key="ReadOnly" value="true" />
+                <Property key="Static" value="true" />
+                <Property key="TextAlign" value="Left Bottom" />
+            </Widget>
+            <Widget type="EditBox" skin="EditBoxEmpty" name="ItemDescription" position_real="0.07 0.401559 0.86 0.272904">
+                <Property key="Static" value="true" />
+                <Property key="ReadOnly" value="true" />
+                <Property key="WordWrap" value="true" />
+                <Property key="TextShadowColour" value="0 0 0" />
+                <Property key="FontName" value="SM_TextTiny" />
+                <Property key="TextColour" value="0.564706 0.572549 0.572549" />
+                <Property key="NeedKey" value="false" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.07 0.360624 0.86 0.0272904">
+                <Property key="FontName" value="SM_LabelTiny" />
+                <Property key="Caption" value="#{DESCRIPTION_CAPS}" />
+                <Property key="TextAlign" value="Left VCenter" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line" position_real="0.07 0.395712 0.86 0.00194932">
+                <Property key="Colour" value="1 1 1" />
+                <Property key="Alpha" value="0.2" />
+            </Widget>
+            <Widget type="Widget" skin="WhiteSkin" name="Line" position_real="0.07 0.727096 0.86 0.00194932">
+                <Property key="Colour" value="1 1 1" />
+                <Property key="Alpha" value="0.2" />
+            </Widget>
+            <Widget type="Button" skin="StyledButtonLarge" name="Craft" position_real="0.06 0.851852 0.88 0.0896686">
+                <Property key="Caption" value="#{CRAFT}" />
+                <Property key="FontName" value="SM_Button" />
+                <Property key="TextAlign" value="Center" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.07 0.693957 0.86 0.0272904">
+                <Property key="Caption" value="#{MATERIAL}" />
+                <Property key="FontName" value="SM_HeaderTiny" />
+            </Widget>
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="MaterialGrid" position_real="0.07 0.729045 0.86 0.116959">
+                <Property key="NeedKey" value="false" />
+                <Property key="NeedToolTip" value="true" />
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

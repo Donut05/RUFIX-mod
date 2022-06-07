@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="PhotoPanel" position_real="0.342187 0.0861111 0.209375 0.727778">
+        <Widget type="ImageBox" skin="ImageBox" name="Photo" position_real="0.0373134 0.00763359 0.932836 0.515267">
+            <Property key="ImageTexture" value="gui_logbook_photoframe_mechanicstation.png" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="Title" position_real="0.126866 0.496183 0.746269 0.0458015">
+            <Property key="FontName" value="SM_ItemTitle" />
+            <Property key="Caption" value="Title" />
+        </Widget>
+        <Widget type="EditBox" skin="PhotoDescription" name="Description" position_real="0.126866 0.564885 0.80597 0.267176">
+            <Property key="FontName" value="SM_TextTiny" />
+            <Property key="Caption" value="Description" />
+            <Property key="ReadOnly" value="true" />
+            <Property key="Static" value="true" />
+            <Property key="WordWrap" value="true" />
+        </Widget>
+        <Widget type="Button" skin="LogbookButton" name="WaypointButton" position_real="0.109726 0.846056 0.775561 0.0916031">
+            <Widget type="TextBox" skin="TextBox" position_real="0.115756 0.166667 0.848875 0.625">
+                <Property key="FontName" value="SM_Button" />
+                <Property key="Caption" value="#{LOGBOOK_SET_WAYPOINT}" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="NeedMouse" value="false" />
+                <Property key="NeedKey" value="false" />
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" name="WaypointButtonIcon" position_real="0.0870968 0.291667 0.0612903 0.375">
+                <Property key="ImageTexture" value="gui_logbook_waypoint_icon.png" />
+                <Property key="NeedMouse" value="false" />
+                <Property key="NeedKey" value="false" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="WhiteSkin" position_real="0.126866 0.545802 0.746269 0.0019084">
+            <Property key="Alpha" value="0.2" />
+            <Property key="Colour" value="1 1 1" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

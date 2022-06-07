@@ -1,0 +1,23 @@
+﻿Q_TUTORIAL_TITLE Getting Started
+Q_TUTORIAL_GO_CRASHSITE Go to the crashed ship
+Q_TUTORIAL_EXTINGUISH_FIRE Extinguish the fire in the ship
+Q_TUTORIAL_ACTIVATE_SHIP Find a way to activate the ship
+Q_TUTORIAL_DOWNLOAD_INTEL Download logbook intel
+
+Q_MECHANICSTATION_TITLE Mechanic Station
+Q_MECHANICSTATION_GO_STATION Find the Mechanic Station
+Q_MECHANICSTATION_ACTIVATE_STATION Find a way to activate the Mechanic Station
+
+Q_SCRAPCAR_TITLE Your First Car
+Q_SCRAPCAR_PLACE_ON_LIFT Place the Builder Guide on the Lift.
+Q_SCRAPCAR_BUILD_00 Place blocks in the highlighed area. You can rotate blocks and parts by using %s.
+Q_SCRAPCAR_BUILD_01 Place blocks in the highlighed area. Hold and drag to place more blocks.
+Q_SCRAPCAR_BUILD_02 Place blocks in the highlighed area. Use %s and %s to move the lift up and down.
+Q_SCRAPCAR_BUILD_03 Place Bearings to create steering. The Mini Craftbot in the ship can help you craft Bearings.
+Q_SCRAPCAR_BUILD_04 Place blocks in the highlighed area.
+Q_SCRAPCAR_BUILD_05 Place Bearings to put Wheels on.
+Q_SCRAPCAR_BUILD_06 Place Wheels on the Bearings.
+Q_SCRAPCAR_BUILD_07A Add a Driver's Seat. Rotate if needed by pressing %s.
+Q_SCRAPCAR_BUILD_07B Connect the Driver's Seat to the Bearings using the Connect Tool. Change rotational direction on the Bearings with the Connect Tool.
+Q_SCRAPCAR_BUILD_08 Place and connect a Gas Engine to the Wheels and the Driver's Seat. Change the rotational direction on the left wheels using the Connect Tool.
+Q_SCRAPCAR_ADD_FUEL Add Gasoline to the Gas Engine. Gasoline can be found in ruins and later also be crafted from Crude Oil.

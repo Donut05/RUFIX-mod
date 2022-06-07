@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position="0 0 152 144" align="Stretch" name="MainPanel">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Property key="NeedToolTip" value="true"/>
+        <UserString key="Dragable" value="Yes"/>
+        <Widget type="ImageBox" skin="ImageBox" position="10 10 132 90" align="Default" name="ModIcon">
+            <Property key="NeedKey" value="false"/>
+            <Property key="NeedMouse" value="false"/>
+            <Property key="NeedToolTip" value="true"/>
+            <Widget type="ImageBox" skin="ImageBox" position="100 0 32 32" align="Right Top" name="PinIcon">
+                <Property key="NeedKey" value="false"/>
+                <Property key="NeedToolTip" value="true"/>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position="0 0 132 90" align="Default" name="SelectedBorder">
+                <Property key="NeedKey" value="false"/>
+                <Property key="NeedToolTip" value="false"/>
+            </Widget>
+        </Widget>
+        <Widget type="EditBox" skin="TextBox" position="16 104 120 30" align="Stretch" name="Label">
+            <Property key="WordWrap" value="true"/>
+            <Property key="MultiLine" value="true"/>
+            <Property key="TextColour" value="0.9 0.9 0.9"/>
+            <Property key="TextAlign" value="Left Top"/>
+            <Property key="FontName" value="SM_LabelTiny"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

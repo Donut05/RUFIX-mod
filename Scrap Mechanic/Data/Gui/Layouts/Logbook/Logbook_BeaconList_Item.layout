@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="LogbookBeaconIconBG" position_real="0.05 0.0588235 0.14 0.823529">
+        <Property key="NeedMouse" value="false" />
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.0714286 0.0714286 0.857143 0.857143">
+            <Property key="ImageGroup" value="BeaconIconMap" />
+            <Property key="ImageResource" value="BeaconIconMap" />
+            <Property key="NeedMouse" value="false" />
+            <Property key="InheritsPick" value="true" />
+            <Property key="ImageName" value="0" />
+        </Widget>
+    </Widget>
+    <Widget type="TextBox" skin="TextBox" name="Distance" position_real="0.22 0 0.47 0.941176">
+        <Property key="Caption" value="100 м" />
+        <Property key="TextAlign" value="Left VCenter" />
+        <Property key="FontName" value="SM_HeaderSmall" />
+        <Property key="TextColour" value="1 1 0.752941" />
+        <Property key="NeedMouse" value="false" />
+    </Widget>
+    <Widget type="Button" skin="LogbookButtonSwitch" name="Active" position_real="0.644792 0.175926 0.314583 0.587963">
+        <Property key="NeedKey" value="false" />
+        <Property key="FontName" value="SM_NumberSmall" />
+        <Property key="Caption" value="#{ON_CAPS}#{OFF_CAPS}" />
+        <Property key="TextAlign" value="Center" />
+        <Property key="NeedMouse" value="true" />
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

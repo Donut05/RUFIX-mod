@@ -1,0 +1,350 @@
+﻿{
+	// Torso
+	"4fd6672e-27b6-42c6-8ba6-60837087a641": {
+		"title": "Nessuno"
+	},
+	"e50b3ceb-aa46-4f3e-8343-f28b6cbe34d0": {
+		"title": "Giacca da meccanico"
+	},
+	"47ee844c-0028-404d-9293-1b4f3df8a4ea": {
+		"title": "Giacca da meccanico trasandato"
+	},
+	"9778b063-26ff-456f-820b-2a47e85e5a68": {
+		"title": "Giacca da interventista"
+	},
+	"8fd35b59-b4d5-4378-adf7-44f02d9abd33": {
+		"title": "Giacca da riparatore"
+	},
+	"aa987d10-92d7-49ae-b09d-f6853e31d1da": {
+		"title": "Giacca da fattorino"
+	},
+	"a4ff886c-bfff-4b80-a916-70f5909afe02": {
+		"title": "Giacca da demolitore"
+	},
+	"a03db277-9c10-4f75-a5ea-f2f9b24dde9e": {
+		"title": "Giacca da taglialegna"
+	},
+	"f2c0c91f-4547-416e-b037-f56a8f04368c": {
+		"title": "Giacca da allevatore"
+	},
+	"f5896dde-b3c9-4699-bf70-c9dfbded8c32": {
+		"title": "Giacca da ingegnere"
+	},
+	"0de3a02c-8aaa-4fb1-8ff6-a7519cc9c839": {
+		"title": "Giacca da writer"
+	},
+	"325ab02a-f316-410f-8e80-ceec4d3b987a": {
+		"title": "Giacca da golfista"
+	},
+	"2dc14c75-c359-40e6-b11f-93cdc36c611a": {
+		"title": "Giacca da bracciante"
+	},
+	"915a8a36-3bbc-427e-ae00-4954208053b9": {
+		"title": "Giacca da tecnico"
+	},
+	"fb53eba5-8183-4a44-91fb-df38e5694cce": {
+		"title": "Giacca smoking"
+	},
+	"7d996253-5e49-4cfe-b758-75b50c08ad07": {
+		"title": "Giacca da papera"
+	},
+	"0afd1ebf-c9c0-47e9-9754-063d757b46b5": {
+		"title": "Giacca da esploratore spaziale"
+	},
+	"f18fb8f9-57aa-488f-a4b9-4472977ed385": {
+		"title": "Maglietta 1"
+	},
+	"32ae4da2-b41c-4d7a-9a46-151fa8fdaef5": {
+		"title": "Maglietta 2"
+	},
+	"bce9f168-e972-4364-b3c6-22f014b3cc1a": {
+		"title": "Maglietta 3"
+	},
+	"32afd4e5-fe9a-4b43-83ac-610647a90013": {
+		"title": "Maglietta 4"
+	},
+	"d5cdc0d0-30ff-49d4-adac-e0342caf75be": {
+		"title": "Maglietta 5"
+	},
+	"de3abc13-31ea-42bc-93cc-3e2a24f306cd": {
+		"title": "Maglietta 6"
+	},
+	"5b5dbb48-d6dc-4866-bbb9-5771984bedd8": {
+		"title": "Maglietta 7"
+	},
+	"de94b7cd-3070-41c0-bb03-d99de71d38ac": {
+		"title": "Maglietta 8"
+	},
+	"f17d12a7-071b-4fc1-b16d-f4bbfeac8ae8": {
+		"title": "Maglietta 9"
+	},
+	"8b4e2978-02e8-4cd1-ab96-a9b151897e9d": {
+		"title": "Maglietta 10"
+	},
+	"9b3da27a-9c60-4577-9878-eb2b5fb8eaf9": {
+		"title": "Maglietta 11"
+	},
+	"882d65f2-b9b1-4805-ae1c-9cd7d20e38ec": {
+		"title": "Maglietta 12"
+	},
+	"f9571933-d116-4974-a870-de174c8a9138": {
+		"title": "Maglietta 13"
+	},
+	"d63dbfef-0b6c-44e4-9ac8-32788b8467a7": {
+		"title": "Maglietta 14"
+	},
+	"77e9bb3b-e99e-4c02-86fe-d92d0550029e": {
+		"title": "Maglietta 15"
+	},
+	"b970dc1e-64eb-4444-b438-bb05bf213f7a": {
+		"title": "Maglietta 16"
+	},
+	"ce977a4d-2cd3-4a0f-93ac-27add8156334": {
+		"title": "Maglietta 17"
+	},
+	"d6570900-30d7-4b1f-af27-d57375ab07aa": {
+		"title": "Maglietta 18"
+	},
+	// Gloves
+	"68500ade-1a22-46ca-af6e-ec70caf67b09": {
+		"title": "Nessuno"
+	},
+	"30fd5d33-44f2-46c3-9cbd-b7d86c3ff198": {
+		"title": "Guanti da meccanico"
+	},
+	"9dbfa9f8-8b6c-4ad8-8961-439c12f4912a": {
+		"title": "Guanti da meccanico trasandato"
+	},
+	"ecdf2659-3a13-4296-98d9-2bd469daea8e": {
+		"title": "Guanti da interventista"
+	},
+	"bc253f7e-bd45-4dde-b663-30d9353cfa73": {
+		"title": "Guanti da riparatore"
+	},
+	"454a36e7-faa2-4177-ae88-ceb2e110f201": {
+		"title": "Guanti da fattorino"
+	},
+	"cc0ec2c3-6974-4eb0-8fa7-d59b74756e11": {
+		"title": "Guanti da demolitore"
+	},
+	"6bf46d8f-a8e9-4fb9-81d1-ea067318894a": {
+		"title": "Guanti da taglialegna"
+	},
+	"7b0295df-7178-4ccb-a44d-f34d6b792c57": {
+		"title": "Guanti da allevatore"
+	},
+	"ce970a0e-4e3c-4473-9717-5e501b4aed76": {
+		"title": "Guanti da ingegnere"
+	},
+	"e3572845-2e0b-40ec-a2c1-3f69aadb99ac": {
+		"title": "Guanti da writer"
+	},
+	"87f5ccf1-0813-4a52-93ef-d6fd37cb2dec": {
+		"title": "Guanti da golfista"
+	},
+	"6c65f00b-4663-444a-8f56-12a6fdfef350": {
+		"title": "Guanti da bracciante"
+	},
+	"5a05ccb7-dd1c-49c5-949c-45f63882fbb6": {
+		"title": "Guanti da tecnico"
+	},
+	"e978338a-0a49-4a25-aadb-fe38e57daf43": {
+		"title": "Guanti da smoking"
+	},
+	"1c0d55a5-8da3-45b7-b60f-e2ca05b7d196": {
+		"title": "Guanti da papera"
+	},
+	"7e1b09df-7d0a-43b6-8ac9-79dc9d6a3f19": {
+		"title": "Guanti da esploratore spaziale"
+	},
+   //Shoes
+	"3f07f523-79b6-4020-884e-fa816d5ffbf0": {
+		"title": "Nessuno"
+	},
+	"ddac9cbf-422c-4523-97dd-3503d54d4628": {
+		"title": "Scarpe da meccanico"
+	},
+	"6dd931e7-29c4-4b33-a14b-b4916c64f05d": {
+		"title": "Scarpe da meccanico trasandato"
+	},
+	"583ba7e5-edbe-48e2-9ae5-fa939e7d1769": {
+		"title": "Scarpe da interventista"
+	},
+	"01b0634c-4294-4aa6-adf5-4e653ad6a782": {
+		"title": "Scarpe da riparatore"
+	},
+	"e192f135-21a2-4277-97ae-66693988797e": {
+		"title": "Scarpe da fattorino"
+	},
+	"8ade4f22-4524-4399-8ab2-7e6d3a1a7fbd": {
+		"title": "Scarpe da demolitore"
+	},
+	"aa940318-ccff-4b77-916e-4d9c8eb330cc": {
+		"title": "Scarpe da taglialegna"
+	},
+	"78062d2a-1600-4144-80b6-435560cc0df6": {
+		"title": "Scarpe da allevatore"
+	},
+	"91136fa2-0484-48ce-9109-d5680b138393": {
+		"title": "Scarpe da ingegnere"
+	},
+	"ef4d8dab-9bec-4d57-ad75-7102bdabd385": {
+	   "title": "Scarpe da writer"
+	},
+	"6f864131-3d63-459a-a452-4033257400f0": {
+		"title": "Scarpe da golfista"
+	},
+	"ed4defaf-a4d0-40e0-ad2b-915d67b0224b": {
+		"title": "Scarpe da bracciante"
+	},
+	"8de62bd5-c7b3-4b2c-8d30-f986dff5ef70": {
+	   "title": "Scarpe da tecnico"
+	},
+	"d368493a-97da-4158-8794-96f2b7f44831": {
+		"title": "Scarpe da smoking"
+	},
+	"0a39a1a8-1e18-4873-ae4b-dce67369a999": {
+		"title": "Scarpe da papera"
+	},
+	"226b7bb6-267d-4560-9bd4-ec8451336c2e": {
+		"title": "Scarpe da esploratore spaziale"
+	},
+   // Legs
+	"64de6298-cbad-4393-84d2-e659a2abf4ef": {
+		"title": "Nessuno"
+	},
+	"3351aec3-5664-4c68-b94e-8990f9d67685": {
+		"title": "Pantaloni da meccanico"
+	},
+	"4eec76c1-5b84-4940-8814-afd113d2d63f": {
+		"title": "Pantaloni da meccanico trasandato"
+	},
+	"9293d50d-4a60-4e5d-9712-33d04a5fbea2": {
+		"title": "Pantaloni da interventista"
+	},
+	"cf9470ae-5fed-442f-9da2-573f1358c73c": {
+		"title": "Pantaloni da riparatore"
+	},
+	"4aa28989-df88-462a-bead-1f7d976a1028": {
+		"title": "Pantaloni da fattorino"
+	},
+	"8151e8a4-bf6a-4a88-ae2c-b2f986ce7f90": {
+		"title": "Pantaloni da demolitore"
+	},
+	"6c31a4ba-5571-4258-a4c2-81c243f9bbd5": {
+		"title": "Pantaloni da taglialegna"
+	},
+	"4ed054a2-e354-4624-acd6-686b33d414a7": {
+		"title": "Pantaloni da allevatore"
+	},
+	"7d7b8545-c765-4b65-8770-714d1f19551f": {
+		"title": "Pantaloni da ingegnere"
+	},
+	"173bc4fd-405a-4d55-8158-b0768de0ced3": {
+		"title": "Pantaloni da writer"
+	},
+	"6ed381c7-df16-4407-8fec-056b5534757f": {
+		"title": "Pantaloni da golfista"
+	},
+	"b8220512-ea42-43c4-87a4-65bce36db395": {
+		"title": "Pantaloni da bracciante"
+	},
+	"18fdfb7c-42ae-463c-8ee5-d2ce271c3ec8": {
+		"title": "Pantaloni da tecnico"
+	},
+	"b8f6403d-ce51-4c55-9635-eb878f7f2aac": {
+		"title": "Pantaloni da smoking"
+	},
+	"d6a0d8d6-5e78-47a8-a161-babdbeaa6b1d": {
+		"title": "Pantaloni da papera"
+	},
+	"f520abe2-4f85-4c77-805d-eeebbb257a60": {
+		"title": "Pantaloni da esploratore spaziale"
+	},
+   //Hat
+	"63484a78-7869-485f-b957-ba750391df19": {
+		"title": "Nessuno"
+	},
+	"be0e65e5-a2e6-41ef-94d3-f8d4ac2f304e": {
+		"title": "Cappello da interventista"
+	},
+	"46861beb-3adb-4ddb-92f7-0ef24716caa0": {
+		"title": "Cappello da riparatore"
+	},
+	"5537aa76-7118-4a19-80fa-67ae4ad0a30e": {
+		"title": "Cappello da fattorino"
+	},
+	"397b1280-672d-48d0-831d-ffe2ac5c3a58": {
+		"title": "Cappello da demolitore"
+	},
+	"b1e6c5ce-3882-4242-83ad-6f5af940d9f1": {
+		"title": "Cappello da taglialegna"
+	},
+	"9baebeb4-95dc-4ee6-a1fd-c44cc67ced04": {
+		"title": "Cappello da allevatore"
+	},
+	"8f0a036c-cda5-4b3b-aceb-0b4365ba60c9": {
+		"title": "Cappello da ingegnere"
+	},
+	"03efc1c8-fa65-49d0-a9a3-65195418c560": {
+		"title": "Cappello da writer"
+	},
+	"e60f8e5a-5661-412d-b613-05ab1163b7e2": {
+		"title": "Cappello da golfista"
+	},
+	"66dac4fd-e8c1-460a-96e1-9ebc637dd1e3": {
+		"title": "Cappello da bracciante"
+	},
+	"803b41c1-a6f9-475c-953d-dd78c5ae99c4": {
+		"title": "Cappello da tecnico"
+	},
+	"f6a7371e-eed9-44e9-a05a-1b7c0e178bd3": {
+		"title": "Cappello da smoking"
+	},
+	"d973f337-f1a5-47e7-a22e-893fc026a929": {
+		"title": "Cappello da papera"
+	},
+	"1ce000fb-452d-4dd0-a3c7-d9f703e051da": {
+		"title": "Cappello da esploratore spaziale"
+	},
+	//Backpack
+	"3ad8fb46-cd26-4770-b928-790060b219d8": {
+		"title": "Zainetto da meccanico"
+	},
+	"d4007071-37e9-4003-82f5-708c6262c7a2": {
+		"title": "Zainetto da meccanico trasandato"
+	},
+	"05553c50-bb4a-42bf-ae5e-ebd1b2412656": {
+		"title": "Zainetto da interventista"
+	},
+	"d94f4713-dc51-4171-9e52-6b2a7de911c3": {
+		"title": "Zainetto da riparatore"
+	},
+	"e9f59ab5-d89f-4a5b-9153-8a21f244f362": {
+		"title": "Zainetto da fattorino"
+	},
+	"d411a346-c766-473d-9c95-34a2d281c209": {
+		"title": "Zainetto da demolitore"
+	},
+	"8fa65b25-7ac9-4bb7-b9f9-6e2b7d43f916": {
+		"title": "Zainetto da taglialegna"
+	},
+	"c4409a02-2a78-472e-bf3c-17f8e8e0445b": {
+		"title": "Zainetto da ingegnere"
+	},
+	"4a0ca19d-50d5-416b-8137-0e827864354f": {
+		"title": "Zainetto da writer"
+	},
+	"c5044352-27a6-4bdc-a174-37018baa2332": {
+		"title": "Zainetto da golfista"
+	},
+	"e5ba292b-1772-463f-8010-b97c48bc9298": {
+		"title": "Zainetto da tecnico"
+	},
+	"a9683e93-90fd-4a8f-8516-7dab251615b1": {
+		"title": "Zainetto da esploratore spaziale"
+	},
+	"fe039efa-4f47-437c-99c1-5663082bcb56": {
+		"title": "Jetpack"
+	}
+}

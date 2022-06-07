@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" align="Right VCenter" name="QuestPanel" position_real="0.828125 0.2 0.171875 0.469444">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="Widget" skin="PanelEmpty" name="SubPanel1" position_real="0 0.0295858 1 0.426036" />
+        <Widget type="Widget" skin="PanelEmpty" name="SubPanel2" position_real="0 0.514793 1 0.426036" />
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

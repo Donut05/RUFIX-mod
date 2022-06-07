@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="MainPanel" position_real="0 0 1 1">
+        <Widget type="Widget" skin="DropDownExpandBackground" position_real="0 0 1 0.515152">
+            <Widget type="TextBox" skin="TextBox" name="SelectedValue" position_real="0.0138889 0.117647 0.888889 0.764706">
+                <Property key="FontName" value="SM_ListItem" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="Caption" value="- VALUE -" />
+                <Property key="TextColour" value="1 0.831373 0.290196" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="DropDownBackground" position_real="0 0.424242 1 0.575758">
+            <Widget type="Widget" skin="PanelEmpty" name="Items" position_real="0.0138889 0.0526316 0.965278 0.684211" />
+        </Widget>
+        <Widget type="Button" skin="DropDownCollapse" name="Expand" position_real="0.888889 0 0.111111 0.515152" />
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

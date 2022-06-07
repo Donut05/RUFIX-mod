@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="LogoMainPanel" position_real="0 0 1 1">
+        <Widget type="ImageBox" skin="ImageBox" name="Background" position_real="0 0 1 1">
+            <Property key="ImageTexture" value="gui_loadingscreen_survival.png" />
+            <Widget type="Widget" skin="PanelEmpty" name="Container" position_real="0 0 1 1">
+                <Widget type="EditBox" skin="EditBoxEmpty" name="InfoText" position_real="0.265625 0.847222 0.46875 0.0666667">
+                    <Property key="WordWrap" value="true" />
+                    <Property key="FontName" value="SM_TextLarge" />
+                    <Property key="TextAlign" value="Center" />
+                    <Property key="Caption" value="" />
+                    <Property key="ReadOnly" value="true" />
+                    <Property key="Static" value="true" />
+                    <Property key="TextShadow" value="true" />
+                </Widget>
+                <Widget type="ProgressBar" skin="LargeProgressBar" name="LoadingBar" position_real="0.375 0.940278 0.25 0.0222222">
+                    <Property key="Range" value="100" />
+                    <Property key="RangePosition" value="0" />
+                </Widget>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>
