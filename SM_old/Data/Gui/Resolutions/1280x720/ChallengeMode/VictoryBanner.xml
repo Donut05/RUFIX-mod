@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<MyGUI type="Resource" version="1.1">
-	<Resource type="ResourceSkin" name="Banner" size="590 140" texture="gui_challengemode_banner.png">
-		<BasisSkin type="SubSkin" offset="0 0 590 140" align="Stretch">
-			<State name="normal" offset="0 0 590 140"/>
-		</BasisSkin>
-	</Resource>
-</MyGUI>
